@@ -1,6 +1,6 @@
-# SelloEasy
+# SelloQ
 
-Marketing & sales intelligence MVP. Add your company website and documents. SelloEasy then:
+Marketing & sales intelligence MVP. Add your company website and documents. SelloQ then:
 
 1. **Builds a company profile.** MCP servers crawl the site and parse PDF, DOCX, XLSX, images (OCR) and audio/video. The LLM writes a profile with source citations.
 2. **Derives an ICP** (ideal customer profile), which you can edit and which is versioned.
@@ -14,12 +14,12 @@ See [plan.md](plan.md) for the design and [docs/CONTRACTS.md](docs/CONTRACTS.md)
 
 ```bash
 cp .env.example .env        # then set OPENAI_API_KEY=sk-...
-docker compose up --build   # starts the whole `test-selloeasy` stack
+docker compose up --build   # starts the whole `test-selloq` stack
 ```
 
 | URL | What |
 |---|---|
-| http://localhost:5173 | App. Log in with **demo@selloeasy.local / demo1234** |
+| http://localhost:5173 | App. Log in with **demo@selloq.local / demo1234** |
 | http://localhost:8000/docs | API (Swagger) |
 | http://localhost:8025 | Mailpit (captures every email the app sends) |
 | http://localhost:8080 | Demo company websites |
@@ -28,19 +28,19 @@ On first start the backend seeds two demo workspaces, **NordWave Networks** (pri
 
 `make` shortcuts: `make up`, `make logs`, `make test`, `make test-e2e`, `make reset` (wipes data and reseeds).
 
-## Services (docker compose project `test-selloeasy`)
+## Services (docker compose project `test-selloq`)
 
 | Container | Role |
 |---|---|
-| `test-selloeasy-frontend` | React + Vite SPA served by nginx; proxies `/api` to the backend |
-| `test-selloeasy-backend` | FastAPI REST API. Runs migrations and the demo seed on start |
-| `test-selloeasy-worker` | arq worker that runs the pipelines (ingest → profile → ICP → signals → leads) |
-| `test-selloeasy-postgres` / `-redis` | Storage and job queue |
-| `test-selloeasy-mcp-webscraper` | FastMCP server: `scrape_url`, `crawl_site` |
-| `test-selloeasy-mcp-docparser` | FastMCP server: `parse_document` (PDF, DOCX, XLSX, CSV, OCR, transcription) |
-| `test-selloeasy-mcp-signals` | FastMCP server: `search_web/news/social/jobs`, `enrich_company`, `find_contacts` |
-| `test-selloeasy-demo-sites` | Static websites of the two fictional demo companies |
-| `test-selloeasy-mailpit` | Local SMTP sink |
+| `test-selloq-frontend` | React + Vite SPA served by nginx; proxies `/api` to the backend |
+| `test-selloq-backend` | FastAPI REST API. Runs migrations and the demo seed on start |
+| `test-selloq-worker` | arq worker that runs the pipelines (ingest → profile → ICP → signals → leads) |
+| `test-selloq-postgres` / `-redis` | Storage and job queue |
+| `test-selloq-mcp-webscraper` | FastMCP server: `scrape_url`, `crawl_site` |
+| `test-selloq-mcp-docparser` | FastMCP server: `parse_document` (PDF, DOCX, XLSX, CSV, OCR, transcription) |
+| `test-selloq-mcp-signals` | FastMCP server: `search_web/news/social/jobs`, `enrich_company`, `find_contacts` |
+| `test-selloq-demo-sites` | Static websites of the two fictional demo companies |
+| `test-selloq-mailpit` | Local SMTP sink |
 
 ## Demo data vs live data
 
@@ -50,6 +50,19 @@ On first start the backend seeds two demo workspaces, **NordWave Networks** (pri
 ## Adding MCP servers
 
 Edit [mcp_servers.yaml](mcp_servers.yaml). Pipelines ask for a **capability** (`scrape`, `doc_parse`, `web_search`, `news_search`, `social_search`, `job_search`, `enrich`), and the first enabled server that provides it handles the call. Every call is logged to the `mcp_call_logs` table. To run the custom servers on **FastMCP Cloud**, deploy each `mcp/<name>/server.py`, then point `MCP_*_URL` and `MCP_SHARED_TOKEN` at the cloud deployment. `PUBLIC_BACKEND_URL` must also be reachable from there, because the docparser downloads uploads through signed URLs.
+
+## Deploying the frontend to Vercel
+
+The frontend can run in two modes, chosen at build time with `VITE_DEMO_MODE` (see [frontend/.env.example](frontend/.env.example)):
+
+| `VITE_DEMO_MODE` | What you get |
+|---|---|
+| `true` | **Frontend only, no backend needed.** An in-browser mock API serves a snapshot of real pipeline runs for NordWave and LedgerLeaf. New workspaces run a simulated pipeline and are filled with clearly labelled sample data. Email, call and WhatsApp actions are logged, but no email is actually sent. State lives in each visitor's browser, and the banner has a "Reset demo data" link. No AI or MCP calls happen. |
+| `false` (default) | The real app. Requires the backend stack hosted somewhere. Set `VITE_API_BASE=https://<backend>/api/v1` and add the Vercel URL to the backend's `CORS_ORIGINS`. |
+
+Vercel setup: **Add New Project**, import the GitHub repo, and set **Root Directory** to `frontend`. The framework, build command and output directory are already set in `frontend/vercel.json`, which also adds the SPA fallback for deep links. Under **Environment Variables**, add `VITE_DEMO_MODE=true`, then deploy. If you change the variable later, redeploy, because Vite bakes it in at build time.
+
+To refresh the demo snapshot after a newer local run, run `python3 scripts/export_demo_snapshot.py` while the stack is up, then commit `frontend/src/demo/snapshot.json`.
 
 ## Development
 

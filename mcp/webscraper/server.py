@@ -1,4 +1,4 @@
-"""SelloEasy webscraper MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9001).
+"""SelloQ webscraper MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9001).
 
 Tools (see docs/CONTRACTS.md §2):
   scrape_url(url)                                   -> {"url","title","markdown","links":[str]}
@@ -25,13 +25,13 @@ try:
 except Exception:  # pragma: no cover
     trafilatura = None
 
-log = logging.getLogger("selloeasy.webscraper")
+log = logging.getLogger("selloq.webscraper")
 
-mcp = FastMCP("selloeasy-webscraper")
+mcp = FastMCP("selloq-webscraper")
 
 USER_AGENT = os.getenv(
     "SCRAPER_USER_AGENT",
-    "Mozilla/5.0 (compatible; SelloEasyBot/0.1; +https://selloeasy.local/bot)",
+    "Mozilla/5.0 (compatible; SelloQBot/0.1; +https://selloq.local/bot)",
 )
 PAGE_TIMEOUT = float(os.getenv("SCRAPER_TIMEOUT_SECONDS", "15"))
 CONCURRENCY = int(os.getenv("SCRAPER_CONCURRENCY", "4"))

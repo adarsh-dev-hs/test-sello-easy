@@ -15,12 +15,12 @@ class Settings(BaseSettings):
     upload_dir: str = "/data/uploads"
 
     seed_demo: bool = True
-    demo_user_email: str = "demo@selloeasy.local"
+    demo_user_email: str = "demo@selloq.local"
     demo_user_password: str = "demo1234"
     demo_assets_dir: str = "/demo/docs"
     demo_sites_base_url: str = "http://demo-sites"
 
-    database_url: str = "postgresql+asyncpg://selloeasy:selloeasy@postgres:5432/selloeasy"
+    database_url: str = "postgresql+asyncpg://selloq:selloq@postgres:5432/selloq"
     redis_url: str = "redis://redis:6379/0"
 
     openai_api_key: str = ""
@@ -40,7 +40,7 @@ class Settings(BaseSettings):
     smtp_port: int = 1025
     smtp_user: str = ""
     smtp_password: str = ""
-    smtp_from: str = "SelloEasy Demo <demo@selloeasy.local>"
+    smtp_from: str = "SelloQ Demo <demo@selloq.local>"
 
     @property
     def cors_origin_list(self) -> list[str]:

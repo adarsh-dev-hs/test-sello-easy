@@ -1,9 +1,9 @@
 .PHONY: up down logs ps seed reset test test-e2e build
 
-up:            ## build & start the whole stack (test-selloeasy)
+up:            ## build & start the whole stack (test-selloq)
 	@test -f .env || cp .env.example .env
 	docker compose up --build -d
-	@echo "App: http://localhost:5173  (demo@selloeasy.local / demo1234)  API: http://localhost:8000/docs  Mail: http://localhost:8025"
+	@echo "App: http://localhost:5173  (demo@selloq.local / demo1234)  API: http://localhost:8000/docs  Mail: http://localhost:8025"
 
 down:
 	docker compose down

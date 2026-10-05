@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { ExternalLink, Phone, RefreshCw, Send, Sparkles } from "lucide-react";
-import { api, errorMessage, type CallOutcome, type Lead } from "../../api";
+import { api, DEMO_MODE, errorMessage, type CallOutcome, type Lead } from "../../api";
 import { qk } from "../../lib/hooks";
 import { Button, Field, Input, Select, Skeleton, Textarea } from "../../components/ui";
 import { InlineError } from "../../components/domain";
@@ -49,7 +49,7 @@ export function EmailModal({ lead, cid, open, onClose }: { lead: Lead; cid?: str
   }, [draft.data]);
   const send = useMutation({
     mutationFn: () => api.sendEmail(lead.id, { to: to.trim(), subject, body }),
-    onSuccess: () => { toast.success("Sent (view in Mailpit http://localhost:8025)"); after(); onClose(); },
+    onSuccess: () => { toast.success(DEMO_MODE ? "Logged — demo mode, no email was actually sent" : "Sent (view in Mailpit http://localhost:8025)"); after(); onClose(); },
     onError: (e) => toast.error(errorMessage(e)),
   });
   return (

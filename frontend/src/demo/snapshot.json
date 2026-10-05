@@ -1,0 +1,2673 @@
+{
+ "workspaces": [
+  {
+   "workspace": {
+    "id": "688f6268-889c-4143-96f2-a672cb514a4b",
+    "name": "NordWave Networks",
+    "created_at": "2026-10-05T10:08:49.391423+00:00"
+   },
+   "company": {
+    "id": "7928b1e5-621c-4d13-88c1-1dbff572372d",
+    "workspace_id": "688f6268-889c-4143-96f2-a672cb514a4b",
+    "name": "NordWave Networks",
+    "website_url": "http://demo-sites/nordwave/",
+    "status": "leads_ready",
+    "status_detail": {
+     "step": null,
+     "progress": 100,
+     "message": "Done",
+     "error": null
+    },
+    "profile": {
+     "name": "NordWave Networks",
+     "industry": "Private 5G / Industrial networking",
+     "products": [
+      {
+       "name": "NW-Edge",
+       "category": "On-premise 5G core / Edge compute",
+       "description": "Compact, on-premise 5G standalone core that keeps user-plane traffic local, manages SIM/eSIM identities and network slices, and can host optional edge compute for vision/safety/digital twin workloads.",
+       "key_features": [
+        "On-premise 5G standalone core (5G SA) running on ruggedised edge server",
+        "SIM and eSIM device identity management",
+        "Network slicing and QoS policies (slices for AGV, video, sensors, voice)",
+        "Local breakout / user-plane traffic kept local for sub-10 ms latency",
+        "Supports LTE (4G) for migration / legacy devices",
+        "Redundant pair deployment for 99.999% availability",
+        "Optional NW-Edge compute module for hosting vision, safety and digital-twin workloads",
+        "Integrations: Active Directory, SCADA, MES, OPC UA gateways",
+        "Works with local spectrum licences (e.g. 3.7–3.8 GHz EU) and CBRS (US)"
+       ]
+      },
+      {
+       "name": "NW-Radio",
+       "category": "Industrial small cells / Radio access",
+       "description": "Industrial small cells engineered for harsh environments; provide large-area coverage per cell and are mountable on light masts, cranes or ceilings to replace multiple Wi‑Fi access points.",
+       "key_features": [
+        "Industrial small cells with IP67 enclosures and wide temperature range (-40°C to +60°C)",
+        "ATEX Zone 2 variant (NW-Radio X) for hazardous areas",
+        "Per-cell coverage: up to 25,000 m² indoor or 1 km outdoor (line-of-sight)",
+        "One cell typically replaces 6–10 Wi‑Fi access points",
+        "PoE powered; mountable on light masts, crane structures or ceilings",
+        "Models: NW-Radio 400 (indoor), NW-Radio 800 (outdoor/yards/mines), NW-Radio X (hazardous areas)",
+        "Spectrum support: n77/n78 (3.3–4.2 GHz), n48 CBRS, LTE B42/B43"
+       ]
+      },
+      {
+       "name": "NW-Ops",
+       "category": "Network analytics & Managed services",
+       "description": "Network analytics, live dashboards and a managed operations service that correlates network events with production data and supports 24/7 NOC-managed operations.",
+       "key_features": [
+        "Live dashboards showing latency, packet loss and coverage per zone",
+        "Alerts that flag a degrading AGV link before production stops",
+        "Correlation of network events with production/SCADA/MES data",
+        "Used by NordWave's 24/7 Network Operations Centre (NOC)",
+        "Managed service offering with SLA-backed 24/7 support and optimisation reviews"
+       ]
+      }
+     ],
+     "one_liner": "Private 5G platform (NW-Edge, NW-Radio, NW-Ops) for industrial operational technology — sold as a per-site managed subscription.",
+     "competitors": [
+      "Legacy Wi‑Fi vendors",
+      "Generic telecom carriers / mobile operators"
+     ],
+     "description": "NordWave Networks delivers an end-to-end, managed private 5G platform purpose-built for industrial OT (factories, ports, mines, utilities and large warehouses). The solution combines an on-premise 5G standalone core (NW-Edge), rugged industrial small cells (NW-Radio) and network analytics plus 24/7 operations (NW-Ops).",
+     "geographies": [
+      "Europe",
+      "United Kingdom",
+      "North America (United States and Canada)"
+     ],
+     "pricing_model": "Per-site subscription (tiered monthly pricing). Example tiers: Site Starter €4,900/month, Industrial €12,500/month, Enterprise Multi-site custom.",
+     "sub_industries": [
+      "Industrial IoT",
+      "Operational Technology (OT) networks",
+      "Edge compute for vision and safety"
+     ],
+     "target_markets": [
+      "Ports and terminals",
+      "Manufacturing (automotive, steel, chemicals, paper, food)",
+      "Mining (open-pit and underground)",
+      "Utilities (power, water, gas)",
+      "Logistics and warehousing / fulfilment centres",
+      "Large industrial organisations (typical customers have 1,000+ employees)"
+     ],
+     "differentiators": [
+      "Industrial-only focus: specialises exclusively in private networks for operational technology (not consumer mobile or generic IT resale)",
+      "End-to-end responsibility under a single SLA: radio planning, installation, OT integration and 24/7 managed operations",
+      "Ruggedised, relocatable radio hardware and redundant on-prem cores designed for industrial availability (99.999%)",
+      "Open ecosystem and OT integrations: certified with AGV/robot/PLC/handheld vendors and integrates with SCADA, MES, OPC UA and Active Directory",
+      "Optional on-site edge compute paired with the core to host latency-sensitive vision, safety and digital-twin workloads",
+      "Regulatory flexibility: supports local licensed/shared spectrum (EU local licences, 3.7–3.8 GHz; CBRS in US)"
+     ],
+     "source_citations": [
+      {
+       "claim": "NW-Edge is an on-premise 5G standalone core.",
+       "quote": "compact, on-premise 5G standalone core",
+       "source_id": "847cfdc1-372f-4d11-a2c3-e0ab618386d6"
+      },
+      {
+       "claim": "End-to-end latency (user plane) is under 10 ms.",
+       "quote": "< 10 ms (typical 6 ms)",
+       "source_id": "f78a6bb6-8eb5-4873-beb6-f27cc5294f03"
+      },
+      {
+       "claim": "Redundant deployment provides 99.999% availability.",
+       "quote": "99.999% with redundant NW-Edge pair",
+       "source_id": "f78a6bb6-8eb5-4873-beb6-f27cc5294f03"
+      },
+      {
+       "claim": "Per-cell radio coverage and models.",
+       "quote": "Each cell covers up to 25,000 m² indoors or 1 km outdoors",
+       "source_id": "847cfdc1-372f-4d11-a2c3-e0ab618386d6"
+      },
+      {
+       "claim": "Zero-loss handover for vehicles and robots up to 60 km/h.",
+       "quote": "Zero-loss handover for vehicles and robots moving... at up to 60 km/h",
+       "source_id": "2511b5ce-b094-4356-9b90-3c2e15b967b7"
+      },
+      {
+       "claim": "Customer reported +40% crane-move productivity.",
+       "quote": "Crane-move productivity is up 40%",
+       "source_id": "e7c3da33-4b42-48fb-bb4c-571df36af3f2"
+      },
+      {
+       "claim": "Company founding, headcount and offices.",
+       "quote": "NordWave employs 420 people in Oslo, Rotterdam, Munich, Toronto and Chicago",
+       "source_id": "9a1ff1b0-2dcd-4767-961b-4bce7c574f6e"
+      },
+      {
+       "claim": "Example subscription pricing starts at €4,900/month for Site Starter.",
+       "quote": "Site Starter | 4900",
+       "source_id": "607ffe30-64cb-488d-b7fc-190e0902b516"
+      }
+     ],
+     "company_size_hint": "≈420 employees; offices in Oslo, Rotterdam, Munich, Toronto and Chicago",
+     "customer_examples": [
+      "Fjordhavn Container Terminal (Norway)",
+      "Elbtal Automotive (Germany)",
+      "Baltic Forge (Lithuania)",
+      "Copper Ridge Mine (USA)",
+      "Great Lakes Power Cooperative (USA)"
+     ],
+     "value_propositions": [
+      "Deterministic performance: end-to-end user-plane latency < 10 ms (typ. 6 ms) and 99.999% availability for control traffic",
+      "Seamless mobility: zero-loss (make-before-break) handover enabling vehicles/robots up to 60 km/h without connectivity stops",
+      "Operational impact: customer results include up to 98% fewer AGV connectivity stops and +40% crane-move productivity",
+      "Coverage efficiency: one NW-Radio cell typically replaces 6–10 Wi‑Fi access points, reducing installation complexity",
+      "OT-grade security and control: SIM/eSIM authentication, IEC 62443-aligned design and on-premise data by default",
+      "Predictable commercial model: per-site subscription (no large upfront capex) enabling pilots and scale-out"
+     ]
+    },
+    "profile_edited": false,
+    "updated_at": "2026-10-05T10:34:09.876839+00:00"
+   },
+   "status": {
+    "status": "leads_ready",
+    "step": null,
+    "progress": 100,
+    "message": "Done",
+    "error": null,
+    "steps": [
+     {
+      "key": "ingest",
+      "label": "Reading website & documents",
+      "state": "done"
+     },
+     {
+      "key": "profile",
+      "label": "Building company profile",
+      "state": "done"
+     },
+     {
+      "key": "icp",
+      "label": "Generating ICP",
+      "state": "done"
+     },
+     {
+      "key": "signals",
+      "label": "Creating signals",
+      "state": "done"
+     },
+     {
+      "key": "leads",
+      "label": "Finding leads",
+      "state": "done"
+     }
+    ]
+   },
+   "sources": [
+    {
+     "id": "cbebb141-2fac-4b71-a577-28dc84327084",
+     "kind": "image",
+     "uri": "upload://nordwave_architecture.png",
+     "filename": "nordwave_architecture.png",
+     "mime": "image/png",
+     "status": "parsed",
+     "error": null,
+     "chars": 213,
+     "created_at": "2026-10-05T10:08:49.394170+00:00"
+    },
+    {
+     "id": "f78a6bb6-8eb5-4873-beb6-f27cc5294f03",
+     "kind": "pdf",
+     "uri": "upload://nordwave_brochure.pdf",
+     "filename": "nordwave_brochure.pdf",
+     "mime": "application/pdf",
+     "status": "parsed",
+     "error": null,
+     "chars": 4217,
+     "created_at": "2026-10-05T10:08:49.394173+00:00"
+    },
+    {
+     "id": "2511b5ce-b094-4356-9b90-3c2e15b967b7",
+     "kind": "website",
+     "uri": "http://demo-sites/nordwave/",
+     "filename": "Private 5G for Industry | NordWave Networks",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2757,
+     "created_at": "2026-10-05T10:27:59.295616+00:00"
+    },
+    {
+     "id": "847cfdc1-372f-4d11-a2c3-e0ab618386d6",
+     "kind": "website",
+     "uri": "http://demo-sites/nordwave/products.html",
+     "filename": "Products | NordWave Networks",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2664,
+     "created_at": "2026-10-05T10:27:59.295618+00:00"
+    },
+    {
+     "id": "c910ed40-d70f-42bd-8564-cee5e34526fe",
+     "kind": "website",
+     "uri": "http://demo-sites/nordwave/industries.html",
+     "filename": "Industries | NordWave Networks",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2831,
+     "created_at": "2026-10-05T10:27:59.295619+00:00"
+    },
+    {
+     "id": "e7c3da33-4b42-48fb-bb4c-571df36af3f2",
+     "kind": "website",
+     "uri": "http://demo-sites/nordwave/customers.html",
+     "filename": "Customers | NordWave Networks",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2222,
+     "created_at": "2026-10-05T10:27:59.295621+00:00"
+    },
+    {
+     "id": "9a1ff1b0-2dcd-4767-961b-4bce7c574f6e",
+     "kind": "website",
+     "uri": "http://demo-sites/nordwave/about.html",
+     "filename": "About | NordWave Networks",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2084,
+     "created_at": "2026-10-05T10:27:59.295622+00:00"
+    },
+    {
+     "id": "607ffe30-64cb-488d-b7fc-190e0902b516",
+     "kind": "xlsx",
+     "uri": "upload://nordwave_pricing.xlsx",
+     "filename": "nordwave_pricing.xlsx",
+     "mime": "application/octet-stream",
+     "status": "parsed",
+     "error": null,
+     "chars": 1699,
+     "created_at": "2026-10-05T10:08:49.394174+00:00"
+    }
+   ],
+   "icp_versions": [
+    {
+     "id": "3946ebd7-a62d-4986-b754-7e1e305deeda",
+     "version": 1,
+     "is_active": true,
+     "origin": "ai",
+     "data": {
+      "summary": "NordWave Networks' ideal customers are large industrial organisations (sites with complex OT environments) that need deterministic, on‑premise private 5G, rugged radios and a 24/7 managed service to replace unreliable Wi‑Fi or generic carrier solutions for AGVs, vision/safety, cranes and other latency-sensitive OT workloads.",
+      "keywords": [
+       "private 5G for industry",
+       "on‑premise 5G core",
+       "private LTE CBRS",
+       "replace Wi‑Fi in factory",
+       "AGV connectivity issues",
+       "low latency wireless for vision",
+       "network slicing OT",
+       "industrial small cell",
+       "SIM eSIM device management",
+       "edge compute for machine vision",
+       "zero‑loss handover AGV",
+       "99.999% OT network availability"
+      ],
+      "personas": [
+       {
+        "goals": [
+         "Keep production lines, AGVs and cranes running with predictable connectivity",
+         "Reduce unplanned downtime caused by wireless outages",
+         "Ensure OT systems meet safety and compliance requirements"
+        ],
+        "pains": [
+         "Intermittent Wi‑Fi/consumer wireless causing AGV drops and production stops",
+         "Lack of deterministic latency for vision and safety workloads",
+         "Difficulty integrating wireless with PLCs, SCADA and MES"
+        ],
+        "title": "Head of Operational Technology (OT) / OT Manager",
+        "seniority": "Director / Head",
+        "department": "Operations / OT"
+       },
+       {
+        "goals": [
+         "Maximise throughput and equipment utilisation (AGV/crane productivity)",
+         "Avoid production impact during maintenance and upgrades",
+         "Get clear SLAs and single‑party accountability for network availability"
+        ],
+        "pains": [
+         "Frequent connectivity incidents impacting crane/AGV cycles",
+         "Multiple vendors (Wi‑Fi, IT, integrator) argue over responsibility",
+         "Network coverage gaps in yards, hazardous zones or large halls"
+        ],
+        "title": "Plant Manager / Site Operations Manager",
+        "seniority": "Director / Site Lead",
+        "department": "Site Operations / Manufacturing"
+       },
+       {
+        "goals": [
+         "Deliver reliable, low‑latency links for machine vision, safety and motion control",
+         "Enable mobility for robots/AGVs without control interruptions",
+         "Integrate wireless identity and access into control systems securely"
+        ],
+        "pains": [
+         "Existing wireless introduces jitter and packet loss for control loops",
+         "Handovers drop video streams or break control sessions",
+         "Complex/unsupported integrations with OPC UA/PLCs"
+        ],
+        "title": "Director of Automation / Controls Engineering Manager",
+        "seniority": "Director / Manager",
+        "department": "Automation / Controls / Engineering"
+       },
+       {
+        "goals": [
+         "Provide secure, auditable on‑prem network services and identity (SIM/eSIM)",
+         "Maintain separation and control of OT data from public cloud/carriers",
+         "Standardise network operations and monitoring under SLAs"
+        ],
+        "pains": [
+         "Corporate Wi‑Fi and carrier solutions lack OT guarantees (latency, control)",
+         "Unclear ownership of wireless incidents between IT and OT",
+         "Regulatory and data residency concerns with cloud‑centric network models"
+        ],
+        "title": "Director of IT Infrastructure / IT Infrastructure Manager",
+        "seniority": "Director / Manager",
+        "department": "IT / Infrastructure"
+       },
+       {
+        "goals": [
+         "Design a resilient wireless architecture for large indoor/outdoor industrial sites",
+         "Replace many Wi‑Fi APs with fewer rugged cells while improving coverage",
+         "Operate network slices and QoS for multiple OT application classes"
+        ],
+        "pains": [
+         "Wi‑Fi densification is complex and fails in harsh environments",
+         "Lack of industrial‑grade small cells and hardened hardware for yards/mines",
+         "No straightforward way to run on‑prem 5G core and manage SIM fleets"
+        ],
+        "title": "Network Architect / Industrial Wireless Lead",
+        "seniority": "Senior / Lead Engineer",
+        "department": "Networking / Connectivity"
+       }
+      ],
+      "exclusions": [
+       "Mobile network operators / national carriers",
+       "IT resellers and pure channel partners (MSPs) buying for resale",
+       "SMBs and sites with < 1,000 employees",
+       "Pure office/corporate campuses without OT workloads",
+       "Academic institutions and consumer retail stores"
+      ],
+      "pain_points": [
+       "AGV/robot connectivity drops causing production stoppages",
+       "Wi‑Fi can't deliver deterministic sub‑10 ms latency for vision and safety",
+       "Too many Wi‑Fi APs, cabling complexity and poor coverage in yards/hazardous zones",
+       "No single vendor/SLA owning radio planning, OT integration and 24/7 ops",
+       "Regulatory uncertainty or inability to use local licensed/shared spectrum",
+       "Lack of on‑prem control over user‑plane traffic and sensitive OT data",
+       "Handovers that drop sessions for mobile robots/vehicles (>0% tolerance)",
+       "Insufficient monitoring that fails to predict degrading links before outages"
+      ],
+      "disqualifiers": [
+       "Site is outside Europe, UK, USA or Canada",
+       "Site policy forbids hosting any on‑premise network equipment or edge servers",
+       "No available local spectrum options (and no CBRS or equivalent)",
+       "Annual per‑site network budget below €60k (below Site Starter subscription economics)",
+       "Use case is purely consumer mobile coverage (no OT/machine/vision requirement)",
+       "No integrations allowed with SCADA/MES/Active Directory or prohibition on SIM/eSIM management"
+      ],
+      "firmographics": {
+       "industries": [
+        "Ports & container terminals",
+        "Manufacturing (automotive, steel, chemicals, food & beverage, paper)",
+        "Mining (open‑pit and underground)",
+        "Utilities (power, water, gas)",
+        "Logistics & large fulfilment / warehousing centres",
+        "Oil & gas and hazardous‑area industrial plants"
+       ],
+       "tech_stack": [
+        "SCADA (Siemens/ABB/Schneider)",
+        "MES (SAP, Siemens OpCenter, Wonderware)",
+        "OPC UA",
+        "Active Directory / LDAP",
+        "PLC ecosystems (Siemens S7, Rockwell/Allen‑Bradley)",
+        "AGV/autonomous vehicle fleets (KION/Jungheinrich/Toyota etc.)",
+        "Industrial machine vision / safety cameras",
+        "Edge compute platforms (on‑prem Kubernetes, K3s)",
+        "Enterprise Wi‑Fi (Cisco, HPE Aruba) + desire to replace/augment it",
+        "CBRS / Private LTE stacks and private 5G radios"
+       ],
+       "geographies": [
+        "Europe (including EU local spectrum markets)",
+        "United Kingdom",
+        "United States",
+        "Canada"
+       ],
+       "revenue_range": "€200M+",
+       "employee_range": "1000+"
+      },
+      "buying_triggers": [
+       "Procurement of new AGV/robot fleet or machine‑vision safety system",
+       "Greenfield site build or major plant expansion/new warehouse opens",
+       "Repeated wireless incidents or a critical production outage blamed on connectivity",
+       "IT/OT convergence program or MES/SCADA upgrade",
+       "Site awarded local licensed/shared spectrum (EU local licence, CBRS lease)",
+       "New Head of OT / Director of Automation / CIO appointed with modernization mandate",
+       "Capital budget allocated to connectivity or Industry 4.0/digitalisation projects"
+      ],
+      "negative_keywords": [
+       "consumer 5G",
+       "mobile operator plans",
+       "home Wi‑Fi",
+       "student project",
+       "internship",
+       "smartphone plans",
+       "academic paper",
+       "retail MVNO"
+      ]
+     },
+     "created_at": "2026-10-05T10:29:03.324656+00:00"
+    }
+   ],
+   "signals": [
+    {
+     "id": "df69357a-0976-42c2-b254-89c7884b756a",
+     "name": "Published RFP / Tender for industrial wireless or managed network services",
+     "type": "rfp_tender",
+     "description": "A live RFP or tender for private wireless, industrial small cells or 24/7 managed network operations is a direct buying intent signal with procurement budget attached.",
+     "channels": [
+      "web",
+      "news"
+     ],
+     "queries": [
+      "rfp private 5g manufacturing",
+      "tender industrial wireless network",
+      "procurement managed network services"
+     ],
+     "weight": 1.0,
+     "lookback_days": 60,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238014+00:00"
+    },
+    {
+     "id": "47e17fb4-4e62-41a9-8e88-c5e097627b8d",
+     "name": "Local spectrum / CBRS licence awarded or private LTE/5G trial announced",
+     "type": "tech_adoption",
+     "description": "Announcements of CBRS licences, local 3.7–3.8 GHz approvals or private LTE/5G trials signal regulatory ability and technical intent to deploy on‑prem networks.",
+     "channels": [
+      "news",
+      "web"
+     ],
+     "queries": [
+      "awarded cbrs license plant",
+      "private lte trial manufacturing site",
+      "local 3.7 3.8 ghz licence plant"
+     ],
+     "weight": 0.95,
+     "lookback_days": 90,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238012+00:00"
+    },
+    {
+     "id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+     "name": "Greenfield / New warehouse / Plant expansion announced",
+     "type": "expansion",
+     "description": "New site builds or major expansions create immediate per-site network procurement needs and are ideal moments to specify on-prem private 5G and rugged radios.",
+     "channels": [
+      "news",
+      "web"
+     ],
+     "queries": [
+      "new warehouse opens logistics",
+      "plant expansion manufacturing announced",
+      "new terminal construction port"
+     ],
+     "weight": 0.9,
+     "lookback_days": 90,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238004+00:00"
+    },
+    {
+     "id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+     "name": "Hiring: Head of Operational Technology / Director of Automation",
+     "type": "hiring",
+     "description": "Hiring senior OT/automation leaders signals a modernization mandate and likely budget or projects to replace unreliable wireless with private 5G.",
+     "channels": [
+      "jobs",
+      "linkedin"
+     ],
+     "queries": [
+      "hiring head of operational technology",
+      "job director automation manufacturing",
+      "hiring ot manager port terminal"
+     ],
+     "weight": 0.85,
+     "lookback_days": 90,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.237994+00:00"
+    },
+    {
+     "id": "3bd047d6-0a64-45f0-9b85-b8242a05e94a",
+     "name": "Leadership change: New Head of OT / Director of Automation",
+     "type": "leadership_change",
+     "description": "A newly appointed OT/automation leader often brings a modernization agenda and will evaluate new connectivity options with SLA-backed managed services.",
+     "channels": [
+      "linkedin",
+      "news"
+     ],
+     "queries": [
+      "appointed head of operational technology",
+      "new director of automation announced",
+      "appointed ot manager plant"
+     ],
+     "weight": 0.8,
+     "lookback_days": 60,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238006+00:00"
+    },
+    {
+     "id": "05077add-8360-48f8-8206-6693ae8965e0",
+     "name": "Public complaints on X about AGV/crane Wi‑Fi outages",
+     "type": "pain_post",
+     "description": "Real-time posts from site engineers or operators reporting AGV, crane or vision link drops indicate acute operational pain that private 5G can solve.",
+     "channels": [
+      "x"
+     ],
+     "queries": [
+      "agv losing connection wifi manufacturer",
+      "production stopped wifi outage plant",
+      "crane connectivity issues wifi yard"
+     ],
+     "weight": 0.75,
+     "lookback_days": 14,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238008+00:00"
+    },
+    {
+     "id": "2c066569-4a19-407e-8e22-17d4f1627cb2",
+     "name": "Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops",
+     "type": "pain_post",
+     "description": "In-depth operator or engineer discussions about persistent Wi‑Fi jitter, packet loss or AGV failures reveal sustained pain and a readiness to change technology.",
+     "channels": [
+      "reddit"
+     ],
+     "queries": [
+      "wifi causing agv drops industrial",
+      "private 5g vs wifi agv issues",
+      "wifi outage halted production"
+     ],
+     "weight": 0.7,
+     "lookback_days": 30,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238010+00:00"
+    },
+    {
+     "id": "6a4dcb56-e600-4522-98bd-de1dcddebb8a",
+     "name": "Participation or speaking slot at ports/manufacturing/mining connectivity events",
+     "type": "event_participation",
+     "description": "Exhibiting or speaking at industry automation, port technology or mining connectivity events often correlates with planned pilots and technology refresh projects.",
+     "channels": [
+      "linkedin",
+      "news"
+     ],
+     "queries": [
+      "exhibiting industrial automation expo",
+      "speaking at port technology conference",
+      "presenting at mining connectivity summit"
+     ],
+     "weight": 0.5,
+     "lookback_days": 45,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:35.238015+00:00"
+    }
+   ],
+   "runs": [
+    {
+     "id": "9c8b963d-50cd-49b9-9469-73c75790f196",
+     "status": "completed",
+     "started_at": "2026-10-05T10:33:07.443822+00:00",
+     "finished_at": "2026-10-05T10:34:09.873379+00:00",
+     "stats": {
+      "hits": 185,
+      "queries": 24,
+      "new_hits": 48,
+      "relevant": 23,
+      "mcp_calls": 42,
+      "new_leads": 8,
+      "updated_leads": 0
+     },
+     "error": null
+    }
+   ],
+   "leads": [
+    {
+     "id": "e14fb0a0-f8a8-4c10-90af-5a0c2e657387",
+     "org_name": "Ostrava Steelworks",
+     "domain": "ostrava-steelworks.example",
+     "industry": "Steel Manufacturing",
+     "employees": 6200,
+     "hq": "Ostrava, Czech Republic",
+     "description": "Integrated steel producer making flat and long products for automotive and construction customers across Central Europe.",
+     "contact_name": "Martin Svoboda",
+     "contact_title": "Head of OT & Automation",
+     "email": "martin.svoboda@ostrava-steelworks.example",
+     "phone": "+420 59 555 0113",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-martin-svoboda",
+     "contacts": [
+      {
+       "name": "Martin Svoboda",
+       "email": "martin.svoboda@ostrava-steelworks.example",
+       "phone": "+420 59 555 0113",
+       "title": "Head of OT & Automation",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-martin-svoboda"
+      },
+      {
+       "name": "Tomáš Novák",
+       "email": "tomas.novak@ostrava-steelworks.example",
+       "phone": "+420 59 555 0111",
+       "title": "Plant Director",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-tomas-novak"
+      },
+      {
+       "name": "Petra Dvořáková",
+       "email": "petra.dvorakova@ostrava-steelworks.example",
+       "phone": "+420 59 555 0112",
+       "title": "Chief Information Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-petra-dvorakova"
+      }
+     ],
+     "fit_score": 100.0,
+     "intent_score": 75.7,
+     "score": 88.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Steel Manufacturing' matches ICP",
+       "6200 employees matches ICP",
+       "HQ Ostrava, Czech Republic matches ICP",
+       "Contact 'Head of OT & Automation' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops, Greenfield / New warehouse / Plant expansion announced, Local spectrum / CBRS licence awarded or private LTE/5G trial announced",
+       "+20 for 3 distinct signal types"
+      ]
+     },
+     "status": "contacted",
+     "first_seen_at": "2026-10-05T10:34:09.608920+00:00",
+     "last_signal_at": "2026-10-01T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "d44bb50a-f3b3-4084-acc2-f50d1b28cd74",
+       "signal_id": "2c066569-4a19-407e-8e22-17d4f1627cb2",
+       "signal_name": "Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/PLC/comments/fictional01/wifi_dropouts_rolling_mill",
+       "title": "Wi-Fi dropouts are killing our crane telemetry in the rolling mill",
+       "snippet": "I'm a controls engineer at Ostrava Steelworks and our shop-floor Wi-Fi keeps dropping near the rolling mill — lots of steel, heat and interference. Crane telemetry and handheld scanners lose connection several times per shift, and the access points we add just make roaming worse. Has anyone moved to private LTE or 5G in a heavy-industry environment and was it worth it?",
+       "published_at": "2026-10-01T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Ostrava Steelworks reports shop-floor Wi‑Fi dropouts affecting crane telemetry and asks about private LTE/5G in heavy-industry, matching NordWave's rugged radios and on-prem 5G."
+      },
+      {
+       "id": "18883c4b-0cec-4979-8800-f90cb76e3ec0",
+       "signal_id": "47e17fb4-4e62-41a9-8e88-c5e097627b8d",
+       "signal_name": "Local spectrum / CBRS licence awarded or private LTE/5G trial announced",
+       "signal_type": "tech_adoption",
+       "source": "news",
+       "url": "https://news.example/industry/ostrava-steelworks-private-spectrum-licence",
+       "title": "Ostrava Steelworks secures local 3.7 GHz spectrum licence for private campus network",
+       "snippet": "The Czech Telecommunication Office has granted Ostrava Steelworks a local licence in the 3.7 GHz band covering its 4 km² Ostrava site. Ostrava Steelworks said the private spectrum will support a private 5G campus network for crane control, ladle tracking and predictive maintenance sensors. A vendor selection for the radio and core network is expected this quarter.",
+       "published_at": "2026-09-26T10:33:08+00:00",
+       "confidence": 0.9,
+       "explanation": "Ostrava Steelworks obtained local 3.7 GHz spectrum for a private 5G campus for crane control and other OT use cases and expects vendor selection for radio and core."
+      },
+      {
+       "id": "de650793-2433-4416-bf27-1b74b7fed7f2",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/business/ostrava-steelworks-eur-120m-automation-programme",
+       "title": "Ostrava Steelworks commits EUR 120m to automation and digital plant modernisation",
+       "snippet": "Ostrava Steelworks will invest EUR 120m over three years in automation, robotics and a plant-wide data platform, its board announced. The capex programme includes autonomous material handling, remote crane operation and real-time quality inspection. Management said reliable industrial connectivity is a prerequisite for the Industry 4.0 roadmap.",
+       "published_at": "2026-09-10T10:33:07+00:00",
+       "confidence": 0.9,
+       "explanation": "Ostrava Steelworks explicitly states reliable industrial connectivity is a prerequisite for automation projects including autonomous material handling and remote crane operation, matching NordWave's private 5G and rugged radios."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "b71e327a-62b7-4853-92ef-be31895a32e1",
+     "org_name": "Meridian Logistics Hub",
+     "domain": "meridian-hub.example",
+     "industry": "Logistics & Warehousing",
+     "employees": 1900,
+     "hq": "Poznań, Poland",
+     "description": "Contract logistics and e-commerce fulfilment provider operating automated warehouses in western Poland.",
+     "contact_name": "Piotr Nowak",
+     "contact_title": "ops manager",
+     "email": "piotr.nowak@meridian-hub.example",
+     "phone": "+48 61 555 0172",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-piotr-nowak",
+     "contacts": [
+      {
+       "name": "Piotr Nowak",
+       "email": "piotr.nowak@meridian-hub.example",
+       "phone": "+48 61 555 0172",
+       "title": "Site Operations Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-piotr-nowak"
+      },
+      {
+       "name": "Agnieszka Kowalska",
+       "email": "agnieszka.kowalska@meridian-hub.example",
+       "phone": "+48 61 555 0171",
+       "title": "VP Operations",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-agnieszka-kowalska"
+      },
+      {
+       "name": "Tomasz Zielinski",
+       "email": "tomasz.zielinski@meridian-hub.example",
+       "phone": "+48 61 555 0173",
+       "title": "CIO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-tomasz-zielinski"
+      }
+     ],
+     "fit_score": 100.0,
+     "intent_score": 64.5,
+     "score": 82.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Logistics & Warehousing' matches ICP",
+       "1900 employees matches ICP",
+       "HQ Poznań, Poland matches ICP",
+       "Contact 'ops manager' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops, Greenfield / New warehouse / Plant expansion announced, Public complaints on X about AGV/crane Wi‑Fi outages",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.601133+00:00",
+     "last_signal_at": "2026-10-03T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "2beccbc9-809b-475f-bfaf-29584906de60",
+       "signal_id": "05077add-8360-48f8-8206-6693ae8965e0",
+       "signal_name": "Public complaints on X about AGV/crane Wi‑Fi outages",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_meridian_ops/status/1890000000000000003",
+       "title": "Meridian Logistics Hub ops manager: 300 robots, one Wi-Fi network, many dead zones",
+       "snippet": "300 AMRs, one Wi-Fi network, and dead zones every time racking gets restocked. Night shift at Meridian Logistics Hub lost 40 minutes of throughput yesterday. Anyone running private 5G for warehouse robots? #logistics #AMR #wifi",
+       "published_at": "2026-10-03T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Meridian Logistics Hub ops manager reports '300 AMRs...dead zones...' and explicitly asks about private 5G for warehouse robots, indicating a need NordWave's private 5G can address."
+      },
+      {
+       "id": "c248fa78-b15d-4a93-99d0-fad1d93518d0",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/logistics/meridian-logistics-hub-opens-automated-fulfilment-centre",
+       "title": "Meridian Logistics Hub opens 120,000 m² automated fulfilment centre near Poznań",
+       "snippet": "Meridian Logistics Hub has opened a 120,000 m² fulfilment centre near Poznań, Poland, operating 300 autonomous mobile robots and automated sorters. A second building is planned for 2027. Meridian Logistics Hub said robot connectivity and uptime are its top operational priorities.",
+       "published_at": "2026-09-27T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Meridian Logistics Hub is operating 300 autonomous mobile robots and explicitly states \"robot connectivity and uptime are its top operational priorities,\" indicating a direct need for deterministic private wireless for AMR uptime and handovers."
+      },
+      {
+       "id": "61d8c58e-38e7-4166-b278-0997d94fe8ea",
+       "signal_id": "2c066569-4a19-407e-8e22-17d4f1627cb2",
+       "signal_name": "Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/sysadmin/comments/fictional03/warehouse_handheld_roaming",
+       "title": "Warehouse handheld scanners roaming issues — 2,000 devices",
+       "snippet": "I run IT for Meridian Logistics Hub in Poland. Our 2,000 handheld scanners and robots keep dropping when roaming between APs in the high-bay areas. We have tried vendor firmware updates and a new controller; the shop-floor Wi-Fi is still unreliable. Looking for experience with private LTE/5G in warehouses.",
+       "published_at": "2026-09-18T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Warehouse site (Meridian Logistics Hub, Poland) reports roaming drops for scanners and robots and explicitly says they're \"Looking for experience with private LTE/5G in warehouses.\""
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "aa42ce97-b7f8-44cf-a221-2ab0f73bcaeb",
+     "org_name": "Kestrel Chemicals",
+     "domain": "kestrel-chem.example",
+     "industry": "Chemicals",
+     "employees": 2100,
+     "hq": "Antwerp, Belgium",
+     "description": "Specialty chemicals and polymers producer with a large integrated site in the Port of Antwerp.",
+     "contact_name": "Ann Peeters",
+     "contact_title": "Head of OT",
+     "email": "ann.peeters@kestrel-chem.example",
+     "phone": "+32 3 555 0141",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-ann-peeters",
+     "contacts": [
+      {
+       "name": "Ann Peeters",
+       "email": "ann.peeters@kestrel-chem.example",
+       "phone": "+32 3 555 0141",
+       "title": "Head of OT",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-ann-peeters"
+      },
+      {
+       "name": "Wim Janssens",
+       "email": "wim.janssens@kestrel-chem.example",
+       "phone": "+32 3 555 0142",
+       "title": "VP Operations",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-wim-janssens"
+      }
+     ],
+     "fit_score": 100.0,
+     "intent_score": 58.4,
+     "score": 79.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Chemicals' matches ICP",
+       "2100 employees matches ICP",
+       "HQ Antwerp, Belgium matches ICP",
+       "Contact 'Head of OT' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Greenfield / New warehouse / Plant expansion announced, Public complaints on X about AGV/crane Wi‑Fi outages",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.607555+00:00",
+     "last_signal_at": "2026-09-28T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "6581d51f-154f-4a3b-a841-582a82289d0f",
+       "signal_id": "05077add-8360-48f8-8206-6693ae8965e0",
+       "signal_name": "Public complaints on X about AGV/crane Wi‑Fi outages",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_kestrel_ot/status/1890000000000000002",
+       "title": "Kestrel Chemicals Head of OT on hazardous-area wireless",
+       "snippet": "Planning wireless for 5,000 sensors in ATEX zones at Kestrel Chemicals. Wi-Fi coverage in steel structures is patchy and every extra AP is a hot-work permit. Looking for peers who run private LTE/5G in chemical plants. #OT #IIoT #Industry40",
+       "published_at": "2026-09-28T10:33:08+00:00",
+       "confidence": 0.9,
+       "explanation": "Kestrel Chemicals' Head of OT describes planning wireless for 5,000 sensors in ATEX hazardous zones and asks about private LTE/5G, directly matching NordWave's hazardous-area private 5G solution."
+      },
+      {
+       "id": "8703b2d8-cae2-4f96-9239-8e61920c3989",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/chemicals/kestrel-chemicals-new-production-unit-antwerp",
+       "title": "Kestrel Chemicals to build new digital production unit at Antwerp site",
+       "snippet": "Kestrel Chemicals will build a new specialty polymers unit at its Antwerp site, designed from the start as a 'digital plant'. The EUR 230m project includes thousands of wireless sensors in ATEX hazardous areas, mobile worker tablets and remote inspection drones. Kestrel Chemicals said the plant expansion will be operational in 2027.",
+       "published_at": "2026-09-20T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Kestrel Chemicals' new 'digital plant' will include \"thousands of wireless sensors in ATEX hazardous areas,\" mobile tablets and drones, which directly signals a need for rugged, certified private wireless and on‑prem control for hazardous-area OT."
+      },
+      {
+       "id": "6bf37ac5-d105-4747-913a-40b9c6eb9106",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "web",
+       "url": "https://www.kestrel-chem.example/news/digital-plant-roadmap-2027",
+       "title": "Kestrel Chemicals Digital Plant Roadmap 2027",
+       "snippet": "Kestrel Chemicals published its Digital Plant Roadmap, setting targets for predictive maintenance, connected workers and real-time emissions monitoring by 2027. The roadmap names a private wireless network as a key enabler and says Kestrel Chemicals will run a pilot at its Antwerp site in the coming months.",
+       "published_at": "2026-09-13T10:33:07+00:00",
+       "confidence": 0.95,
+       "explanation": "Kestrel Chemicals explicitly names private wireless as a key enabler and plans a pilot at its Antwerp site — a direct match for NordWave's private 5G pilot deployments and managed operations."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "b5602c46-1bc5-40f7-9824-20a0dca3d925",
+     "org_name": "Lakeside Paper Mill",
+     "domain": "lakeside-paper.example",
+     "industry": "Pulp & Paper",
+     "employees": 1300,
+     "hq": "Kuopio, Finland",
+     "description": "Board and specialty paper mill in eastern Finland producing packaging board for European converters.",
+     "contact_name": "Mikko Laine",
+     "contact_title": "Mill Director",
+     "email": "mikko.laine@lakeside-paper.example",
+     "phone": "+358 17 555 0151",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-mikko-laine",
+     "contacts": [
+      {
+       "name": "Mikko Laine",
+       "email": "mikko.laine@lakeside-paper.example",
+       "phone": "+358 17 555 0151",
+       "title": "Mill Director",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-mikko-laine"
+      },
+      {
+       "name": "Aino Virtanen",
+       "email": "aino.virtanen@lakeside-paper.example",
+       "phone": "+358 17 555 0152",
+       "title": "Chief Digital Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-aino-virtanen"
+      }
+     ],
+     "fit_score": 100.0,
+     "intent_score": 57.1,
+     "score": 79.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Pulp & Paper' matches ICP",
+       "1300 employees matches ICP",
+       "HQ Kuopio, Finland matches ICP",
+       "Contact 'Mill Director' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): Greenfield / New warehouse / Plant expansion announced, Hiring: Head of Operational Technology / Director of Automation",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.575010+00:00",
+     "last_signal_at": "2026-09-26T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "7fae6fe7-2503-417a-86f2-b307f485f5cf",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/lakeside-paper-mill/automation-ot-network-specialist",
+       "title": "Automation & OT Network Specialist at Lakeside Paper Mill (Kuopio)",
+       "snippet": "Lakeside Paper Mill is hiring an Automation & OT Network Specialist to modernise mill networks and support the rollout of autonomous forklifts and wireless roll tracking. You will plan wireless coverage across the machine halls and warehouse and maintain OT security. Experience with industrial wireless and DCS systems is valued.",
+       "published_at": "2026-09-26T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Lakeside Paper Mill is recruiting to modernise mill networks and roll out autonomous forklifts and wireless tracking — indicating a need for deterministic private wireless and OT integration NordWave provides."
+      },
+      {
+       "id": "2cbeaac7-4381-4b43-a385-dd0fe2ae1227",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/forest-industry/lakeside-paper-mill-eur-45m-funding",
+       "title": "Lakeside Paper Mill receives EUR 45m green transition funding, including automation upgrade",
+       "snippet": "Lakeside Paper Mill in Kuopio, Finland, has secured EUR 45m in green transition loans and grants to modernise its board machine and automate warehouse logistics. Part of the funding covers autonomous forklifts, roll tracking and a new plant-wide industrial network. Lakeside Paper Mill employs about 1,300 people.",
+       "published_at": "2026-09-24T10:33:07+00:00",
+       "confidence": 0.8,
+       "explanation": "Lakeside Paper Mill received funding to modernise and explicitly covers \"autonomous forklifts, roll tracking and a new plant-wide industrial network,\" indicating a need for deterministic private wireless and OT-grade coverage."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "cdf2d6a1-d621-492f-973d-137185a77511",
+     "org_name": "Northpeak Mining",
+     "domain": "northpeak-mining.example",
+     "industry": "Mining",
+     "employees": 2800,
+     "hq": "Sudbury, Ontario, Canada",
+     "description": "Canadian nickel and gold miner operating two underground mines in Ontario and expanding into autonomous haulage.",
+     "contact_name": "Dave Okafor",
+     "contact_title": "ops",
+     "email": "dave.okafor@northpeak-mining.example",
+     "phone": "+1 705 555 0122",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-dave-okafor",
+     "contacts": [
+      {
+       "name": "Dave Okafor",
+       "email": "dave.okafor@northpeak-mining.example",
+       "phone": "+1 705 555 0122",
+       "title": "Head of OT",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-dave-okafor"
+      },
+      {
+       "name": "Rachel Thompson",
+       "email": "rachel.thompson@northpeak-mining.example",
+       "phone": "+1 705 555 0121",
+       "title": "VP Operations",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-rachel-thompson"
+      }
+     ],
+     "fit_score": 75.0,
+     "intent_score": 73.3,
+     "score": 74.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Mining' matches ICP",
+       "2800 employees matches ICP",
+       "HQ Sudbury, Ontario, Canada matches ICP",
+       "Contact 'ops' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Greenfield / New warehouse / Plant expansion announced, Hiring: Head of Operational Technology / Director of Automation, Public complaints on X about AGV/crane Wi‑Fi outages",
+       "+20 for 3 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.579380+00:00",
+     "last_signal_at": "2026-10-02T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "70452918-bd0c-49d2-898a-1d57e93eba44",
+       "signal_id": "05077add-8360-48f8-8206-6693ae8965e0",
+       "signal_name": "Public complaints on X about AGV/crane Wi‑Fi outages",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_np_ops/status/1890000000000000001",
+       "title": "Northpeak Mining ops: autonomous haul trucks losing connectivity underground",
+       "snippet": "Third time this week our autonomous haul trucks at Northpeak Mining stopped at level 3400 because the network dropped. Wi-Fi was never designed for this — we need something deterministic before we scale the fleet. #mining #automation #privateLTE",
+       "published_at": "2026-10-02T10:33:08+00:00",
+       "confidence": 0.82,
+       "explanation": "Northpeak Mining reports repeated autonomous haul-truck stoppages due to network drops and says 'we need something deterministic', matching NordWave's private 5G for mobile OT."
+      },
+      {
+       "id": "596e8bd5-5ff3-4d8d-83f2-d6e2b3f35b68",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/northpeak-mining/industrial-network-engineer-underground",
+       "title": "Industrial Network Engineer – Underground Automation (Sudbury, ON) at Northpeak Mining",
+       "snippet": "Northpeak Mining is hiring an Industrial Network Engineer to extend LTE and Wi-Fi coverage underground for autonomous haulage, tele-remote loaders and ventilation-on-demand. The role designs the OT network across four mine levels and works with our automation team on latency-sensitive applications. Experience with private LTE/5G, fibre backbones and harsh environments is an asset.",
+       "published_at": "2026-09-25T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Northpeak Mining is hiring to extend private LTE/Wi‑Fi underground for autonomous haulage and tele-remote loaders — an OT use case that maps to NordWave's rugged radios and private 5G core."
+      },
+      {
+       "id": "582c2d0e-6f4a-4323-ad44-a40e883cee4a",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/mining/northpeak-mining-cad-300m-timmins-expansion",
+       "title": "Northpeak Mining approves CAD 300m Timmins expansion with autonomous haulage",
+       "snippet": "Northpeak Mining has approved a CAD 300m expansion of its Timmins gold operation, adding a new decline and an autonomous haulage fleet. Northpeak said the project includes a site-wide private wireless network to connect trucks, drills and safety systems. Construction starts next spring.",
+       "published_at": "2026-09-17T10:33:07+00:00",
+       "confidence": 0.95,
+       "explanation": "Northpeak Mining's Timmins expansion explicitly requires a site-wide private wireless network for autonomous haulage and safety systems — direct fit for NordWave's private 5G platform and managed service."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "3f604ecb-db8f-46a6-831e-72ff9f3a41a6",
+     "org_name": "Vectra Auto Components",
+     "domain": "vectra-auto.example",
+     "industry": "Automotive Parts Manufacturing",
+     "employees": 4800,
+     "hq": "Stuttgart, Germany",
+     "description": "Tier-1 supplier of drivetrain and e-mobility components with five plants in Germany and Hungary.",
+     "contact_name": "Jonas Brandt",
+     "contact_title": "Chief Information Officer",
+     "email": "jonas.brandt@vectra-auto.example",
+     "phone": "+49 711 555 0131",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-jonas-brandt",
+     "contacts": [
+      {
+       "name": "Lukas Hoffmann",
+       "email": "lukas.hoffmann@vectra-auto.example",
+       "phone": "+49 711 555 0133",
+       "title": "Head of OT Networks",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-lukas-hoffmann"
+      },
+      {
+       "name": "Katrin Weber",
+       "email": "katrin.weber@vectra-auto.example",
+       "phone": "+49 711 555 0132",
+       "title": "Plant Director Stuttgart",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-katrin-weber"
+      },
+      {
+       "name": "Jonas Brandt",
+       "email": "jonas.brandt@vectra-auto.example",
+       "phone": "+49 711 555 0131",
+       "title": "Chief Information Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-jonas-brandt"
+      }
+     ],
+     "fit_score": 75.0,
+     "intent_score": 70.3,
+     "score": 73.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Automotive Parts Manufacturing' matches ICP",
+       "4800 employees matches ICP",
+       "HQ Stuttgart, Germany matches ICP",
+       "Contact 'Chief Information Officer' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops, Hiring: Head of Operational Technology / Director of Automation",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.577332+00:00",
+     "last_signal_at": "2026-09-30T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "2baa8295-3051-4e69-997d-34f6187a13ed",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/vectra-auto/industry-4-0-network-architect",
+       "title": "Industry 4.0 Network Architect (m/f/d) at Vectra Auto Components",
+       "snippet": "Vectra Auto Components is hiring an Industry 4.0 Network Architect to design the OT network for our connected factories in Stuttgart and Győr. You will define the target architecture for private 5G, time-sensitive networking and edge computing, and run the vendor evaluation. Strong knowledge of industrial Ethernet and OT security required.",
+       "published_at": "2026-09-30T10:33:07+00:00",
+       "confidence": 0.9,
+       "explanation": "Vectra Auto Components seeks an architect to define private 5G and run vendor evaluations for connected factories — a direct buying signal for NordWave's private 5G platform and radios."
+      },
+      {
+       "id": "6c20d55a-525f-4e61-af0c-d499d3d0725d",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "linkedin",
+       "url": "https://www.linkedin.com/posts/fictional-vectra-auto_welcome-new-cio",
+       "title": "Vectra Auto Components names Jonas Brandt as new CIO to lead Industry 4.0 programme",
+       "snippet": "Vectra Auto Components is delighted to announce Jonas Brandt as our new Chief Information Officer. Jonas will lead our Industry 4.0 programme across five plants in Germany and Hungary, including the connected-factory rollout and the convergence of IT and OT networks. Welcome aboard, Jonas!",
+       "published_at": "2026-09-27T10:33:07+00:00",
+       "confidence": 0.7,
+       "explanation": "Vectra Auto Components hired a CIO to lead Industry 4.0 across five plants including a connected-factory rollout and IT/OT convergence — an explicit OT connectivity project NordWave can support."
+      },
+      {
+       "id": "60275016-3d66-4cb0-ac72-3ed0ad1e1901",
+       "signal_id": "2c066569-4a19-407e-8e22-17d4f1627cb2",
+       "signal_name": "Forum/Reddit threads describing industrial Wi‑Fi failures or AGV drops",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/manufacturing/comments/fictional02/agv_wifi_handover",
+       "title": "Our AGV fleet keeps losing Wi-Fi during handover — any fixes?",
+       "snippet": "At Vectra Auto Components' Stuttgart plant we run 45 AGVs and every few hours one stops because it lost Wi-Fi while roaming between access points. Production loses minutes each time and the line supervisors are furious. We have tuned roaming thresholds twice; is private 5G the real answer for AGV and robot connectivity?",
+       "published_at": "2026-09-21T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Vectra Auto Components' Stuttgart plant reports AGVs losing Wi‑Fi during roaming and asks if private 5G is the answer, a classic NordWave fit for deterministic mobile OT connectivity."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "4bdbe7e6-b867-47c4-be5d-70e542d264ae",
+     "org_name": "Harborline Ports",
+     "domain": "harborline-ports.example",
+     "industry": "Ports & Terminals",
+     "employees": 3400,
+     "hq": "Rotterdam, Netherlands",
+     "description": "Container and bulk terminal operator in the Port of Rotterdam running three terminals, currently building the automated Maasvlakte East terminal.",
+     "contact_name": "Femke de Vries",
+     "contact_title": "Chief Digital Officer",
+     "email": "femke.devries@harborline-ports.example",
+     "phone": "+31 10 555 0101",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-femke-de-vries",
+     "contacts": [
+      {
+       "name": "Sanne Visser",
+       "email": "sanne.visser@harborline-ports.example",
+       "phone": "+31 10 555 0103",
+       "title": "Head of OT",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-sanne-visser"
+      },
+      {
+       "name": "Joost Bakker",
+       "email": "joost.bakker@harborline-ports.example",
+       "phone": "+31 10 555 0102",
+       "title": "VP Operations",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-joost-bakker"
+      },
+      {
+       "name": "Femke de Vries",
+       "email": "femke.devries@harborline-ports.example",
+       "phone": "+31 10 555 0101",
+       "title": "Chief Digital Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-femke-de-vries"
+      }
+     ],
+     "fit_score": 75.0,
+     "intent_score": 67.5,
+     "score": 71.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Ports & Terminals' matches ICP",
+       "3400 employees matches ICP",
+       "HQ Rotterdam, Netherlands matches ICP",
+       "Contact 'Chief Digital Officer' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Greenfield / New warehouse / Plant expansion announced, Hiring: Head of Operational Technology / Director of Automation",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.572958+00:00",
+     "last_signal_at": "2026-09-29T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "6a17e5e4-dc2a-4c79-ab04-c5c97af7be15",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/harborline-ports/ot-network-engineer-private-wireless",
+       "title": "OT Network Engineer – Private Wireless (Rotterdam) at Harborline Ports",
+       "snippet": "Harborline Ports is hiring an OT Network Engineer to design and operate private LTE/5G coverage for cranes, straddle carriers and terminal sensors. You will own the OT network roadmap for the new Maasvlakte East terminal, including radio planning, edge computing and integration with the terminal operating system. Experience with industrial networks, IEC 62443 and Industry 4.0 projects is required.",
+       "published_at": "2026-09-29T10:33:07+00:00",
+       "confidence": 0.9,
+       "explanation": "Harborline Ports is hiring to design and operate private LTE/5G for cranes and terminal equipment at a new terminal — a direct fit for NordWave's private 5G, rugged radios and edge services."
+      },
+      {
+       "id": "a487fdce-c996-47d2-930c-82e20f343cb3",
+       "signal_id": "04cda9ba-dc2d-46ee-9630-777e25226b28",
+       "signal_name": "Greenfield / New warehouse / Plant expansion announced",
+       "signal_type": "expansion",
+       "source": "news",
+       "url": "https://news.example/maritime/harborline-ports-breaks-ground-automated-terminal",
+       "title": "Harborline Ports breaks ground on automated container terminal Maasvlakte East",
+       "snippet": "Harborline Ports has started construction of its EUR 410m Maasvlakte East container terminal in Rotterdam, which will add 2.1 million TEU of annual capacity. The terminal will run 60 automated straddle carriers and remote-controlled ship-to-shore cranes, and Harborline says it is evaluating private wireless networks to replace its legacy Wi-Fi mesh. First berths are scheduled to open in 2028.",
+       "published_at": "2026-09-23T10:33:07+00:00",
+       "confidence": 0.9,
+       "explanation": "Harborline Ports is building an automated container terminal and is \"evaluating private wireless networks to replace its legacy Wi-Fi mesh,\" a direct buying signal for on-premise private 5G and rugged radios for cranes and automated carriers."
+      },
+      {
+       "id": "6999fc86-e72c-4b89-a44b-ad78c59a5a70",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "linkedin",
+       "url": "https://www.linkedin.com/posts/fictional-harborline-ports_new-chief-digital-officer",
+       "title": "Harborline Ports appoints Femke de Vries as Chief Digital Officer",
+       "snippet": "We are proud to welcome Femke de Vries as Chief Digital Officer of Harborline Ports. Femke joins from a European rail operator where she led a large OT modernisation programme, and will drive our terminal automation and connectivity strategy. Her first priority: a resilient digital backbone for our automated terminals.",
+       "published_at": "2026-09-15T10:33:07+00:00",
+       "confidence": 0.8,
+       "explanation": "Harborline Ports' new Chief Digital Officer will prioritise terminal automation and a resilient digital backbone for automated terminals — an explicit need for rugged private wireless and 24/7 managed ops."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "264f067a-a9a0-4d90-8673-998bd903d226",
+     "org_name": "Tri-County Water Utility",
+     "domain": "tricounty-water.example",
+     "industry": "Utilities (Water)",
+     "employees": 1150,
+     "hq": "Columbus, Ohio, USA",
+     "description": "Public water and wastewater utility serving 600,000 residents across three Ohio counties with 140 pump stations.",
+     "contact_name": "Marcus Hill",
+     "contact_title": "Chief Information Officer",
+     "email": "marcus.hill@tricounty-water.example",
+     "phone": "+1 614 555 0161",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-marcus-hill",
+     "contacts": [
+      {
+       "name": "Kevin Brooks",
+       "email": "kevin.brooks@tricounty-water.example",
+       "phone": "+1 614 555 0163",
+       "title": "SCADA & OT Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-kevin-brooks"
+      },
+      {
+       "name": "Linda Garcia",
+       "email": "linda.garcia@tricounty-water.example",
+       "phone": "+1 614 555 0162",
+       "title": "VP Operations",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-linda-garcia"
+      },
+      {
+       "name": "Marcus Hill",
+       "email": "marcus.hill@tricounty-water.example",
+       "phone": "+1 614 555 0161",
+       "title": "Chief Information Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-marcus-hill"
+      }
+     ],
+     "fit_score": 55.0,
+     "intent_score": 70.7,
+     "score": 63.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Utilities (Water)' matches ICP",
+       "1150 employees matches ICP",
+       "HQ Columbus, Ohio, USA outside ICP",
+       "Contact 'Chief Information Officer' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "3 signal hit(s): Hiring: Head of Operational Technology / Director of Automation, Local spectrum / CBRS licence awarded or private LTE/5G trial announced",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:34:09.567449+00:00",
+     "last_signal_at": "2026-09-29T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "8b67425d-4e6c-4296-9cda-ba8d32847e2b",
+       "signal_id": "47e17fb4-4e62-41a9-8e88-c5e097627b8d",
+       "signal_name": "Local spectrum / CBRS licence awarded or private LTE/5G trial announced",
+       "signal_type": "tech_adoption",
+       "source": "news",
+       "url": "https://news.example/utilities/tri-county-water-cbrs-private-lte",
+       "title": "Tri-County Water Utility wins CBRS licences to build private LTE for SCADA",
+       "snippet": "Tri-County Water Utility in Ohio acquired CBRS priority access licences covering its three-county service territory. The utility plans a private LTE network to connect 140 pump stations, smart meters and field crews, replacing leased lines and unreliable cellular modems. Tri-County Water Utility expects to issue an RFP for radio and core equipment this year.",
+       "published_at": "2026-09-29T10:33:08+00:00",
+       "confidence": 0.85,
+       "explanation": "Tri-County Water Utility acquired CBRS licences and plans a private LTE for SCADA and will issue an RFP for radio and core equipment."
+      },
+      {
+       "id": "84b7cab5-9717-47d0-99e2-25a0bd6db6cf",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/tricounty-water/scada-ot-network-engineer",
+       "title": "SCADA / OT Network Engineer at Tri-County Water Utility (Columbus, OH)",
+       "snippet": "Tri-County Water Utility is hiring a SCADA / OT Network Engineer to support the migration of 140 pump stations to a private LTE network. Responsibilities include network design, cybersecurity hardening (NERC CIP / IEC 62443) and field-device integration.",
+       "published_at": "2026-09-22T10:33:07+00:00",
+       "confidence": 0.8,
+       "explanation": "Tri-County Water Utility explicitly plans a migration of 140 pump stations to a private LTE network — an in-market private wireless OT project NordWave can supply."
+      },
+      {
+       "id": "66267c2d-e056-4778-b513-36993e01f499",
+       "signal_id": "3128cec4-b3c9-43e5-af0e-88cc47c2517a",
+       "signal_name": "Hiring: Head of Operational Technology / Director of Automation",
+       "signal_type": "hiring",
+       "source": "linkedin",
+       "url": "https://www.linkedin.com/posts/fictional-tricounty-water_new-cio-announcement",
+       "title": "Tri-County Water Utility appoints Marcus Hill as Chief Information Officer",
+       "snippet": "Tri-County Water Utility is pleased to announce Marcus Hill as our new CIO. Marcus brings 15 years of experience modernising utility OT and IT systems and will lead our grid-to-tap digital programme, including SCADA modernisation and private wireless connectivity.",
+       "published_at": "2026-09-16T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Tri-County Water Utility's new CIO will lead SCADA modernisation and private wireless connectivity — a direct match for NordWave's on-prem private 5G and SCADA/OT integration capabilities."
+      }
+     ],
+     "activities": []
+    }
+   ]
+  },
+  {
+   "workspace": {
+    "id": "2e0eff48-4e29-4714-807f-cdfaa49d2482",
+    "name": "LedgerLeaf",
+    "created_at": "2026-10-05T10:08:49.395265+00:00"
+   },
+   "company": {
+    "id": "29be020b-3968-4ae4-bcc1-aaa49dde4297",
+    "workspace_id": "2e0eff48-4e29-4714-807f-cdfaa49d2482",
+    "name": "LedgerLeaf",
+    "website_url": "http://demo-sites/ledgerleaf/",
+    "status": "leads_ready",
+    "status_detail": {
+     "step": null,
+     "progress": 100,
+     "message": "Done",
+     "error": null
+    },
+    "profile": {
+     "name": "LedgerLeaf",
+     "industry": "Accounts payable automation (SaaS)",
+     "products": [
+      {
+       "name": "Essentials (plan)",
+       "category": "SaaS plan",
+       "description": "Entry-tier plan for single-entity mid-market customers: invoice capture, approvals and one ERP connector with email support.",
+       "key_features": [
+        "Invoice capture and approvals",
+        "One ERP connector",
+        "Email support",
+        "Up to 1,000 invoices/month",
+        "Billed $1,500/month (annual)",
+        "One-time implementation fee: $5,000"
+       ]
+      },
+      {
+       "name": "Growth (plan)",
+       "category": "SaaS plan",
+       "description": "Mid-tier plan for multi-entity mid-market companies with 3-way match, supplier portal, payments and SSO.",
+       "key_features": [
+        "AI invoice capture including scanned and email PDFs",
+        "Automatic 3-way match (PO / item receipts)",
+        "Multi-entity workflows (up to 10 entities)",
+        "Supplier portal and payments (ACH, BACS, EFT, virtual card, cheque)",
+        "SSO support",
+        "Up to 5,000 invoices/month",
+        "Listed price $3,500/month (annual)",
+        "One-time implementation fee: $12,000"
+       ]
+      },
+      {
+       "name": "Enterprise (plan)",
+       "category": "SaaS plan",
+       "description": "Custom plan for high-volume or complex multi-entity customers with dedicated CSM, custom workflows, data residency and premium SLA.",
+       "key_features": [
+        "Custom pricing for 5,000+ invoices/month",
+        "Unlimited entities",
+        "Dedicated Customer Success Manager",
+        "Custom workflows and premium SLA",
+        "Data residency options"
+       ]
+      },
+      {
+       "name": "LedgerLeaf Platform (modules)",
+       "category": "Platform / Modules",
+       "description": "Core platform capabilities used across plans: AI capture, matching, approvals, ERP sync, analytics, supplier portal and payments.",
+       "key_features": [
+        "AI-powered invoice capture with OCR and ML (English, French, Spanish)",
+        "Duplicate detection and line-item extraction",
+        "Configurable price and quantity tolerances for automatic 3-way match",
+        "Rules-based approval workflows (entity, location, department, amount, GL)",
+        "Two-way ERP sync (NetSuite, Dynamics 365, Sage Intacct, Sage 200, QuickBooks Online, Xero)",
+        "Supplier portal for invoice submission and payment status",
+        "AP dashboard: touchless rate, cycle time, cost per invoice, exceptions",
+        "Security controls: SAML SSO, MFA, role-based access, audit trails",
+        "Payments: schedule ACH/BACS/EFT/virtual card/cheque and bank transmission"
+       ]
+      }
+     ],
+     "one_liner": "Accounts payable automation for mid-market finance teams (SaaS).",
+     "competitors": [
+      "Legacy enterprise AP suites (enterprise AP software)",
+      "Small-business bill-pay tools",
+      "Legacy AP tools"
+     ],
+     "description": "LedgerLeaf is a SaaS accounts-payable automation platform focused on mid-market companies. The platform combines AI invoice capture, PO/3-way matching, rules-based approvals, supplier self-service, payments orchestration and two-way ERP sync. It targets fast time-to-value (live in weeks), multi-entity operations and audit-ready controls while offering SOC 2 / ISO-certified security and data residency options in the US, Canada and the UK.",
+     "geographies": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+     ],
+     "pricing_model": "Annual subscription billed annually with tiered plans (Essentials, Growth, Enterprise). One-time implementation fee per plan. Additional invoice volume billed at $0.90/invoice above plan limits. Unlimited approvers (no per-user fees).",
+     "sub_industries": [
+      "Invoice capture / Document AI",
+      "ERP integration",
+      "3-way matching",
+      "Payments orchestration",
+      "Multi-entity AP"
+     ],
+     "target_markets": [
+      "Wholesale distribution",
+      "Manufacturing",
+      "Multi-site healthcare (clinics, outpatient)",
+      "Logistics and transportation (trucking/brokerage)",
+      "Retail",
+      "Hospitality",
+      "Mid-market companies with 200 to 2,000 employees",
+      "Finance teams processing 1,000 to 20,000 invoices per month"
+     ],
+     "differentiators": [
+      "Mid-market focus: positioned between expensive enterprise suites and lightweight small-business tools (fast deploy, mid-market pricing).",
+      "Never charges per-approver (unlimited users) which lowers total cost and encourages mobile approvals.",
+      "SuiteApp-certified NetSuite connector with near real-time sync and explicit OneWorld support.",
+      "Implementation approach with named onboarding specialist and ability to go live during ERP migrations (parallel month, cutover support).",
+      "Security certifications (SOC 2 Type II, ISO/IEC 27001) plus configurable data residency (US, Canada, UK).",
+      "Feature set tuned for multi-entity businesses (entity-specific approval rules, bank accounts, intercompany coding)."
+     ],
+     "source_citations": [
+      {
+       "claim": "Founders and founding year / origin",
+       "quote": "LedgerLeaf was founded in 2019 in Austin, Texas, by Maya Robinson, a former mid-market Controller, and Ethan Park,",
+       "source_id": "e5c836ae-7099-4008-9e00-be64e86728d8"
+      },
+      {
+       "claim": "Company headcount and locations",
+       "quote": "Today LedgerLeaf has 160 employees in Austin, Toronto and Leeds",
+       "source_id": "e5c836ae-7099-4008-9e00-be64e86728d8"
+      },
+      {
+       "claim": "Invoice capture languages and extraction capability",
+       "quote": "extract header fields and line items in seconds, in English, French and Spanish.",
+       "source_id": "d2c0ddb1-b7a5-41f5-bbeb-de60a9e37ebc"
+      },
+      {
+       "claim": "NetSuite connector certification and sync speed",
+       "quote": "Our SuiteApp-certified connector syncs vendors, subsidiaries, departments, classes, locations, purchase orders, item receipts, vendor bills and payments in near real time.",
+       "source_id": "b8050572-b514-40ea-a326-5082bfe1cf41"
+      },
+      {
+       "claim": "Security certification",
+       "quote": "ISO/IEC 27001 certified information security management system",
+       "source_id": "bad9f96b-4241-4d74-a94d-08a6ab2d140e"
+      },
+      {
+       "claim": "No per-approver charges / unlimited users",
+       "quote": "LedgerLeaf never charges per approver.",
+       "source_id": "d069c9fb-5326-4b6d-83a2-d2a76b10cb1b"
+      },
+      {
+       "claim": "Implementation timeline and onboarding",
+       "quote": "Implementation takes four to six weeks with a dedicated onboarding specialist.",
+       "source_id": "d2c0ddb1-b7a5-41f5-bbeb-de60a9e37ebc"
+      },
+      {
+       "claim": "Case study month-end close improvement",
+       "quote": "Case Study: Northgate Supply Co. cuts month-end close from 12 to 6 days with LedgerLeaf",
+       "source_id": "e954668c-83af-409f-bfb1-356edb09a5dd"
+      }
+     ],
+     "company_size_hint": "160 employees (company); ideal customer profile: 200–2,000 employees",
+     "customer_examples": [
+      "Northgate Supply Co.",
+      "Maple Ridge Clinics",
+      "BlueRiver Logistics",
+      "Oakmont Packaging",
+      "Thistle & Rose Hospitality"
+     ],
+     "value_propositions": [
+      "Reduces cost per invoice from roughly $12–$15 to under $3 (typical mid-market result).",
+      "Delivers fast time-to-value: implementation in weeks and many customers process first automated invoices in week two.",
+      "No per-approver/user fees—unlimited approvers included.",
+      "Native, SuiteApp-certified NetSuite connector and near real-time two-way ERP sync.",
+      "Multi-entity and NetSuite OneWorld support including intercompany allocations and multi-currency.",
+      "Supplier portal reduces \"where is my payment?\" calls (claimed ~70% reduction).",
+      "Security and compliance posture: SOC 2 Type II, ISO/IEC 27001, GDPR/UK GDPR support and data residency choices.",
+      "Designed for ERP migrations—can go live on old ERP and switch connectors at cutover without retraining approvers."
+     ]
+    },
+    "profile_edited": false,
+    "updated_at": "2026-10-05T10:35:04.171845+00:00"
+   },
+   "status": {
+    "status": "leads_ready",
+    "step": null,
+    "progress": 100,
+    "message": "Done",
+    "error": null,
+    "steps": [
+     {
+      "key": "ingest",
+      "label": "Reading website & documents",
+      "state": "done"
+     },
+     {
+      "key": "profile",
+      "label": "Building company profile",
+      "state": "done"
+     },
+     {
+      "key": "icp",
+      "label": "Generating ICP",
+      "state": "done"
+     },
+     {
+      "key": "signals",
+      "label": "Creating signals",
+      "state": "done"
+     },
+     {
+      "key": "leads",
+      "label": "Finding leads",
+      "state": "done"
+     }
+    ]
+   },
+   "sources": [
+    {
+     "id": "bad9f96b-4241-4d74-a94d-08a6ab2d140e",
+     "kind": "docx",
+     "uri": "upload://ledgerleaf_security_overview.docx",
+     "filename": "ledgerleaf_security_overview.docx",
+     "mime": "application/octet-stream",
+     "status": "parsed",
+     "error": null,
+     "chars": 1868,
+     "created_at": "2026-10-05T10:08:49.396426+00:00"
+    },
+    {
+     "id": "4ee651e5-c14c-44bf-a873-8622606a5e1c",
+     "kind": "image",
+     "uri": "upload://ledgerleaf_dashboard.png",
+     "filename": "ledgerleaf_dashboard.png",
+     "mime": "image/png",
+     "status": "parsed",
+     "error": null,
+     "chars": 239,
+     "created_at": "2026-10-05T10:08:49.396423+00:00"
+    },
+    {
+     "id": "e954668c-83af-409f-bfb1-356edb09a5dd",
+     "kind": "pdf",
+     "uri": "upload://ledgerleaf_case_study.pdf",
+     "filename": "ledgerleaf_case_study.pdf",
+     "mime": "application/pdf",
+     "status": "parsed",
+     "error": null,
+     "chars": 2447,
+     "created_at": "2026-10-05T10:08:49.396420+00:00"
+    },
+    {
+     "id": "62360f73-6a36-44fd-ae90-d2198ffcfec3",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/",
+     "filename": "AP Automation for Mid-Market Finance | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2278,
+     "created_at": "2026-10-05T10:27:59.295258+00:00"
+    },
+    {
+     "id": "d2c0ddb1-b7a5-41f5-bbeb-de60a9e37ebc",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/product.html",
+     "filename": "Product | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2476,
+     "created_at": "2026-10-05T10:27:59.295261+00:00"
+    },
+    {
+     "id": "d069c9fb-5326-4b6d-83a2-d2a76b10cb1b",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/pricing.html",
+     "filename": "Pricing | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2035,
+     "created_at": "2026-10-05T10:27:59.295262+00:00"
+    },
+    {
+     "id": "1e2a7ec4-9c07-4452-9da4-a660daf794a0",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/customers.html",
+     "filename": "Customers | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2204,
+     "created_at": "2026-10-05T10:27:59.295264+00:00"
+    },
+    {
+     "id": "e5c836ae-7099-4008-9e00-be64e86728d8",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/about.html",
+     "filename": "About | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 1624,
+     "created_at": "2026-10-05T10:27:59.295265+00:00"
+    },
+    {
+     "id": "b8050572-b514-40ea-a326-5082bfe1cf41",
+     "kind": "website",
+     "uri": "http://demo-sites/ledgerleaf/integrations.html",
+     "filename": "Integrations | LedgerLeaf",
+     "mime": "text/html",
+     "status": "parsed",
+     "error": null,
+     "chars": 2338,
+     "created_at": "2026-10-05T10:27:59.295266+00:00"
+    },
+    {
+     "id": "e2a7beac-68cb-4b9e-90c6-2aae72e70272",
+     "kind": "xlsx",
+     "uri": "upload://ledgerleaf_roi_calculator.xlsx",
+     "filename": "ledgerleaf_roi_calculator.xlsx",
+     "mime": "application/octet-stream",
+     "status": "parsed",
+     "error": null,
+     "chars": 1699,
+     "created_at": "2026-10-05T10:08:49.396425+00:00"
+    }
+   ],
+   "icp_versions": [
+    {
+     "id": "88446e76-13e3-48b1-8dc4-b503f6724ace",
+     "version": 1,
+     "is_active": true,
+     "origin": "ai",
+     "data": {
+      "summary": "Mid-market finance teams (200–2,000 employees) in multi-entity product, distribution, healthcare, logistics, retail and hospitality businesses that process 1,000–20,000 vendor invoices/month and run a modern cloud ERP (NetSuite, Dynamics, Sage Intacct, etc.). These organizations need fast-to-deploy AP automation with multi‑entity workflows, PO/3‑way matching, supplier self-service and payments while maintaining SOC 2/ISO security and data residency options.",
+      "keywords": [
+       "accounts payable automation",
+       "AP automation software",
+       "invoice OCR capture",
+       "3-way match automation",
+       "NetSuite AP integration",
+       "reduce cost per invoice",
+       "touchless invoice processing",
+       "supplier portal for invoices",
+       "AP workflow approvals",
+       "AP payments ACH BACS virtual card",
+       "multi-entity AP",
+       "ERP migration AP cutover"
+      ],
+      "personas": [
+       {
+        "goals": [
+         "Reduce cost per invoice and overall AP operating cost",
+         "Shorten month-end close and improve financial control across entities",
+         "Enable scalable multi-entity finance processes during growth or M&A"
+        ],
+        "pains": [
+         "High AP processing costs and manual rework across sites",
+         "Long month-end close due to AP exceptions and late invoice posting",
+         "Lack of consistent approvals and audit-ready trails across subsidiaries"
+        ],
+        "title": "VP Finance",
+        "seniority": "VP / Head",
+        "department": "Finance"
+       },
+       {
+        "goals": [
+         "Increase touchless/touch-free invoice rate and reduce exceptions",
+         "Reduce manual data entry and speed invoice approvals",
+         "Give suppliers self-service visibility to reduce payment inquiries"
+        ],
+        "pains": [
+         "Heavy manual invoice capture and correcting OCR errors",
+         "Too many PO/receipt mismatches causing hold-ups",
+         "Constant supplier calls asking 'where's my payment?'"
+        ],
+        "title": "Accounts Payable Manager",
+        "seniority": "Manager / Individual Contributor",
+        "department": "Finance / Accounts Payable"
+       },
+       {
+        "goals": [
+         "Standardize AP workflows and SLAs across multiple entities/locations",
+         "Support ERP migrations and reduce disruption during cutover",
+         "Measure and drive KPIs (touchless rate, cycle time, cost per invoice)"
+        ],
+        "pains": [
+         "Fragmented processes across entities and duplicate work",
+         "Risk during ERP migration (retraining, connector cutover complexity)",
+         "Difficulty enforcing tolerances and intercompany coding consistently"
+        ],
+        "title": "Director of Finance Operations / Shared Services Director",
+        "seniority": "Director",
+        "department": "Finance / Shared Services"
+       },
+       {
+        "goals": [
+         "Deploy AP automation with reliable two-way ERP sync and minimal custom dev",
+         "Maintain security, SSO and audit trails for finance integrations",
+         "Ensure the vendor supports data residency and compliance requirements"
+        ],
+        "pains": [
+         "Unreliable or slow ERP connectors that create reconciliation issues",
+         "Vendors that require heavy custom integration effort",
+         "Security/compliance gaps (no SOC2/ISO or data residency controls)"
+        ],
+        "title": "ERP Manager / IT Director (Finance Systems)",
+        "seniority": "Director / Head",
+        "department": "IT / Finance Systems"
+       }
+      ],
+      "exclusions": [
+       "Single-entity micro or small businesses under 200 employees",
+       "Large enterprise organizations >2,000 employees (use enterprise suites)",
+       "Government agencies and public sector entities with bespoke procurement rules",
+       "Accounting firms, BPOs or AP outsourcing providers (not end-user buyers)",
+       "Pure e-commerce marketplaces / consumer platforms (not corporate AP)"
+      ],
+      "pain_points": [
+       "Too much manual data entry and invoice re-keying",
+       "High cost per invoice (>$10) and rising AP headcount",
+       "Slow invoice approvals and long AP cycle time",
+       "Frequent PO/receipt mismatches and 3‑way match exceptions",
+       "No visibility into supplier invoice/payment status — many 'where is my payment?' calls",
+       "Month‑end close delayed by unapplied vendor bills and exceptions",
+       "Lack of consistent multi‑entity approval rules, intercompany and currency handling",
+       "Unreliable ERP integrations and reconciliation gaps after sync",
+       "Security/compliance concerns (need SOC 2/ISO, data residency)",
+       "Difficulty rolling out during ERP migrations or entity cutovers"
+      ],
+      "disqualifiers": [
+       "Monthly invoice volume consistently under ~500 invoices/month (too low for mid‑market plans)",
+       "Headcount <200 or revenue <USD $50M",
+       "Refusal to allow SaaS vendor access to ERP via secure connector",
+       "Requires strictly on‑premise deployment (no cloud SaaS allowed)",
+       "Located outside United States, Canada or United Kingdom",
+       "Requires per‑approver/user pricing model (seeks per‑user billing vs. unlimited approvers)"
+      ],
+      "firmographics": {
+       "industries": [
+        "Wholesale distribution",
+        "Manufacturing",
+        "Multi-site healthcare (clinics, outpatient)",
+        "Logistics & transportation (trucking, brokerage)",
+        "Retail (multi-site/regional chains)",
+        "Hospitality (hotel groups, multi-property)"
+       ],
+       "tech_stack": [
+        "NetSuite (including OneWorld / SuiteApp)",
+        "Microsoft Dynamics 365 Finance",
+        "Sage Intacct",
+        "Sage 200",
+        "QuickBooks Online (mid-market instances)",
+        "Xero",
+        "SAML SSO / Okta / Azure AD",
+        "ACH / BACS / EFT payment rails",
+        "Virtual card / card-issuing providers (Marqeta, etc.)",
+        "ERP migration projects / parallel cutover setups"
+       ],
+       "geographies": [
+        "United States",
+        "Canada",
+        "United Kingdom"
+       ],
+       "revenue_range": "USD $50M–$1B",
+       "employee_range": "200-2,000"
+      },
+      "buying_triggers": [
+       "Planned or recent ERP migration / NetSuite, Dynamics, Intacct go‑live",
+       "Rapid geographic or subsidiary expansion (new legal entities or OneWorld additions)",
+       "Sustained growth in invoice volume (team exceeding ~1,000–2,000 invoices/month)",
+       "New CFO / VP Finance hire with mandate to modernize finance operations",
+       "Negative audit findings or internal control weaknesses in AP",
+       "High supplier inquiry volume or payment disputes logged in helpdesk",
+       "Outsourced AP service being consolidated back in-house",
+       "Requirement to meet SOC2/ISO/data residency/compliance obligations"
+      ],
+      "negative_keywords": [
+       "free invoice template",
+       "consumer invoicing",
+       "student invoice",
+       "job openings",
+       "resume",
+       "freelance invoicing",
+       "Bill.com trial",
+       "QuickBooks Self-Employed"
+      ]
+     },
+     "created_at": "2026-10-05T10:29:16.214413+00:00"
+    }
+   ],
+   "signals": [
+    {
+     "id": "6dfc8a59-00be-46fc-9956-b23cd3194095",
+     "name": "ERP migration or NetSuite go‑live (tech adoption)",
+     "type": "tech_adoption",
+     "description": "Public ERP migrations or NetSuite/Dynamics go‑live announcements are strong buying windows because organisations seek AP tools that support fast cutover and reliable connectors.",
+     "channels": [
+      "news",
+      "web"
+     ],
+     "queries": [
+      "NetSuite go live manufacturing",
+      "migrating to NetSuite retail",
+      "moving to Dynamics 365 finance"
+     ],
+     "weight": 1.0,
+     "lookback_days": 90,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621536+00:00"
+    },
+    {
+     "id": "ab41b132-d100-415a-b23a-ec2650ae238e",
+     "name": "RFPs and procurement notices for invoice processing",
+     "type": "rfp_tender",
+     "description": "Published RFPs or tender notices requesting invoice processing, supplier portals or AP automation are direct procurement intent signals.",
+     "channels": [
+      "web",
+      "news"
+     ],
+     "queries": [
+      "RFP accounts payable automation NetSuite",
+      "procurement tender invoice processing",
+      "RFP supplier portal payments"
+     ],
+     "weight": 0.95,
+     "lookback_days": 60,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621542+00:00"
+    },
+    {
+     "id": "d7511fae-6c52-41c6-bd0b-863c5a483d74",
+     "name": "New CFO / VP Finance hire (leadership change)",
+     "type": "leadership_change",
+     "description": "A newly appointed CFO or VP Finance with a modernization mandate frequently prioritizes AP automation to reduce cost per invoice and shorten month‑end.",
+     "channels": [
+      "linkedin",
+      "news"
+     ],
+     "queries": [
+      "appointed CFO retail multi-site",
+      "new VP Finance NetSuite",
+      "finance leader hired healthcare clinics"
+     ],
+     "weight": 0.9,
+     "lookback_days": 90,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621530+00:00"
+    },
+    {
+     "id": "d426db28-a7d8-4d0a-a007-0fcb54c61c2d",
+     "name": "Subsidiary / legal-entity expansion announcements",
+     "type": "expansion",
+     "description": "Announcements of new subsidiaries, country launches or acquisitions increase multi-entity complexity and often trigger purchases of multi-entity AP automation.",
+     "channels": [
+      "news",
+      "web"
+     ],
+     "queries": [
+      "launches new subsidiary UK distribution",
+      "opens new distribution center Canada logistics",
+      "adds legal entity OneWorld NetSuite"
+     ],
+     "weight": 0.85,
+     "lookback_days": 60,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621533+00:00"
+    },
+    {
+     "id": "6140cef5-932a-4435-80a6-e8bc25887326",
+     "name": "AP / Finance hiring (jobs + LinkedIn posts)",
+     "type": "hiring",
+     "description": "Public job listings for AP, finance operations or ERP-integration roles indicate the organisation is investing in AP capacity and likely evaluating automation solutions.",
+     "channels": [
+      "jobs",
+      "linkedin"
+     ],
+     "queries": [
+      "hiring accounts payable manager manufacturing",
+      "jobs AP manager NetSuite",
+      "hiring finance operations director multi-entity"
+     ],
+     "weight": 0.8,
+     "lookback_days": 45,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621523+00:00"
+    },
+    {
+     "id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+     "name": "Accounts-payable pain posts on X / Reddit",
+     "type": "pain_post",
+     "description": "Public posts from AP managers complaining about PO mismatches, slow month‑end or high invoice-processing costs signal a need for automation and process improvement.",
+     "channels": [
+      "x",
+      "reddit"
+     ],
+     "queries": [
+      "slow month end close AP managers",
+      "too many PO mismatches accounts payable",
+      "high cost per invoice AP automation"
+     ],
+     "weight": 0.6,
+     "lookback_days": 30,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621539+00:00"
+    },
+    {
+     "id": "454da271-6a98-4aec-b855-67c1b8fc45b3",
+     "name": "Finance transformation / NetSuite event participation",
+     "type": "event_participation",
+     "description": "Companies speaking at or promoting attendance at finance-transformation or NetSuite events are often evaluating vendors and receptive to AP automation discussions.",
+     "channels": [
+      "linkedin",
+      "x"
+     ],
+     "queries": [
+      "speaking at NetSuite event finance operations",
+      "attending finance transformation conference retail",
+      "AP automation webinar logistics"
+     ],
+     "weight": 0.5,
+     "lookback_days": 30,
+     "is_active": true,
+     "created_at": "2026-10-05T10:29:45.621545+00:00"
+    }
+   ],
+   "runs": [
+    {
+     "id": "1af728c6-ec01-45b5-b1ac-1c3d423b6089",
+     "status": "completed",
+     "started_at": "2026-10-05T10:33:07.444118+00:00",
+     "finished_at": "2026-10-05T10:35:04.168632+00:00",
+     "stats": {
+      "hits": 190,
+      "queries": 21,
+      "new_hits": 50,
+      "relevant": 15,
+      "mcp_calls": 42,
+      "new_leads": 8,
+      "updated_leads": 0
+     },
+     "error": null
+    }
+   ],
+   "leads": [
+    {
+     "id": "9b4557cb-52e9-40a2-b3ed-154a4560e473",
+     "org_name": "Copperline Manufacturing",
+     "domain": "copperline-mfg.example",
+     "industry": "Industrial Manufacturing",
+     "employees": 1250,
+     "hq": "Milwaukee, Wisconsin, USA",
+     "description": "Manufacturer of industrial wire, cable and harness assemblies with plants in Wisconsin and northern Mexico.",
+     "contact_name": "Mark Jensen",
+     "contact_title": "Accounts Payable Manager",
+     "email": "mark.jensen@copperline-mfg.example",
+     "phone": "+1 414 555 0273",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-mark-jensen",
+     "contacts": [
+      {
+       "name": "Mark Jensen",
+       "email": "mark.jensen@copperline-mfg.example",
+       "phone": "+1 414 555 0273",
+       "title": "Accounts Payable Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-mark-jensen"
+      },
+      {
+       "name": "Robert Alvarez",
+       "email": "robert.alvarez@copperline-mfg.example",
+       "phone": "+1 414 555 0271",
+       "title": "CFO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-robert-alvarez"
+      },
+      {
+       "name": "Nicole Turner",
+       "email": "nicole.turner@copperline-mfg.example",
+       "phone": "+1 414 555 0272",
+       "title": "Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-nicole-turner"
+      }
+     ],
+     "fit_score": 80.0,
+     "intent_score": 65.5,
+     "score": 73.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Industrial Manufacturing' matches ICP",
+       "1250 employees matches ICP",
+       "HQ Milwaukee, Wisconsin, USA outside ICP",
+       "Contact 'Accounts Payable Manager' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.768760+00:00",
+     "last_signal_at": "2026-10-02T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "35a20e81-0c98-4086-8ada-5a4353712de1",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/copperline-manufacturing/ap-manager-netsuite",
+       "title": "Accounts Payable Manager (NetSuite) at Copperline Manufacturing – Milwaukee, WI",
+       "snippet": "Copperline Manufacturing is hiring an AP Manager to lead a team of five through our NetSuite OneWorld rollout. You will redesign invoice intake, three-way match and approval workflows, and evaluate AP automation solutions.",
+       "published_at": "2026-10-02T10:33:07+00:00",
+       "confidence": 0.8,
+       "explanation": "They are rolling out NetSuite OneWorld and explicitly want to redesign invoice intake, 3-way match and 'evaluate AP automation solutions' — direct fit for LedgerLeaf."
+      },
+      {
+       "id": "42db5039-639d-4fa6-897d-6049ba8f691d",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/Accounting/comments/fictional14/manual_three_way_match",
+       "title": "Manual 3-way match is eating our AP team alive",
+       "snippet": "At Copperline Manufacturing we still match POs, receipts and invoices by hand in Excel — about 3,000 invoices a month. Exceptions pile up and month-end close slips every time. Has anyone automated 3-way match with NetSuite?",
+       "published_at": "2026-09-23T10:33:08+00:00",
+       "confidence": 0.9,
+       "explanation": "Copperline Manufacturing reports 3,000 invoices/month and manual 3-way match with NetSuite — clear fit for LedgerLeaf's 3-way match and NetSuite ERP connector."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "6144c1e1-ff5c-4e38-bad2-3fa577c66588",
+     "org_name": "Granite Building Supply",
+     "domain": "granite-building.example",
+     "industry": "Building Materials Distribution",
+     "employees": 950,
+     "hq": "Manchester, United Kingdom",
+     "description": "Builders' merchant with 22 branches across the North of England supplying timber, aggregates and tools to trade customers.",
+     "contact_name": "Helen Ward",
+     "contact_title": "Finance Director",
+     "email": "helen.ward@granite-building.example",
+     "phone": "+44 161 555 0251",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-helen-ward",
+     "contacts": [
+      {
+       "name": "Helen Ward",
+       "email": "helen.ward@granite-building.example",
+       "phone": "+44 161 555 0251",
+       "title": "Finance Director",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-helen-ward"
+      },
+      {
+       "name": "Emma Clarke",
+       "email": "emma.clarke@granite-building.example",
+       "phone": "+44 161 555 0253",
+       "title": "Purchase Ledger Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-emma-clarke"
+      },
+      {
+       "name": "Raj Patel",
+       "email": "raj.patel@granite-building.example",
+       "phone": "+44 161 555 0252",
+       "title": "Financial Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-raj-patel"
+      }
+     ],
+     "fit_score": 100.0,
+     "intent_score": 43.1,
+     "score": 72.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Building Materials Distribution' matches ICP",
+       "950 employees matches ICP",
+       "HQ Manchester, United Kingdom matches ICP",
+       "Contact 'Finance Director' matches ICP",
+       "AI fit assessment: medium"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.784267+00:00",
+     "last_signal_at": "2026-09-30T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "3daee29a-3b89-42d1-86e3-02110d5c498e",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/Accounting/comments/fictional13/uk_purchase_ledger_month_end",
+       "title": "Month-end purchase ledger nightmare with 22 branches",
+       "snippet": "Finance analyst at Granite Building Supply here. Every month-end we wait on branch managers to approve invoices on paper, then re-key everything into Sage. Close takes 10 working days. How are other UK distributors automating this?",
+       "published_at": "2026-09-30T10:33:08+00:00",
+       "confidence": 0.7,
+       "explanation": "Granite Building Supply describes paper approvals, manual re-key into Sage and long month-end close — direct AP automation need (capture, approvals, ERP integration)."
+      },
+      {
+       "id": "b896ac5a-c0cb-4d69-b7d8-27199fe68d3f",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/granite-building-supply/purchase-ledger-clerk",
+       "title": "Purchase Ledger Clerk (Accounts Payable) at Granite Building Supply – Manchester",
+       "snippet": "Granite Building Supply is hiring a Purchase Ledger Clerk to process supplier invoices for 22 branches across the North of England. Duties include invoice coding, GRN matching, supplier statement reconciliation and payment runs.",
+       "published_at": "2026-09-26T10:33:07+00:00",
+       "confidence": 0.5,
+       "explanation": "Handles invoices across 22 branches and tasks like GRN matching and coding — indicates 3-way match and multi-site AP needs LedgerLeaf can solve."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "3225e201-f98e-4cf6-a77e-d6a16785a795",
+     "org_name": "Brightwater Distributors",
+     "domain": "brightwater-dist.example",
+     "industry": "Wholesale Distribution",
+     "employees": 850,
+     "hq": "Columbus, Ohio, USA",
+     "description": "Foodservice and janitorial-supply distributor serving restaurants and institutions across the Midwest from seven warehouses.",
+     "contact_name": "Tanya Brooks",
+     "contact_title": "AP Manager",
+     "email": "tanya.brooks@brightwater-dist.example",
+     "phone": "+1 614 555 0202",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-tanya-brooks",
+     "contacts": [
+      {
+       "name": "Tanya Brooks",
+       "email": "tanya.brooks@brightwater-dist.example",
+       "phone": "+1 614 555 0202",
+       "title": "AP Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-tanya-brooks"
+      },
+      {
+       "name": "Gregory Mills",
+       "email": "gregory.mills@brightwater-dist.example",
+       "phone": "+1 614 555 0201",
+       "title": "CFO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-gregory-mills"
+      },
+      {
+       "name": "Sean O'Leary",
+       "email": "sean.oleary@brightwater-dist.example",
+       "phone": "+1 614 555 0203",
+       "title": "Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-sean-oleary"
+      }
+     ],
+     "fit_score": 80.0,
+     "intent_score": 63.6,
+     "score": 72.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Wholesale Distribution' matches ICP",
+       "850 employees matches ICP",
+       "HQ Columbus, Ohio, USA outside ICP",
+       "Contact 'AP Manager' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.782091+00:00",
+     "last_signal_at": "2026-09-30T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "7024f7c3-55e9-488d-8228-019c15730b61",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/brightwater-distributors/accounts-payable-specialist",
+       "title": "Accounts Payable Specialist (2 openings) at Brightwater Distributors – Columbus, OH",
+       "snippet": "Brightwater Distributors is hiring two Accounts Payable Specialists to process roughly 4,000 vendor invoices per month across three distribution centers. Responsibilities include manual invoice entry, PO matching, vendor statement reconciliation and supporting month-end close. Experience with high-volume AP and NetSuite preferred.",
+       "published_at": "2026-09-30T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Explicitly processes ~4,000 invoices/month with manual entry and PO matching — high-volume AP automation opportunity for LedgerLeaf."
+      },
+      {
+       "id": "034552d8-2a0d-409e-a178-b42b5136c1af",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/Accounting/comments/fictional11/paper_invoices_after_acquisition",
+       "title": "Drowning in paper invoices after our acquisition",
+       "snippet": "I'm the AP lead at Brightwater Distributors and since we bought two distributors our invoice volume doubled overnight. Half the vendors still mail paper invoices, approvals happen over email, and we paid two late-payment penalties last month. What AP automation tools actually work for mid-size distributors?",
+       "published_at": "2026-09-28T10:33:08+00:00",
+       "confidence": 0.75,
+       "explanation": "Brightwater Distributors says invoice volume doubled after acquisition, many paper invoices and email approvals — classic mid-size distributor need for AP automation and multi-entity workflows."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "e5a50525-85ec-4228-9ae8-80c0676e049e",
+     "org_name": "Pinecrest Foods",
+     "domain": "pinecrest-foods.example",
+     "industry": "Food Manufacturing",
+     "employees": 1100,
+     "hq": "Mississauga, Ontario, Canada",
+     "description": "Private-label bakery and snack manufacturer with four plants in Ontario and Quebec supplying North American grocers.",
+     "contact_name": "Priya Shah",
+     "contact_title": "Controller",
+     "email": "priya.shah@pinecrest-foods.example",
+     "phone": "+1 905 555 0221",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-priya-shah",
+     "contacts": [
+      {
+       "name": "Priya Shah",
+       "email": "priya.shah@pinecrest-foods.example",
+       "phone": "+1 905 555 0221",
+       "title": "Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-priya-shah"
+      },
+      {
+       "name": "Daniel Tremblay",
+       "email": "daniel.tremblay@pinecrest-foods.example",
+       "phone": "+1 905 555 0222",
+       "title": "CFO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-daniel-tremblay"
+      }
+     ],
+     "fit_score": 75.0,
+     "intent_score": 58.1,
+     "score": 67.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Food Manufacturing' matches ICP",
+       "1100 employees matches ICP",
+       "HQ Mississauga, Ontario, Canada matches ICP",
+       "Contact 'Controller' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.775928+00:00",
+     "last_signal_at": "2026-10-02T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "308ba226-c110-41bb-8b97-319371991115",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_pinecrest_ctrl/status/1890000000000000011",
+       "title": "Pinecrest Foods controller: month-end close takes 15 days",
+       "snippet": "Month-end close at Pinecrest Foods took 15 days again. Most of it is chasing invoice approvals and keying supplier invoices by hand. Something has to change before our NetSuite go-live. #accounting #monthend #AP",
+       "published_at": "2026-10-02T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Pinecrest Foods' controller reports manual invoice keying and chasing approvals ahead of a NetSuite go-live, a direct match for LedgerLeaf's AP automation and NetSuite integration value."
+      },
+      {
+       "id": "6ac79a26-e204-4245-9b34-e68851c13364",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/pinecrest-foods/senior-accountant-netsuite-migration",
+       "title": "Senior Accountant – NetSuite ERP Migration at Pinecrest Foods (Mississauga, ON)",
+       "snippet": "Pinecrest Foods is moving from QuickBooks Enterprise to NetSuite and is hiring a Senior Accountant to support the ERP migration. The role will redesign AP and month-end close processes, configure approval workflows and help select AP automation tools.",
+       "published_at": "2026-09-29T10:33:07+00:00",
+       "confidence": 0.8,
+       "explanation": "Migrating to NetSuite and explicitly helping to 'select AP automation tools' — a direct buying signal for LedgerLeaf."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "5080c2ac-7e96-481f-9b9e-b0b3ee62c87b",
+     "org_name": "Summit Dental Group",
+     "domain": "summitdental.example",
+     "industry": "Dental Support Organization (Healthcare)",
+     "employees": 650,
+     "hq": "Denver, Colorado, USA",
+     "description": "Dental support organisation providing back-office services to 48 affiliated practices in Colorado and Utah.",
+     "contact_name": "Laura Kim",
+     "contact_title": "VP Finance",
+     "email": "laura.kim@summitdental.example",
+     "phone": "+1 303 555 0241",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-laura-kim",
+     "contacts": [
+      {
+       "name": "Laura Kim",
+       "email": "laura.kim@summitdental.example",
+       "phone": "+1 303 555 0241",
+       "title": "VP Finance",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-laura-kim"
+      },
+      {
+       "name": "Eric Johansson",
+       "email": "eric.johansson@summitdental.example",
+       "phone": "+1 303 555 0242",
+       "title": "AP Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-eric-johansson"
+      }
+     ],
+     "fit_score": 80.0,
+     "intent_score": 53.0,
+     "score": 66.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Dental Support Organization (Healthcare)' matches ICP",
+       "650 employees matches ICP",
+       "HQ Denver, Colorado, USA outside ICP",
+       "Contact 'VP Finance' matches ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.778379+00:00",
+     "last_signal_at": "2026-09-28T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "1dade46e-9c97-417b-8ce7-0fdc55e13a08",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/summit-dental-group/ap-specialist-multi-entity",
+       "title": "Accounts Payable Specialist – Multi-Entity at Summit Dental Group (Denver, CO)",
+       "snippet": "Summit Dental Group is hiring an AP Specialist to process invoices for 48 practice entities, manage intercompany allocations and support a fast-growing acquisition pipeline. Experience with multi-entity accounting and Sage Intacct preferred.",
+       "published_at": "2026-09-28T10:33:07+00:00",
+       "confidence": 0.75,
+       "explanation": "They operate 48 entities and need multi-entity AP and intercompany allocation support — matches LedgerLeaf multi-entity features and Intacct/Sage use cases."
+      },
+      {
+       "id": "5a970211-bd69-4ea6-a74d-cbb71ceb9dcb",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_summit_vpf/status/1890000000000000012",
+       "title": "Summit Dental Group VP Finance on onboarding acquired practices",
+       "snippet": "Onboarding 12 newly acquired practices at Summit Dental Group means 12 sets of vendors, approval chains and bank accounts. Our AP team is keying invoices into spreadsheets until we can standardise. #dentalDSO #finance #AP",
+       "published_at": "2026-09-24T10:33:08+00:00",
+       "confidence": 0.8,
+       "explanation": "Summit Dental Group's VP Finance describes manual invoice keying and multi-entity onboarding for 12 practices—exactly the multi-entity AP standardization and automation LedgerLeaf addresses."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "db5b95fa-f97f-439b-97cd-e2f1e755783a",
+     "org_name": "Cobalt Health Partners",
+     "domain": "cobalthealth.example",
+     "industry": "Multi-site Healthcare",
+     "employees": 1600,
+     "hq": "Nashville, Tennessee, USA",
+     "description": "Operator of 38 multi-specialty outpatient clinics in the US Southeast with a centralised shared-services finance team.",
+     "contact_name": "Brian Foster",
+     "contact_title": "VP Finance",
+     "email": "brian.foster@cobalthealth.example",
+     "phone": "+1 615 555 0212",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-brian-foster",
+     "contacts": [
+      {
+       "name": "Brian Foster",
+       "email": "brian.foster@cobalthealth.example",
+       "phone": "+1 615 555 0212",
+       "title": "VP Finance",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-brian-foster"
+      },
+      {
+       "name": "Danielle Reyes",
+       "email": "danielle.reyes@cobalthealth.example",
+       "phone": "+1 615 555 0211",
+       "title": "Chief Financial Officer",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-danielle-reyes"
+      }
+     ],
+     "fit_score": 80.0,
+     "intent_score": 46.3,
+     "score": 63.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Multi-site Healthcare' matches ICP",
+       "1600 employees matches ICP",
+       "HQ Nashville, Tennessee, USA outside ICP",
+       "Contact 'VP Finance' matches ICP",
+       "AI fit assessment: medium"
+      ],
+      "intent_reasons": [
+       "1 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts)"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.773248+00:00",
+     "last_signal_at": "2026-10-01T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "14938788-bb21-48f4-a66f-c80a318f4a16",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "jobs",
+       "url": "https://jobs.example/cobalt-health-partners/ap-clerk",
+       "title": "AP Clerk – Shared Services at Cobalt Health Partners (Nashville, TN)",
+       "snippet": "Cobalt Health Partners is hiring an Accounts Payable Clerk for its finance shared-services team supporting 38 clinics. You will key medical-supply invoices, chase approvals from clinic managers and handle vendor inquiries.",
+       "published_at": "2026-10-01T10:33:07+00:00",
+       "confidence": 0.7,
+       "explanation": "Supports 38 clinics and explicitly lists invoice keying and chasing approvals — clear operational AP pain LedgerLeaf can address."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "87590d26-07bd-4dce-aaf7-0e2ff13e1399",
+     "org_name": "Harbor & Hale Retail",
+     "domain": "harborandhale.example",
+     "industry": "Specialty Retail",
+     "employees": 1800,
+     "hq": "London, United Kingdom",
+     "description": "Homeware and lifestyle retailer with 70 stores in the UK and Ireland and a growing e-commerce business.",
+     "contact_name": "Oliver Grant",
+     "contact_title": "Financial Controller",
+     "email": "oliver.grant@harborandhale.example",
+     "phone": "+44 20 7946 0261",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-oliver-grant",
+     "contacts": [
+      {
+       "name": "Oliver Grant",
+       "email": "oliver.grant@harborandhale.example",
+       "phone": "+44 20 7946 0261",
+       "title": "Financial Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-oliver-grant"
+      },
+      {
+       "name": "Charlotte Evans",
+       "email": "charlotte.evans@harborandhale.example",
+       "phone": "+44 20 7946 0262",
+       "title": "CFO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-charlotte-evans"
+      }
+     ],
+     "fit_score": 75.0,
+     "intent_score": 49.1,
+     "score": 62.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Specialty Retail' matches ICP",
+       "1800 employees matches ICP",
+       "HQ London, United Kingdom matches ICP",
+       "Contact 'Financial Controller' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.787906+00:00",
+     "last_signal_at": "2026-09-29T10:33:07+00:00",
+     "signals": [
+      {
+       "id": "b3dd0636-63dd-4b71-8df8-5e523cd342d0",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "linkedin",
+       "url": "https://www.linkedin.com/posts/fictional-harbor-hale_new-financial-controller",
+       "title": "Harbor & Hale Retail appoints Oliver Grant as Financial Controller",
+       "snippet": "Delighted to share that Oliver Grant has joined Harbor & Hale Retail as Financial Controller. Oliver will own accounts payable, the monthly close and the rollout of new finance systems as we scale our store estate.",
+       "published_at": "2026-09-29T10:33:07+00:00",
+       "confidence": 0.65,
+       "explanation": "Harbor & Hale Retail hired a Financial Controller who explicitly 'will own accounts payable' and manage a 'rollout of new finance systems', matching LedgerLeaf's AP automation and ERP-migration value."
+      },
+      {
+       "id": "8c604484-a2e3-461f-aa67-1fe7f6108c7e",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "x",
+       "url": "https://x.com/fictional_hh_finance/status/1890000000000000013",
+       "title": "Harbor & Hale finance team on supplier statement reconciliation",
+       "snippet": "Spent the whole week reconciling supplier statements at Harbor & Hale Retail because invoices got stuck in someone's inbox. There has to be a better way to run AP for 300 suppliers. #accounting #AP #retail",
+       "published_at": "2026-09-25T10:33:08+00:00",
+       "confidence": 0.75,
+       "explanation": "Harbor & Hale Retail reports invoices stuck in inboxes and manual supplier statement reconciliation for 300 suppliers, a direct AP automation use case for LedgerLeaf (supplier portal, approvals, capture)."
+      }
+     ],
+     "activities": []
+    },
+    {
+     "id": "2eec5cca-e4c2-460d-b6b2-4e32c410f504",
+     "org_name": "Arcadia Freight",
+     "domain": "arcadia-freight.example",
+     "industry": "Logistics & Trucking",
+     "employees": 1400,
+     "hq": "Dallas, Texas, USA",
+     "description": "Asset-based trucking and freight brokerage company handling 20,000+ carrier invoices per month.",
+     "contact_name": "Michael Chen",
+     "contact_title": "Corporate Controller",
+     "email": "michael.chen@arcadia-freight.example",
+     "phone": "+1 214 555 0231",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-michael-chen",
+     "contacts": [
+      {
+       "name": "Stephanie Ruiz",
+       "email": "stephanie.ruiz@arcadia-freight.example",
+       "phone": "+1 214 555 0232",
+       "title": "Accounts Payable Manager",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-stephanie-ruiz"
+      },
+      {
+       "name": "Michael Chen",
+       "email": "michael.chen@arcadia-freight.example",
+       "phone": "+1 214 555 0231",
+       "title": "Corporate Controller",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-michael-chen"
+      },
+      {
+       "name": "James Whitaker",
+       "email": "james.whitaker@arcadia-freight.example",
+       "phone": "+1 214 555 0233",
+       "title": "CFO",
+       "linkedin_url": "https://www.linkedin.com/in/fictional-james-whitaker"
+      }
+     ],
+     "fit_score": 55.0,
+     "intent_score": 43.3,
+     "score": 49.0,
+     "score_breakdown": {
+      "fit_reasons": [
+       "Industry 'Logistics & Trucking' matches ICP",
+       "1400 employees matches ICP",
+       "HQ Dallas, Texas, USA outside ICP",
+       "Contact 'Corporate Controller' outside ICP",
+       "AI fit assessment: strong"
+      ],
+      "intent_reasons": [
+       "2 signal hit(s): AP / Finance hiring (jobs + LinkedIn posts), Accounts-payable pain posts on X / Reddit",
+       "+10 for 2 distinct signal types"
+      ]
+     },
+     "status": "new",
+     "first_seen_at": "2026-10-05T10:35:03.789733+00:00",
+     "last_signal_at": "2026-09-27T10:33:08+00:00",
+     "signals": [
+      {
+       "id": "f29f2352-924e-4977-9a43-58e3c05557ba",
+       "signal_id": "6b08927c-3367-49d3-ad0d-d3d5c33ce527",
+       "signal_name": "Accounts-payable pain posts on X / Reddit",
+       "signal_type": "pain_post",
+       "source": "reddit",
+       "url": "https://www.reddit.com/r/Accounting/comments/fictional12/carrier_invoices_late_fees",
+       "title": "Carrier invoices are killing us — late fees every month",
+       "snippet": "I work in AP at Arcadia Freight. We get 20k carrier invoices a month as PDFs, scans and EDI, and match them to loads by hand. We keep missing early-pay discounts and paying late fees. Any AP automation that does good 3-way match for freight?",
+       "published_at": "2026-09-27T10:33:08+00:00",
+       "confidence": 0.6,
+       "explanation": "Arcadia Freight reports massive carrier invoice volumes and manual matching, asking for AP automation that handles freight 3‑way match — directly solved by LedgerLeaf's matching and capture."
+      },
+      {
+       "id": "8f9332df-3fe0-4c71-92dd-d038ae19638e",
+       "signal_id": "6140cef5-932a-4435-80a6-e8bc25887326",
+       "signal_name": "AP / Finance hiring (jobs + LinkedIn posts)",
+       "signal_type": "hiring",
+       "source": "linkedin",
+       "url": "https://www.linkedin.com/posts/fictional-arcadia-freight_new-controller",
+       "title": "Arcadia Freight announces Michael Chen as Corporate Controller",
+       "snippet": "Please join us in welcoming Michael Chen as Corporate Controller of Arcadia Freight. Michael brings 12 years of experience in transportation accounting and will lead the close, AP and the finance side of our Dynamics 365 rollout.",
+       "published_at": "2026-09-20T10:33:07+00:00",
+       "confidence": 0.85,
+       "explanation": "Arcadia Freight's new Corporate Controller will 'lead the close, AP' and an explicit Dynamics 365 rollout, indicating an AP automation opportunity during an ERP migration."
+      }
+     ],
+     "activities": []
+    }
+   ]
+  }
+ ]
+}

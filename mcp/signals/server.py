@@ -1,4 +1,4 @@
-"""SelloEasy signals MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9003).
+"""SelloQ signals MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9003).
 
 PROVIDER_MODE=fixture (default) serves fixtures/*.json; PROVIDER_MODE=live calls Tavily/Exa/X/Reddit/Hunter.
 Tool contracts: docs/CONTRACTS.md §2.
@@ -15,9 +15,9 @@ from starlette.responses import JSONResponse
 
 from providers import fixture, live
 
-log = logging.getLogger("selloeasy.signals")
+log = logging.getLogger("selloq.signals")
 
-mcp = FastMCP("selloeasy-signals")
+mcp = FastMCP("selloq-signals")
 
 
 def _provider():

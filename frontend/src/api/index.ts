@@ -5,7 +5,7 @@ import type {
 } from "./types";
 
 export * from "./types";
-export { ApiError, errorMessage, tokenStore, API_BASE } from "./client";
+export { ApiError, errorMessage, tokenStore, API_BASE, DEMO_MODE } from "./client";
 
 export const api = {
   // auth

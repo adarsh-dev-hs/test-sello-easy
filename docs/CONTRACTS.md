@@ -1,4 +1,4 @@
-# SelloEasy — Shared Contracts
+# SelloQ — Shared Contracts
 
 Source of truth for interfaces between backend, MCP servers and frontend. All IDs are UUID strings, all datetimes ISO-8601 UTC.
 

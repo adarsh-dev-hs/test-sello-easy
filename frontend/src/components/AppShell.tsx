@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 import { ChevronDown, LayoutGrid, LogOut, Server, Sparkles } from "lucide-react";
 import { useAuth } from "../lib/auth";
 import { cn } from "../lib/utils";
+import { DEMO_MODE } from "../api";
 
 export function Logo({ className }: { className?: string }) {
   return (
@@ -10,7 +11,7 @@ export function Logo({ className }: { className?: string }) {
       <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-600 to-violet-600 text-white shadow-sm">
         <Sparkles className="h-4 w-4" />
       </span>
-      SelloEasy
+      SelloQ
     </span>
   );
 }
@@ -48,9 +49,25 @@ function UserMenu() {
   );
 }
 
+function DemoBanner() {
+  if (!DEMO_MODE) return null;
+  const reset = async () => {
+    const { resetDemoData } = await import("../demo/mockApi");
+    resetDemoData();
+    window.location.assign("/");
+  };
+  return (
+    <div className="bg-amber-50 px-4 py-2 text-center text-xs text-amber-900 sm:text-sm">
+      <b>Demo mode</b> — sample data and simulated pipelines; nothing leaves your browser and no emails are sent.{" "}
+      <button onClick={reset} className="font-medium underline underline-offset-2 hover:text-amber-700">Reset demo data</button>
+    </div>
+  );
+}
+
 export default function AppShell() {
   return (
     <div className="min-h-screen">
+      <DemoBanner />
       <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
           <div className="flex items-center gap-6">

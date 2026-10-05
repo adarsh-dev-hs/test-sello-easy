@@ -1,6 +1,6 @@
-# SelloEasy — MVP Build Plan
+# SelloQ — MVP Build Plan
 
-> Marketing & sales intelligence platform. A company admin adds their website and documents. SelloEasy builds a **Company Profile**, derives an **Ideal Customer Profile (ICP)**, generates **Signals** (buying triggers to watch for), runs them across the internet through **MCP servers**, and shows the resulting **Leads** in a feed. The user can then act on each lead by email, call or WhatsApp.
+> Marketing & sales intelligence platform. A company admin adds their website and documents. SelloQ builds a **Company Profile**, derives an **Ideal Customer Profile (ICP)**, generates **Signals** (buying triggers to watch for), runs them across the internet through **MCP servers**, and shows the resulting **Leads** in a feed. The user can then act on each lead by email, call or WhatsApp.
 
 ---
 
@@ -16,7 +16,7 @@
 | DB | **PostgreSQL 16** (JSONB for AI documents; `pgvector` added later). SQLAlchemy 2 (async) + Alembic. |
 | Cache/queue | **Redis 7**: arq queue, hit dedupe, rate limiting. |
 | Frontend | **React + Vite + TypeScript**, TanStack Query, React Router, Tailwind + shadcn/ui. |
-| Local run | `docker compose up --build` starts the stack **`test-selloeasy`** (Postgres, Redis, backend, worker, frontend, MCP servers, demo sites, Mailpit). |
+| Local run | `docker compose up --build` starts the stack **`test-selloq`** (Postgres, Redis, backend, worker, frontend, MCP servers, demo sites, Mailpit). |
 | Demo | Two fully seeded end-to-end flows: **NordWave Networks** and **LedgerLeaf**. Each has a profile, ICP, signals and leads found via MCP calls. |
 
 ---
@@ -77,7 +77,7 @@ Billing, teams/RBAC beyond owner, CRM sync, real outbound sequencing, LinkedIn a
 ## 3. Repository Layout
 
 ```
-test-selloeasy/
+test-selloq/
 ├── docker-compose.yml
 ├── .env.example
 ├── Makefile                      # up, down, logs, seed, migrate, test, reset
@@ -417,7 +417,7 @@ Both demo companies are **fictional**, served from the local `demo-sites` contai
 
 ### Seeding
 - `backend/scripts/seed_demo.py` runs at backend start when `SEED_DEMO=true`. It is idempotent (keyed on the workspace name).
-  1. Creates user `demo@selloeasy.local` / `demo1234`.
+  1. Creates user `demo@selloq.local` / `demo1234`.
   2. Creates two workspaces and companies.
   3. Copies the demo docs from `demo/docs/` as sources.
   4. Enqueues the **real pipeline**, so every step goes through actual MCP and LLM calls.
@@ -442,39 +442,39 @@ Both demo companies are **fictional**, served from the local `demo-sites` contai
 cp .env.example .env   # add OPENAI_API_KEY
 docker compose up --build
 ```
-- `docker-compose.yml` sets `name: test-selloeasy`, so Docker Desktop and `docker ps` group everything under the **test-selloeasy** stack, with containers named `test-selloeasy-backend`, `test-selloeasy-postgres` and so on.
+- `docker-compose.yml` sets `name: test-selloq`, so Docker Desktop and `docker ps` group everything under the **test-selloq** stack, with containers named `test-selloq-backend`, `test-selloq-postgres` and so on.
 - **Why not one literal container:** Postgres, Redis, the API, the worker and the MCP servers each need independent restarts, healthchecks and logs. Compose keeps this as a single command.
-- **If one physical container is required:** add an optional `Dockerfile.allinone` (supervisord running Postgres, Redis, uvicorn, arq, nginx and the three MCP servers) started with `docker run --name test-selloeasy --env-file .env -p 5173:5173 -p 8000:8000 selloeasy-allinone`. Plan this as an optional milestone (M7).
+- **If one physical container is required:** add an optional `Dockerfile.allinone` (supervisord running Postgres, Redis, uvicorn, arq, nginx and the three MCP servers) started with `docker run --name test-selloq --env-file .env -p 5173:5173 -p 8000:8000 selloq-allinone`. Plan this as an optional milestone (M7).
 
 ```yaml
-name: test-selloeasy
+name: test-selloq
 services:
   postgres:
     image: pgvector/pgvector:pg16
-    container_name: test-selloeasy-postgres
+    container_name: test-selloq-postgres
     environment: [POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB]   # from .env
     ports: ["${POSTGRES_HOST_PORT:-5433}:5432"]
     volumes: [pgdata:/var/lib/postgresql/data]
     healthcheck: { test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER"], interval: 5s, retries: 20 }
   redis:
     image: redis:7-alpine
-    container_name: test-selloeasy-redis
+    container_name: test-selloq-redis
     healthcheck: { test: ["CMD", "redis-cli", "ping"], interval: 5s }
-  mcp-webscraper:   { build: ./mcp/webscraper, container_name: test-selloeasy-mcp-webscraper, env_file: .env, expose: ["9001"] }
-  mcp-docparser:    { build: ./mcp/docparser,  container_name: test-selloeasy-mcp-docparser,  env_file: .env, expose: ["9002"] }
-  mcp-signals:      { build: ./mcp/signals,    container_name: test-selloeasy-mcp-signals,    env_file: .env, expose: ["9003"] }
+  mcp-webscraper:   { build: ./mcp/webscraper, container_name: test-selloq-mcp-webscraper, env_file: .env, expose: ["9001"] }
+  mcp-docparser:    { build: ./mcp/docparser,  container_name: test-selloq-mcp-docparser,  env_file: .env, expose: ["9002"] }
+  mcp-signals:      { build: ./mcp/signals,    container_name: test-selloq-mcp-signals,    env_file: .env, expose: ["9003"] }
   demo-sites:
     image: nginx:alpine
-    container_name: test-selloeasy-demo-sites
+    container_name: test-selloq-demo-sites
     volumes: ["./demo/sites:/usr/share/nginx/html:ro"]
     ports: ["8080:80"]
   mailpit:
     image: axllent/mailpit
-    container_name: test-selloeasy-mailpit
+    container_name: test-selloq-mailpit
     ports: ["8025:8025"]          # SMTP on 1025 internally
   backend:
     build: ./backend
-    container_name: test-selloeasy-backend
+    container_name: test-selloq-backend
     env_file: .env
     command: sh -c "alembic upgrade head && python -m scripts.seed_demo && uvicorn app.main:app --host 0.0.0.0 --port 8000"
     ports: ["8000:8000"]
@@ -482,14 +482,14 @@ services:
     depends_on: { postgres: {condition: service_healthy}, redis: {condition: service_healthy} }
   worker:
     build: ./backend
-    container_name: test-selloeasy-worker
+    container_name: test-selloq-worker
     env_file: .env
     command: arq app.worker.WorkerSettings
     volumes: [uploads:/data/uploads, ./demo:/demo:ro]
     depends_on: [backend, mcp-webscraper, mcp-docparser, mcp-signals]
   frontend:
     build: ./frontend
-    container_name: test-selloeasy-frontend
+    container_name: test-selloq-frontend
     ports: ["5173:80"]
     depends_on: [backend]
 volumes: { pgdata: {}, uploads: {} }
@@ -497,7 +497,7 @@ volumes: { pgdata: {}, uploads: {} }
 
 | URL | What |
 |---|---|
-| http://localhost:5173 | App (login `demo@selloeasy.local` / `demo1234`) |
+| http://localhost:5173 | App (login `demo@selloq.local` / `demo1234`) |
 | http://localhost:8000/docs | API Swagger |
 | http://localhost:8025 | Mailpit (sent emails) |
 | http://localhost:8080/nordwave/ | Demo company site |
@@ -517,15 +517,15 @@ FILE_URL_SIGNING_KEY=change-me-too
 PUBLIC_BACKEND_URL=http://backend:8000                  # URL MCP servers use to fetch uploads
 CORS_ORIGINS=http://localhost:5173
 SEED_DEMO=true
-DEMO_USER_EMAIL=demo@selloeasy.local
+DEMO_USER_EMAIL=demo@selloq.local
 DEMO_USER_PASSWORD=demo1234
 
 # ---------- Postgres ----------
-POSTGRES_USER=selloeasy
-POSTGRES_PASSWORD=selloeasy
-POSTGRES_DB=selloeasy
+POSTGRES_USER=selloq
+POSTGRES_PASSWORD=selloq
+POSTGRES_DB=selloq
 POSTGRES_HOST_PORT=5433
-DATABASE_URL=postgresql+asyncpg://selloeasy:selloeasy@postgres:5432/selloeasy
+DATABASE_URL=postgresql+asyncpg://selloq:selloq@postgres:5432/selloq
 
 # ---------- Redis ----------
 REDIS_URL=redis://redis:6379/0
@@ -564,7 +564,7 @@ SMTP_HOST=mailpit
 SMTP_PORT=1025
 SMTP_USER=
 SMTP_PASSWORD=
-SMTP_FROM="SelloEasy Demo <demo@selloeasy.local>"
+SMTP_FROM="SelloQ Demo <demo@selloq.local>"
 ```
 Add `.env` to `.gitignore`. Only `.env.example` is committed.
 
@@ -644,5 +644,5 @@ Add `.env` to `.gitignore`. Only `.env.example` is committed.
 22. **AI reply handling:** classify inbound replies (interested, objection, out of office, unsubscribe), draft responses, and book meetings through Calendly, Cal.com or HubSpot.
 23. **Steer the agent in plain language:** a chat panel ("focus on ports in Northern Europe, skip companies under 500 people") that edits the ICP and signals for the user.
 24. **Deliverability included:** pre-warmed sending domains and per-campaign cost-per-lead tracking.
-25. **CSV import:** upload your own account list, and SelloEasy validates, enriches and monitors signals on those accounts.
-26. **Positioning:** Explee is driven by a contact database; SelloEasy is driven by signals (live intent evidence). Lead with the "why now" evidence, and add a contact database such as Apollo or PDL only for enrichment.
+25. **CSV import:** upload your own account list, and SelloQ validates, enriches and monitors signals on those accounts.
+26. **Positioning:** Explee is driven by a contact database; SelloQ is driven by signals (live intent evidence). Lead with the "why now" evidence, and add a contact database such as Apollo or PDL only for enrichment.

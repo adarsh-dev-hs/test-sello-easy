@@ -1,4 +1,4 @@
-name: test-selloeasy
+name: test-selloq
 
 x-mcp-env: &mcp-env
   env_file: .env
@@ -7,22 +7,22 @@ x-mcp-env: &mcp-env
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: test-selloeasy-postgres
+    container_name: test-selloq-postgres
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-selloeasy}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-selloeasy}
-      POSTGRES_DB: ${POSTGRES_DB:-selloeasy}
+      POSTGRES_USER: ${POSTGRES_USER:-selloq}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-selloq}
+      POSTGRES_DB: ${POSTGRES_DB:-selloq}
     ports: ["${POSTGRES_HOST_PORT:-5433}:5432"]
     volumes: [pgdata:/var/lib/postgresql/data]
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-selloeasy} -d ${POSTGRES_DB:-selloeasy}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-selloq} -d ${POSTGRES_DB:-selloq}"]
       interval: 5s
       timeout: 5s
       retries: 20
 
   redis:
     image: redis:7-alpine
-    container_name: test-selloeasy-redis
+    container_name: test-selloq-redis
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 5s
@@ -32,38 +32,38 @@ services:
   mcp-webscraper:
     <<: *mcp-env
     build: ./mcp/webscraper
-    container_name: test-selloeasy-mcp-webscraper
+    container_name: test-selloq-mcp-webscraper
     expose: ["9001"]
 
   mcp-docparser:
     <<: *mcp-env
     build: ./mcp/docparser
-    container_name: test-selloeasy-mcp-docparser
+    container_name: test-selloq-mcp-docparser
     expose: ["9002"]
 
   mcp-signals:
     <<: *mcp-env
     build: ./mcp/signals
-    container_name: test-selloeasy-mcp-signals
+    container_name: test-selloq-mcp-signals
     expose: ["9003"]
 
   demo-sites:
     image: nginx:alpine
-    container_name: test-selloeasy-demo-sites
+    container_name: test-selloq-demo-sites
     volumes: ["./demo/sites:/usr/share/nginx/html:ro"]
     ports: ["8080:80"]
 
   mailpit:
     image: axllent/mailpit:latest
-    container_name: test-selloeasy-mailpit
+    container_name: test-selloq-mailpit
     ports: ["8025:8025"]
 
   backend:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    image: test-selloeasy-backend
-    container_name: test-selloeasy-backend
+    image: test-selloq-backend
+    container_name: test-selloq-backend
     env_file: .env
     ports: ["8000:8000"]
     volumes: [uploads:/data/uploads]
@@ -86,8 +86,8 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    image: test-selloeasy-backend
-    container_name: test-selloeasy-worker
+    image: test-selloq-backend
+    container_name: test-selloq-worker
     env_file: .env
     command: arq app.worker.WorkerSettings
     volumes: [uploads:/data/uploads]
@@ -97,7 +97,7 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: test-selloeasy-frontend
+    container_name: test-selloq-frontend
     ports: ["5173:80"]
     depends_on:
       backend: { condition: service_healthy }

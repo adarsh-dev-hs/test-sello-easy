@@ -1,4 +1,4 @@
-"""SelloEasy document parser MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9002).
+"""SelloQ document parser MCP server (FastMCP 2.x, streamable HTTP at /mcp, port 9002).
 
 Tool (see docs/CONTRACTS.md §2):
   parse_document(file_url, mime_type="", filename="")
@@ -23,9 +23,9 @@ from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
-log = logging.getLogger("selloeasy.docparser")
+log = logging.getLogger("selloq.docparser")
 
-mcp = FastMCP("selloeasy-docparser")
+mcp = FastMCP("selloq-docparser")
 
 MAX_DOWNLOAD_BYTES = int(os.getenv("DOCPARSER_MAX_BYTES", str(50 * 1024 * 1024)))
 MAX_TEXT_CHARS = 200_000
@@ -378,7 +378,7 @@ async def parse_media(data: bytes, filename: str) -> tuple[str, list[str], int, 
 async def _download(url: str) -> tuple[bytes, str, str]:
     """Return (bytes, response content-type, final url). Enforces size cap."""
     async with httpx.AsyncClient(follow_redirects=True, timeout=httpx.Timeout(DOWNLOAD_TIMEOUT)) as client:
-        async with client.stream("GET", url, headers={"User-Agent": "SelloEasy-DocParser/0.1"}) as r:
+        async with client.stream("GET", url, headers={"User-Agent": "SelloQ-DocParser/0.1"}) as r:
             r.raise_for_status()
             cl = r.headers.get("content-length")
             if cl and cl.isdigit() and int(cl) > MAX_DOWNLOAD_BYTES:

@@ -18,7 +18,7 @@ export default function McpServersPage() {
         <div>
           <p className="text-xs font-medium uppercase tracking-wide text-slate-400">Settings</p>
           <h1 className="text-2xl font-semibold text-slate-900">MCP servers</h1>
-          <p className="mt-1 text-sm text-slate-500">Tool servers SelloEasy uses for scraping, document parsing and signal search.</p>
+          <p className="mt-1 text-sm text-slate-500">Tool servers SelloQ uses for scraping, document parsing and signal search.</p>
         </div>
         <Button variant="outline" onClick={() => q.refetch()} loading={q.isFetching}><RefreshCw className="h-4 w-4" />Refresh</Button>
       </div>

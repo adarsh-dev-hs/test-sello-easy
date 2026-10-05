@@ -8,7 +8,7 @@ from app.config import settings
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
-app = FastAPI(title="SelloEasy API", version="0.1.0", docs_url="/docs", openapi_url="/openapi.json")
+app = FastAPI(title="SelloQ API", version="0.1.0", docs_url="/docs", openapi_url="/openapi.json")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origin_list,

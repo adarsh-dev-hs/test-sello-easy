@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the SelloEasy demo documents for the two fictional sellers.
+"""Generate the SelloQ demo documents for the two fictional sellers.
 
 Usage:  python demo/generate_assets.py [OUTPUT_DIR]        (default: demo/docs next to this script)
 

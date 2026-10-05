@@ -1,5 +1,8 @@
-const TOKEN_KEY = "selloeasy.token";
-const USER_KEY = "selloeasy.user";
+const TOKEN_KEY = "selloq.token";
+const USER_KEY = "selloq.user";
+
+/** VITE_DEMO_MODE=true → no backend: an in-browser mock API with sample data (see src/demo/mockApi.ts). */
+export const DEMO_MODE: boolean = ["true", "1", "yes"].includes(String(import.meta.env.VITE_DEMO_MODE ?? "").toLowerCase());
 
 export const API_BASE: string = (import.meta.env.VITE_API_BASE as string | undefined)?.replace(/\/$/, "") || "/api/v1";
 
@@ -42,6 +45,10 @@ function extractDetail(body: unknown, fallback: string): string {
 }
 
 export async function request<T>(method: string, path: string, opts: { body?: unknown; query?: Query; form?: FormData; auth?: boolean } = {}): Promise<T> {
+  if (DEMO_MODE) {
+    const { mockRequest } = await import("../demo/mockApi");
+    return mockRequest<T>(method, path, { body: opts.body, query: opts.query, form: opts.form });
+  }
   const headers: Record<string, string> = { Accept: "application/json" };
   const token = tokenStore.get();
   if (token && opts.auth !== false) headers.Authorization = `Bearer ${token}`;

@@ -12,10 +12,10 @@ from urllib.parse import urlparse
 
 import httpx
 
-log = logging.getLogger("selloeasy.signals.live")
+log = logging.getLogger("selloq.signals.live")
 
 TIMEOUT = httpx.Timeout(float(os.getenv("SIGNALS_HTTP_TIMEOUT_SECONDS", "20")))
-UA = "SelloEasy-Signals/0.1"
+UA = "SelloQ-Signals/0.1"
 
 SOCIAL_PREFIX = {
     "x": "site:x.com",
@@ -179,7 +179,7 @@ async def _x_search(query: str, since_days: int, limit: int) -> dict:
 
 async def _reddit_search(query: str, since_days: int, limit: int) -> dict:
     cid, secret = _env("REDDIT_CLIENT_ID"), _env("REDDIT_CLIENT_SECRET")
-    ua = _env("REDDIT_USER_AGENT") or "selloeasy:signals:0.1 (by /u/selloeasy)"
+    ua = _env("REDDIT_USER_AGENT") or "selloq:signals:0.1 (by /u/selloq)"
     q = query.replace("site:reddit.com", "").strip()
     async with httpx.AsyncClient(timeout=TIMEOUT) as c:
         tr = await c.post(

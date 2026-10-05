@@ -137,7 +137,7 @@ export default function SignalsPage() {
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold text-slate-900">Signals</h2>
-          <p className="text-sm text-slate-500">{list.length ? `${activeCount} of ${list.length} active — buying triggers SelloEasy watches for` : "Buying triggers SelloEasy watches for"}</p>
+          <p className="text-sm text-slate-500">{list.length ? `${activeCount} of ${list.length} active — buying triggers SelloQ watches for` : "Buying triggers SelloQ watches for"}</p>
         </div>
         <div className="flex gap-2">
           <Button variant="outline" onClick={() => regen.mutate()} loading={regen.isPending} disabled={running}><RefreshCw className="h-4 w-4" />Regenerate</Button>

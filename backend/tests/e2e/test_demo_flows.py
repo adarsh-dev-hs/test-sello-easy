@@ -11,7 +11,7 @@ import pytest
 
 API = os.environ.get("E2E_API", "http://localhost:8000/api/v1")
 MAILPIT = os.environ.get("E2E_MAILPIT", "http://mailpit:8025")
-EMAIL = os.environ.get("DEMO_USER_EMAIL", "demo@selloeasy.local")
+EMAIL = os.environ.get("DEMO_USER_EMAIL", "demo@selloq.local")
 PASSWORD = os.environ.get("DEMO_USER_PASSWORD", "demo1234")
 TIMEOUT_S = int(os.environ.get("E2E_TIMEOUT", "600"))
 DEMOS = ["NordWave Networks", "LedgerLeaf"]

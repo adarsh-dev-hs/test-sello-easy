@@ -78,7 +78,7 @@ export default function WorkspacesPage() {
         <EmptyState
           icon={<Building2 className="h-6 w-6" />}
           title="No workspaces yet"
-          description="Create a workspace, add your company website and documents, and SelloEasy will start finding leads."
+          description="Create a workspace, add your company website and documents, and SelloQ will start finding leads."
           action={<Button onClick={() => nav("/onboarding")}><Plus className="h-4 w-4" />New workspace</Button>}
         />
       ) : (
