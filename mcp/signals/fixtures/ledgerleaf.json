@@ -1,0 +1,839 @@
+{
+ "seller": "LedgerLeaf",
+ "items": [
+  {
+   "id": "ll-brig-1",
+   "source": "jobs",
+   "url": "https://jobs.example/brightwater-distributors/accounts-payable-specialist",
+   "title": "Accounts Payable Specialist (2 openings) at Brightwater Distributors – Columbus, OH",
+   "snippet": "Brightwater Distributors is hiring two Accounts Payable Specialists to process roughly 4,000 vendor invoices per month across three distribution centers. Responsibilities include manual invoice entry, PO matching, vendor statement reconciliation and supporting month-end close. Experience with high-volume AP and NetSuite preferred.",
+   "author": "Brightwater Distributors Careers",
+   "published_days_ago": 5,
+   "company": "Brightwater Distributors",
+   "tags": [
+    "hiring",
+    "accounts payable",
+    "ap specialist",
+    "ap clerk",
+    "invoice processing",
+    "manual invoice entry",
+    "po matching",
+    "month end close",
+    "distribution",
+    "netsuite"
+   ]
+  },
+  {
+   "id": "ll-brig-2",
+   "source": "news",
+   "url": "https://news.example/distribution/brightwater-distributors-acquires-two-regional-distributors",
+   "title": "Brightwater Distributors acquires two regional foodservice distributors",
+   "snippet": "Brightwater Distributors has acquired Lakeshore Supply and Prairie Foodservice, expanding to five legal entities and seven warehouses across the Midwest. Brightwater said integrating finance operations and vendor payments across the new entities is a priority for the next two quarters.",
+   "author": "Midwest Business Journal",
+   "published_days_ago": 12,
+   "company": "Brightwater Distributors",
+   "tags": [
+    "acquisition",
+    "multi-entity",
+    "expansion",
+    "m&a",
+    "distribution",
+    "finance integration",
+    "vendor payments",
+    "united states"
+   ]
+  },
+  {
+   "id": "ll-brig-3",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/Accounting/comments/fictional11/paper_invoices_after_acquisition",
+   "title": "Drowning in paper invoices after our acquisition",
+   "snippet": "I'm the AP lead at Brightwater Distributors and since we bought two distributors our invoice volume doubled overnight. Half the vendors still mail paper invoices, approvals happen over email, and we paid two late-payment penalties last month. What AP automation tools actually work for mid-size distributors?",
+   "author": "u/ap_lead_ohio",
+   "published_days_ago": 7,
+   "company": "Brightwater Distributors",
+   "tags": [
+    "manual invoice processing",
+    "invoice processing pain",
+    "paper invoices",
+    "late payment penalties",
+    "approval workflow",
+    "ap automation",
+    "accounts payable",
+    "distribution"
+   ]
+  },
+  {
+   "id": "ll-coba-1",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-cobalt-health_welcome-new-cfo",
+   "title": "Cobalt Health Partners welcomes Danielle Reyes as Chief Financial Officer",
+   "snippet": "Cobalt Health Partners is excited to welcome Danielle Reyes as our new CFO. Danielle joins from a national physician group where she modernised finance operations and shortened the monthly close from 12 to 5 days. She will lead finance as we scale to 60 clinics.",
+   "author": "Cobalt Health Partners",
+   "published_days_ago": 9,
+   "company": "Cobalt Health Partners",
+   "tags": [
+    "new cfo",
+    "chief financial officer",
+    "appointment",
+    "finance leadership",
+    "executive hire",
+    "healthcare",
+    "multi-site healthcare",
+    "month end close"
+   ]
+  },
+  {
+   "id": "ll-coba-2",
+   "source": "news",
+   "url": "https://news.example/healthcare/cobalt-health-partners-series-c",
+   "title": "Cobalt Health Partners raises $85M Series C to expand outpatient clinic network",
+   "snippet": "Cobalt Health Partners, a Nashville-based operator of multi-specialty outpatient clinics, closed an $85M Series C round. The company plans to grow from 38 to 60 clinics over two years and invest in centralised back-office functions including finance and procurement.",
+   "author": "Healthcare Finance Wire",
+   "published_days_ago": 20,
+   "company": "Cobalt Health Partners",
+   "tags": [
+    "funding",
+    "series c",
+    "series b+",
+    "raised",
+    "healthcare",
+    "multi-site healthcare",
+    "expansion",
+    "back office",
+    "united states"
+   ]
+  },
+  {
+   "id": "ll-coba-3",
+   "source": "jobs",
+   "url": "https://jobs.example/cobalt-health-partners/ap-clerk",
+   "title": "AP Clerk – Shared Services at Cobalt Health Partners (Nashville, TN)",
+   "snippet": "Cobalt Health Partners is hiring an Accounts Payable Clerk for its finance shared-services team supporting 38 clinics. You will key medical-supply invoices, chase approvals from clinic managers and handle vendor inquiries.",
+   "author": "Cobalt Health Partners Careers",
+   "published_days_ago": 4,
+   "company": "Cobalt Health Partners",
+   "tags": [
+    "hiring",
+    "ap clerk",
+    "accounts payable",
+    "ap specialist",
+    "invoice entry",
+    "shared services",
+    "healthcare",
+    "approvals"
+   ]
+  },
+  {
+   "id": "ll-pine-1",
+   "source": "jobs",
+   "url": "https://jobs.example/pinecrest-foods/senior-accountant-netsuite-migration",
+   "title": "Senior Accountant – NetSuite ERP Migration at Pinecrest Foods (Mississauga, ON)",
+   "snippet": "Pinecrest Foods is moving from QuickBooks Enterprise to NetSuite and is hiring a Senior Accountant to support the ERP migration. The role will redesign AP and month-end close processes, configure approval workflows and help select AP automation tools.",
+   "author": "Pinecrest Foods Careers",
+   "published_days_ago": 6,
+   "company": "Pinecrest Foods",
+   "tags": [
+    "hiring",
+    "erp migration",
+    "netsuite",
+    "netsuite migration",
+    "senior accountant",
+    "accounts payable",
+    "month end close",
+    "food manufacturing",
+    "canada"
+   ]
+  },
+  {
+   "id": "ll-pine-2",
+   "source": "x",
+   "url": "https://x.com/fictional_pinecrest_ctrl/status/1890000000000000011",
+   "title": "Pinecrest Foods controller: month-end close takes 15 days",
+   "snippet": "Month-end close at Pinecrest Foods took 15 days again. Most of it is chasing invoice approvals and keying supplier invoices by hand. Something has to change before our NetSuite go-live. #accounting #monthend #AP",
+   "author": "Priya Shah (@fictional_pinecrest_ctrl)",
+   "published_days_ago": 3,
+   "company": "Pinecrest Foods",
+   "tags": [
+    "month end close",
+    "close delays",
+    "manual invoice entry",
+    "invoice approvals",
+    "invoice processing pain",
+    "controller",
+    "netsuite",
+    "food manufacturing"
+   ]
+  },
+  {
+   "id": "ll-pine-3",
+   "source": "web",
+   "url": "https://www.pinecrest-foods.example/careers/finance-transformation",
+   "title": "Pinecrest Foods Finance Transformation programme",
+   "snippet": "Pinecrest Foods is investing in a finance transformation programme alongside its NetSuite ERP rollout, aiming to automate accounts payable and cut close time in half. The programme covers three plants in Ontario and one in Quebec.",
+   "author": "Pinecrest Foods",
+   "published_days_ago": 14,
+   "company": "Pinecrest Foods",
+   "tags": [
+    "finance transformation",
+    "erp migration",
+    "netsuite",
+    "ap automation",
+    "accounts payable",
+    "food manufacturing",
+    "canada"
+   ]
+  },
+  {
+   "id": "ll-arca-1",
+   "source": "news",
+   "url": "https://news.example/logistics/arcadia-freight-dynamics-365-migration",
+   "title": "Arcadia Freight moves finance to Microsoft Dynamics 365",
+   "snippet": "Dallas-based Arcadia Freight is migrating its finance and accounting systems from a legacy on-premise ERP to Microsoft Dynamics 365 Finance. The trucking and brokerage company processes over 20,000 carrier invoices a month and said the project includes automating carrier invoice matching.",
+   "author": "Freight Business Today",
+   "published_days_ago": 10,
+   "company": "Arcadia Freight",
+   "tags": [
+    "erp migration",
+    "dynamics 365",
+    "microsoft dynamics",
+    "carrier invoices",
+    "invoice matching",
+    "logistics",
+    "trucking",
+    "united states"
+   ]
+  },
+  {
+   "id": "ll-arca-2",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/Accounting/comments/fictional12/carrier_invoices_late_fees",
+   "title": "Carrier invoices are killing us — late fees every month",
+   "snippet": "I work in AP at Arcadia Freight. We get 20k carrier invoices a month as PDFs, scans and EDI, and match them to loads by hand. We keep missing early-pay discounts and paying late fees. Any AP automation that does good 3-way match for freight?",
+   "author": "u/freight_ap_tx",
+   "published_days_ago": 8,
+   "company": "Arcadia Freight",
+   "tags": [
+    "invoice processing pain",
+    "manual invoice processing",
+    "late payment penalties",
+    "three way match",
+    "3-way match",
+    "ap automation",
+    "accounts payable",
+    "logistics"
+   ]
+  },
+  {
+   "id": "ll-arca-3",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-arcadia-freight_new-controller",
+   "title": "Arcadia Freight announces Michael Chen as Corporate Controller",
+   "snippet": "Please join us in welcoming Michael Chen as Corporate Controller of Arcadia Freight. Michael brings 12 years of experience in transportation accounting and will lead the close, AP and the finance side of our Dynamics 365 rollout.",
+   "author": "Arcadia Freight",
+   "published_days_ago": 15,
+   "company": "Arcadia Freight",
+   "tags": [
+    "new controller",
+    "controller",
+    "appointment",
+    "finance leadership",
+    "executive hire",
+    "logistics",
+    "dynamics 365"
+   ]
+  },
+  {
+   "id": "ll-summ-1",
+   "source": "news",
+   "url": "https://news.example/healthcare/summit-dental-group-acquires-12-practices",
+   "title": "Summit Dental Group acquires 12 practices, expanding to 48 locations",
+   "snippet": "Summit Dental Group, a Denver-based dental support organisation, has acquired 12 practices in Colorado and Utah, bringing its network to 48 locations. Each practice remains a separate legal entity, and Summit said it will centralise AP and procurement in its Denver support centre.",
+   "author": "Dental Business Review",
+   "published_days_ago": 14,
+   "company": "Summit Dental Group",
+   "tags": [
+    "acquisition",
+    "multi-entity",
+    "expansion",
+    "m&a",
+    "healthcare",
+    "dental",
+    "multi-site healthcare",
+    "centralise ap",
+    "united states"
+   ]
+  },
+  {
+   "id": "ll-summ-2",
+   "source": "jobs",
+   "url": "https://jobs.example/summit-dental-group/ap-specialist-multi-entity",
+   "title": "Accounts Payable Specialist – Multi-Entity at Summit Dental Group (Denver, CO)",
+   "snippet": "Summit Dental Group is hiring an AP Specialist to process invoices for 48 practice entities, manage intercompany allocations and support a fast-growing acquisition pipeline. Experience with multi-entity accounting and Sage Intacct preferred.",
+   "author": "Summit Dental Group Careers",
+   "published_days_ago": 7,
+   "company": "Summit Dental Group",
+   "tags": [
+    "hiring",
+    "ap specialist",
+    "accounts payable",
+    "multi-entity",
+    "intercompany",
+    "sage intacct",
+    "dental",
+    "healthcare"
+   ]
+  },
+  {
+   "id": "ll-summ-3",
+   "source": "x",
+   "url": "https://x.com/fictional_summit_vpf/status/1890000000000000012",
+   "title": "Summit Dental Group VP Finance on onboarding acquired practices",
+   "snippet": "Onboarding 12 newly acquired practices at Summit Dental Group means 12 sets of vendors, approval chains and bank accounts. Our AP team is keying invoices into spreadsheets until we can standardise. #dentalDSO #finance #AP",
+   "author": "Laura Kim (@fictional_summit_vpf)",
+   "published_days_ago": 11,
+   "company": "Summit Dental Group",
+   "tags": [
+    "multi-entity",
+    "manual invoice entry",
+    "invoice processing pain",
+    "spreadsheets",
+    "vp finance",
+    "dental",
+    "accounts payable"
+   ]
+  },
+  {
+   "id": "ll-gran-1",
+   "source": "jobs",
+   "url": "https://jobs.example/granite-building-supply/purchase-ledger-clerk",
+   "title": "Purchase Ledger Clerk (Accounts Payable) at Granite Building Supply – Manchester",
+   "snippet": "Granite Building Supply is hiring a Purchase Ledger Clerk to process supplier invoices for 22 branches across the North of England. Duties include invoice coding, GRN matching, supplier statement reconciliation and payment runs.",
+   "author": "Granite Building Supply Careers",
+   "published_days_ago": 9,
+   "company": "Granite Building Supply",
+   "tags": [
+    "hiring",
+    "purchase ledger",
+    "accounts payable",
+    "ap clerk",
+    "invoice processing",
+    "grn matching",
+    "building materials",
+    "distribution",
+    "united kingdom"
+   ]
+  },
+  {
+   "id": "ll-gran-2",
+   "source": "news",
+   "url": "https://news.example/uk-business/granite-building-supply-dynamics-365-business-central",
+   "title": "Granite Building Supply replaces Sage 200 with Microsoft Dynamics 365 Business Central",
+   "snippet": "Granite Building Supply has selected Microsoft Dynamics 365 Business Central to replace Sage 200 across its 22 UK branches. Finance director Helen Ward said the ERP migration is an opportunity to automate purchase ledger processing and speed up month-end.",
+   "author": "UK Trade Business News",
+   "published_days_ago": 16,
+   "company": "Granite Building Supply",
+   "tags": [
+    "erp migration",
+    "dynamics 365",
+    "business central",
+    "sage 200",
+    "purchase ledger",
+    "month end close",
+    "building materials",
+    "united kingdom"
+   ]
+  },
+  {
+   "id": "ll-gran-3",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/Accounting/comments/fictional13/uk_purchase_ledger_month_end",
+   "title": "Month-end purchase ledger nightmare with 22 branches",
+   "snippet": "Finance analyst at Granite Building Supply here. Every month-end we wait on branch managers to approve invoices on paper, then re-key everything into Sage. Close takes 10 working days. How are other UK distributors automating this?",
+   "author": "u/granite_fin_mcr",
+   "published_days_ago": 5,
+   "company": "Granite Building Supply",
+   "tags": [
+    "month end close",
+    "close delays",
+    "manual invoice processing",
+    "invoice approvals",
+    "paper invoices",
+    "purchase ledger",
+    "accounts payable",
+    "united kingdom"
+   ]
+  },
+  {
+   "id": "ll-harb-1",
+   "source": "news",
+   "url": "https://news.example/retail/harbor-and-hale-series-b",
+   "title": "Harbor & Hale Retail raises £40M Series B to expand homeware stores",
+   "snippet": "London-based homeware retailer Harbor & Hale Retail has raised a £40M Series B to open 25 new stores across the UK and Ireland. The company will also invest in finance and supply-chain systems to support growth to more than 1,800 employees.",
+   "author": "UK Retail Wire",
+   "published_days_ago": 13,
+   "company": "Harbor & Hale Retail",
+   "tags": [
+    "funding",
+    "series b",
+    "series b+",
+    "raised",
+    "retail",
+    "expansion",
+    "finance systems",
+    "united kingdom"
+   ]
+  },
+  {
+   "id": "ll-harb-2",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-harbor-hale_new-financial-controller",
+   "title": "Harbor & Hale Retail appoints Oliver Grant as Financial Controller",
+   "snippet": "Delighted to share that Oliver Grant has joined Harbor & Hale Retail as Financial Controller. Oliver will own accounts payable, the monthly close and the rollout of new finance systems as we scale our store estate.",
+   "author": "Harbor & Hale Retail",
+   "published_days_ago": 6,
+   "company": "Harbor & Hale Retail",
+   "tags": [
+    "new controller",
+    "financial controller",
+    "appointment",
+    "finance leadership",
+    "executive hire",
+    "retail",
+    "accounts payable",
+    "month end close"
+   ]
+  },
+  {
+   "id": "ll-harb-3",
+   "source": "x",
+   "url": "https://x.com/fictional_hh_finance/status/1890000000000000013",
+   "title": "Harbor & Hale finance team on supplier statement reconciliation",
+   "snippet": "Spent the whole week reconciling supplier statements at Harbor & Hale Retail because invoices got stuck in someone's inbox. There has to be a better way to run AP for 300 suppliers. #accounting #AP #retail",
+   "author": "H&H Finance Team (@fictional_hh_finance)",
+   "published_days_ago": 10,
+   "company": "Harbor & Hale Retail",
+   "tags": [
+    "invoice processing pain",
+    "supplier statements",
+    "reconciliation",
+    "manual invoice processing",
+    "accounts payable",
+    "retail",
+    "approval workflow"
+   ]
+  },
+  {
+   "id": "ll-copp-1",
+   "source": "jobs",
+   "url": "https://jobs.example/copperline-manufacturing/ap-manager-netsuite",
+   "title": "Accounts Payable Manager (NetSuite) at Copperline Manufacturing – Milwaukee, WI",
+   "snippet": "Copperline Manufacturing is hiring an AP Manager to lead a team of five through our NetSuite OneWorld rollout. You will redesign invoice intake, three-way match and approval workflows, and evaluate AP automation solutions.",
+   "author": "Copperline Manufacturing Careers",
+   "published_days_ago": 3,
+   "company": "Copperline Manufacturing",
+   "tags": [
+    "hiring",
+    "ap manager",
+    "accounts payable",
+    "netsuite",
+    "erp migration",
+    "three way match",
+    "approval workflow",
+    "ap automation",
+    "manufacturing"
+   ]
+  },
+  {
+   "id": "ll-copp-2",
+   "source": "news",
+   "url": "https://news.example/manufacturing/copperline-netsuite-oneworld-rollout",
+   "title": "Copperline Manufacturing kicks off NetSuite OneWorld rollout across five entities",
+   "snippet": "Copperline Manufacturing, a Milwaukee maker of industrial wire and cable, has begun migrating its five US and Mexican entities to NetSuite OneWorld. CFO Robert Alvarez said the ERP migration will consolidate finance and enable automated accounts payable.",
+   "author": "Manufacturing Business Journal",
+   "published_days_ago": 18,
+   "company": "Copperline Manufacturing",
+   "tags": [
+    "erp migration",
+    "netsuite",
+    "netsuite oneworld",
+    "multi-entity",
+    "manufacturing",
+    "accounts payable",
+    "united states"
+   ]
+  },
+  {
+   "id": "ll-copp-3",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/Accounting/comments/fictional14/manual_three_way_match",
+   "title": "Manual 3-way match is eating our AP team alive",
+   "snippet": "At Copperline Manufacturing we still match POs, receipts and invoices by hand in Excel — about 3,000 invoices a month. Exceptions pile up and month-end close slips every time. Has anyone automated 3-way match with NetSuite?",
+   "author": "u/copperline_ap",
+   "published_days_ago": 12,
+   "company": "Copperline Manufacturing",
+   "tags": [
+    "three way match",
+    "3-way match",
+    "manual invoice processing",
+    "invoice processing pain",
+    "month end close",
+    "netsuite",
+    "accounts payable",
+    "manufacturing"
+   ]
+  },
+  {
+   "id": "ll-noise-1",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/tax/comments/fictional15/freelance_invoices_taxes",
+   "title": "Freelancer: how do I pay taxes on invoices clients paid late?",
+   "snippet": "I'm a freelance designer and two clients paid my invoices in January instead of December. Which tax year does that income belong to?",
+   "author": "u/freelance_doodles",
+   "published_days_ago": 6,
+   "company": null,
+   "tags": [
+    "invoices",
+    "late payment",
+    "personal tax",
+    "freelancer",
+    "taxes"
+   ]
+  },
+  {
+   "id": "ll-noise-2",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/Accounting/comments/fictional16/debits_credits_meme",
+   "title": "When the debits don't equal credits on the final exam",
+   "snippet": "Accounting student meme: me at 2am realising my trial balance is off by exactly the amount of the accounts payable line. Send help (and coffee).",
+   "author": "u/acct_student_2027",
+   "published_days_ago": 4,
+   "company": null,
+   "tags": [
+    "accounting",
+    "student",
+    "meme",
+    "accounts payable",
+    "month end"
+   ]
+  },
+  {
+   "id": "ll-noise-3",
+   "source": "news",
+   "url": "https://news.example/enterprise/globalmart-sap-s4hana-rollout",
+   "title": "GlobalMart completes SAP S/4HANA rollout for 50,000 employees",
+   "snippet": "Retail giant GlobalMart has completed its SAP S/4HANA migration covering 50,000 employees and 140 legal entities. The ERP migration included a new global accounts payable shared-services centre.",
+   "author": "Enterprise IT News",
+   "published_days_ago": 9,
+   "company": "GlobalMart",
+   "tags": [
+    "erp migration",
+    "sap",
+    "enterprise",
+    "accounts payable",
+    "shared services",
+    "retail",
+    "multi-entity"
+   ]
+  },
+  {
+   "id": "ll-noise-4",
+   "source": "web",
+   "url": "https://journalism.example/ap-style-2026-updates",
+   "title": "AP Style updates for 2026: what journalists need to know",
+   "snippet": "The AP Stylebook added new guidance on abbreviations, dates and financial terms. Here is a summary of the changes every reporter and editor should know.",
+   "author": "Newsroom Guide",
+   "published_days_ago": 8,
+   "company": null,
+   "tags": [
+    "ap style",
+    "journalism",
+    "writing",
+    "style guide"
+   ]
+  },
+  {
+   "id": "ll-noise-5",
+   "source": "jobs",
+   "url": "https://jobs.example/riverside-high/ap-biology-teacher",
+   "title": "AP Biology Teacher – Riverside High School",
+   "snippet": "Riverside High School is hiring an AP Biology teacher for the upcoming school year. State certification required; coaching experience a plus.",
+   "author": "Riverside High School",
+   "published_days_ago": 5,
+   "company": "Riverside High School",
+   "tags": [
+    "hiring",
+    "ap biology",
+    "teacher",
+    "education",
+    "job"
+   ]
+  },
+  {
+   "id": "ll-noise-6",
+   "source": "news",
+   "url": "https://news.example/press/paystream-ai-launches-invoice-agent",
+   "title": "PayStream AI launches autonomous invoice processing agent for mid-market finance teams",
+   "snippet": "PayStream AI today launched an AI agent that captures invoices, performs 3-way match and routes approvals for mid-market finance teams. The company claims 80% touchless processing for NetSuite and Dynamics customers.",
+   "author": "PayStream AI Press Office",
+   "published_days_ago": 7,
+   "company": "PayStream AI",
+   "tags": [
+    "product launch",
+    "press release",
+    "ap automation",
+    "invoice processing",
+    "three way match",
+    "netsuite",
+    "dynamics 365",
+    "vendor"
+   ]
+  },
+  {
+   "id": "ll-noise-7",
+   "source": "x",
+   "url": "https://x.com/fictional_cpa_jokes/status/1890000000000000014",
+   "title": "CPA humour",
+   "snippet": "Accounts payable: where invoices go to wait. Accounts receivable: where hope goes to wait. #accounting #CPA",
+   "author": "CPA Jokes (@fictional_cpa_jokes)",
+   "published_days_ago": 3,
+   "company": null,
+   "tags": [
+    "accounting",
+    "humor",
+    "accounts payable",
+    "invoices"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "name": "Brightwater Distributors",
+   "domain": "brightwater-dist.example",
+   "industry": "Wholesale Distribution",
+   "employees": 850,
+   "hq": "Columbus, Ohio, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-brightwater-distributors",
+   "description": "Foodservice and janitorial-supply distributor serving restaurants and institutions across the Midwest from seven warehouses.",
+   "contacts": [
+    {
+     "name": "Gregory Mills",
+     "title": "CFO",
+     "email": "gregory.mills@brightwater-dist.example",
+     "phone": "+1 614 555 0201",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-gregory-mills"
+    },
+    {
+     "name": "Tanya Brooks",
+     "title": "AP Manager",
+     "email": "tanya.brooks@brightwater-dist.example",
+     "phone": "+1 614 555 0202",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-tanya-brooks"
+    },
+    {
+     "name": "Sean O'Leary",
+     "title": "Controller",
+     "email": "sean.oleary@brightwater-dist.example",
+     "phone": "+1 614 555 0203",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-sean-oleary"
+    }
+   ]
+  },
+  {
+   "name": "Cobalt Health Partners",
+   "domain": "cobalthealth.example",
+   "industry": "Multi-site Healthcare",
+   "employees": 1600,
+   "hq": "Nashville, Tennessee, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-cobalt-health-partners",
+   "description": "Operator of 38 multi-specialty outpatient clinics in the US Southeast with a centralised shared-services finance team.",
+   "contacts": [
+    {
+     "name": "Danielle Reyes",
+     "title": "Chief Financial Officer",
+     "email": "danielle.reyes@cobalthealth.example",
+     "phone": "+1 615 555 0211",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-danielle-reyes"
+    },
+    {
+     "name": "Brian Foster",
+     "title": "VP Finance",
+     "email": "brian.foster@cobalthealth.example",
+     "phone": "+1 615 555 0212",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-brian-foster"
+    }
+   ]
+  },
+  {
+   "name": "Pinecrest Foods",
+   "domain": "pinecrest-foods.example",
+   "industry": "Food Manufacturing",
+   "employees": 1100,
+   "hq": "Mississauga, Ontario, Canada",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-pinecrest-foods",
+   "description": "Private-label bakery and snack manufacturer with four plants in Ontario and Quebec supplying North American grocers.",
+   "contacts": [
+    {
+     "name": "Priya Shah",
+     "title": "Controller",
+     "email": "priya.shah@pinecrest-foods.example",
+     "phone": "+1 905 555 0221",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-priya-shah"
+    },
+    {
+     "name": "Daniel Tremblay",
+     "title": "CFO",
+     "email": "daniel.tremblay@pinecrest-foods.example",
+     "phone": "+1 905 555 0222",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-daniel-tremblay"
+    }
+   ]
+  },
+  {
+   "name": "Arcadia Freight",
+   "domain": "arcadia-freight.example",
+   "industry": "Logistics & Trucking",
+   "employees": 1400,
+   "hq": "Dallas, Texas, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-arcadia-freight",
+   "description": "Asset-based trucking and freight brokerage company handling 20,000+ carrier invoices per month.",
+   "contacts": [
+    {
+     "name": "Michael Chen",
+     "title": "Corporate Controller",
+     "email": "michael.chen@arcadia-freight.example",
+     "phone": "+1 214 555 0231",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-michael-chen"
+    },
+    {
+     "name": "Stephanie Ruiz",
+     "title": "Accounts Payable Manager",
+     "email": "stephanie.ruiz@arcadia-freight.example",
+     "phone": "+1 214 555 0232",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-stephanie-ruiz"
+    },
+    {
+     "name": "James Whitaker",
+     "title": "CFO",
+     "email": "james.whitaker@arcadia-freight.example",
+     "phone": "+1 214 555 0233",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-james-whitaker"
+    }
+   ]
+  },
+  {
+   "name": "Summit Dental Group",
+   "domain": "summitdental.example",
+   "industry": "Dental Support Organization (Healthcare)",
+   "employees": 650,
+   "hq": "Denver, Colorado, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-summit-dental-group",
+   "description": "Dental support organisation providing back-office services to 48 affiliated practices in Colorado and Utah.",
+   "contacts": [
+    {
+     "name": "Laura Kim",
+     "title": "VP Finance",
+     "email": "laura.kim@summitdental.example",
+     "phone": "+1 303 555 0241",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-laura-kim"
+    },
+    {
+     "name": "Eric Johansson",
+     "title": "AP Manager",
+     "email": "eric.johansson@summitdental.example",
+     "phone": "+1 303 555 0242",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-eric-johansson"
+    }
+   ]
+  },
+  {
+   "name": "Granite Building Supply",
+   "domain": "granite-building.example",
+   "industry": "Building Materials Distribution",
+   "employees": 950,
+   "hq": "Manchester, United Kingdom",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-granite-building-supply",
+   "description": "Builders' merchant with 22 branches across the North of England supplying timber, aggregates and tools to trade customers.",
+   "contacts": [
+    {
+     "name": "Helen Ward",
+     "title": "Finance Director",
+     "email": "helen.ward@granite-building.example",
+     "phone": "+44 161 555 0251",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-helen-ward"
+    },
+    {
+     "name": "Raj Patel",
+     "title": "Financial Controller",
+     "email": "raj.patel@granite-building.example",
+     "phone": "+44 161 555 0252",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-raj-patel"
+    },
+    {
+     "name": "Emma Clarke",
+     "title": "Purchase Ledger Manager",
+     "email": "emma.clarke@granite-building.example",
+     "phone": "+44 161 555 0253",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-emma-clarke"
+    }
+   ]
+  },
+  {
+   "name": "Harbor & Hale Retail",
+   "domain": "harborandhale.example",
+   "industry": "Specialty Retail",
+   "employees": 1800,
+   "hq": "London, United Kingdom",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-harbor-and-hale-retail",
+   "description": "Homeware and lifestyle retailer with 70 stores in the UK and Ireland and a growing e-commerce business.",
+   "contacts": [
+    {
+     "name": "Oliver Grant",
+     "title": "Financial Controller",
+     "email": "oliver.grant@harborandhale.example",
+     "phone": "+44 20 7946 0261",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-oliver-grant"
+    },
+    {
+     "name": "Charlotte Evans",
+     "title": "CFO",
+     "email": "charlotte.evans@harborandhale.example",
+     "phone": "+44 20 7946 0262",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-charlotte-evans"
+    }
+   ]
+  },
+  {
+   "name": "Copperline Manufacturing",
+   "domain": "copperline-mfg.example",
+   "industry": "Industrial Manufacturing",
+   "employees": 1250,
+   "hq": "Milwaukee, Wisconsin, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-copperline-manufacturing",
+   "description": "Manufacturer of industrial wire, cable and harness assemblies with plants in Wisconsin and northern Mexico.",
+   "contacts": [
+    {
+     "name": "Robert Alvarez",
+     "title": "CFO",
+     "email": "robert.alvarez@copperline-mfg.example",
+     "phone": "+1 414 555 0271",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-robert-alvarez"
+    },
+    {
+     "name": "Nicole Turner",
+     "title": "Controller",
+     "email": "nicole.turner@copperline-mfg.example",
+     "phone": "+1 414 555 0272",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-nicole-turner"
+    },
+    {
+     "name": "Mark Jensen",
+     "title": "Accounts Payable Manager",
+     "email": "mark.jensen@copperline-mfg.example",
+     "phone": "+1 414 555 0273",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-mark-jensen"
+    }
+   ]
+  }
+ ]
+}

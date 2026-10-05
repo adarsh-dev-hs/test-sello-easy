@@ -1,0 +1,909 @@
+{
+ "seller": "NordWave Networks",
+ "items": [
+  {
+   "id": "nw-harb-1",
+   "source": "news",
+   "url": "https://news.example/maritime/harborline-ports-breaks-ground-automated-terminal",
+   "title": "Harborline Ports breaks ground on automated container terminal Maasvlakte East",
+   "snippet": "Harborline Ports has started construction of its EUR 410m Maasvlakte East container terminal in Rotterdam, which will add 2.1 million TEU of annual capacity. The terminal will run 60 automated straddle carriers and remote-controlled ship-to-shore cranes, and Harborline says it is evaluating private wireless networks to replace its legacy Wi-Fi mesh. First berths are scheduled to open in 2028.",
+   "author": "Port Technology Daily",
+   "published_days_ago": 12,
+   "company": "Harborline Ports",
+   "tags": [
+    "terminal expansion",
+    "new terminal",
+    "port",
+    "ports",
+    "automation",
+    "automated straddle carriers",
+    "remote cranes",
+    "private wireless",
+    "private 5g",
+    "expansion",
+    "logistics",
+    "netherlands"
+   ]
+  },
+  {
+   "id": "nw-harb-2",
+   "source": "jobs",
+   "url": "https://jobs.example/harborline-ports/ot-network-engineer-private-wireless",
+   "title": "OT Network Engineer – Private Wireless (Rotterdam) at Harborline Ports",
+   "snippet": "Harborline Ports is hiring an OT Network Engineer to design and operate private LTE/5G coverage for cranes, straddle carriers and terminal sensors. You will own the OT network roadmap for the new Maasvlakte East terminal, including radio planning, edge computing and integration with the terminal operating system. Experience with industrial networks, IEC 62443 and Industry 4.0 projects is required.",
+   "author": "Harborline Ports Careers",
+   "published_days_ago": 6,
+   "company": "Harborline Ports",
+   "tags": [
+    "hiring",
+    "ot network engineer",
+    "network engineer",
+    "private lte",
+    "private 5g",
+    "industry 4.0",
+    "industrial network",
+    "port",
+    "operational technology",
+    "job"
+   ]
+  },
+  {
+   "id": "nw-harb-3",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-harborline-ports_new-chief-digital-officer",
+   "title": "Harborline Ports appoints Femke de Vries as Chief Digital Officer",
+   "snippet": "We are proud to welcome Femke de Vries as Chief Digital Officer of Harborline Ports. Femke joins from a European rail operator where she led a large OT modernisation programme, and will drive our terminal automation and connectivity strategy. Her first priority: a resilient digital backbone for our automated terminals.",
+   "author": "Harborline Ports",
+   "published_days_ago": 20,
+   "company": "Harborline Ports",
+   "tags": [
+    "new cdo",
+    "chief digital officer",
+    "appointment",
+    "leadership change",
+    "executive hire",
+    "digital transformation",
+    "port",
+    "connectivity"
+   ]
+  },
+  {
+   "id": "nw-ostr-1",
+   "source": "news",
+   "url": "https://news.example/industry/ostrava-steelworks-private-spectrum-licence",
+   "title": "Ostrava Steelworks secures local 3.7 GHz spectrum licence for private campus network",
+   "snippet": "The Czech Telecommunication Office has granted Ostrava Steelworks a local licence in the 3.7 GHz band covering its 4 km² Ostrava site. Ostrava Steelworks said the private spectrum will support a private 5G campus network for crane control, ladle tracking and predictive maintenance sensors. A vendor selection for the radio and core network is expected this quarter.",
+   "author": "Central Europe Industry News",
+   "published_days_ago": 9,
+   "company": "Ostrava Steelworks",
+   "tags": [
+    "private spectrum",
+    "spectrum licence",
+    "spectrum license",
+    "3.7 ghz",
+    "private 5g",
+    "campus network",
+    "steel",
+    "manufacturing",
+    "czech republic",
+    "vendor selection"
+   ]
+  },
+  {
+   "id": "nw-ostr-2",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/PLC/comments/fictional01/wifi_dropouts_rolling_mill",
+   "title": "Wi-Fi dropouts are killing our crane telemetry in the rolling mill",
+   "snippet": "I'm a controls engineer at Ostrava Steelworks and our shop-floor Wi-Fi keeps dropping near the rolling mill — lots of steel, heat and interference. Crane telemetry and handheld scanners lose connection several times per shift, and the access points we add just make roaming worse. Has anyone moved to private LTE or 5G in a heavy-industry environment and was it worth it?",
+   "author": "u/mill_controls_cz",
+   "published_days_ago": 4,
+   "company": "Ostrava Steelworks",
+   "tags": [
+    "wifi pain",
+    "shop floor wifi",
+    "unreliable wifi",
+    "wifi dropouts",
+    "connectivity issues",
+    "crane telemetry",
+    "steel",
+    "manufacturing",
+    "private lte",
+    "private 5g",
+    "roaming"
+   ]
+  },
+  {
+   "id": "nw-ostr-3",
+   "source": "news",
+   "url": "https://news.example/business/ostrava-steelworks-eur-120m-automation-programme",
+   "title": "Ostrava Steelworks commits EUR 120m to automation and digital plant modernisation",
+   "snippet": "Ostrava Steelworks will invest EUR 120m over three years in automation, robotics and a plant-wide data platform, its board announced. The capex programme includes autonomous material handling, remote crane operation and real-time quality inspection. Management said reliable industrial connectivity is a prerequisite for the Industry 4.0 roadmap.",
+   "author": "Central Europe Industry News",
+   "published_days_ago": 25,
+   "company": "Ostrava Steelworks",
+   "tags": [
+    "automation capex",
+    "capex",
+    "investment",
+    "funding",
+    "industry 4.0",
+    "robotics",
+    "digital plant",
+    "steel",
+    "manufacturing",
+    "modernisation"
+   ]
+  },
+  {
+   "id": "nw-nort-1",
+   "source": "jobs",
+   "url": "https://jobs.example/northpeak-mining/industrial-network-engineer-underground",
+   "title": "Industrial Network Engineer – Underground Automation (Sudbury, ON) at Northpeak Mining",
+   "snippet": "Northpeak Mining is hiring an Industrial Network Engineer to extend LTE and Wi-Fi coverage underground for autonomous haulage, tele-remote loaders and ventilation-on-demand. The role designs the OT network across four mine levels and works with our automation team on latency-sensitive applications. Experience with private LTE/5G, fibre backbones and harsh environments is an asset.",
+   "author": "Northpeak Mining Careers",
+   "published_days_ago": 10,
+   "company": "Northpeak Mining",
+   "tags": [
+    "hiring",
+    "ot network engineer",
+    "industrial network engineer",
+    "network engineer",
+    "mining",
+    "underground",
+    "autonomous haulage",
+    "private lte",
+    "private 5g",
+    "automation",
+    "canada"
+   ]
+  },
+  {
+   "id": "nw-nort-2",
+   "source": "x",
+   "url": "https://x.com/fictional_np_ops/status/1890000000000000001",
+   "title": "Northpeak Mining ops: autonomous haul trucks losing connectivity underground",
+   "snippet": "Third time this week our autonomous haul trucks at Northpeak Mining stopped at level 3400 because the network dropped. Wi-Fi was never designed for this — we need something deterministic before we scale the fleet. #mining #automation #privateLTE",
+   "author": "Dave Okafor (@fictional_np_ops)",
+   "published_days_ago": 3,
+   "company": "Northpeak Mining",
+   "tags": [
+    "connectivity issues",
+    "unreliable wifi",
+    "wifi pain",
+    "autonomous trucks",
+    "mining",
+    "automation",
+    "private lte",
+    "underground",
+    "network outage"
+   ]
+  },
+  {
+   "id": "nw-nort-3",
+   "source": "news",
+   "url": "https://news.example/mining/northpeak-mining-cad-300m-timmins-expansion",
+   "title": "Northpeak Mining approves CAD 300m Timmins expansion with autonomous haulage",
+   "snippet": "Northpeak Mining has approved a CAD 300m expansion of its Timmins gold operation, adding a new decline and an autonomous haulage fleet. Northpeak said the project includes a site-wide private wireless network to connect trucks, drills and safety systems. Construction starts next spring.",
+   "author": "Mining Weekly Canada",
+   "published_days_ago": 18,
+   "company": "Northpeak Mining",
+   "tags": [
+    "mine expansion",
+    "expansion",
+    "capex",
+    "autonomous haulage",
+    "private wireless",
+    "mining",
+    "canada",
+    "automation capex",
+    "new site"
+   ]
+  },
+  {
+   "id": "nw-vect-1",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-vectra-auto_welcome-new-cio",
+   "title": "Vectra Auto Components names Jonas Brandt as new CIO to lead Industry 4.0 programme",
+   "snippet": "Vectra Auto Components is delighted to announce Jonas Brandt as our new Chief Information Officer. Jonas will lead our Industry 4.0 programme across five plants in Germany and Hungary, including the connected-factory rollout and the convergence of IT and OT networks. Welcome aboard, Jonas!",
+   "author": "Vectra Auto Components",
+   "published_days_ago": 8,
+   "company": "Vectra Auto Components",
+   "tags": [
+    "new cio",
+    "chief information officer",
+    "appointment",
+    "leadership change",
+    "executive hire",
+    "industry 4.0",
+    "automotive",
+    "manufacturing",
+    "it ot convergence"
+   ]
+  },
+  {
+   "id": "nw-vect-2",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/manufacturing/comments/fictional02/agv_wifi_handover",
+   "title": "Our AGV fleet keeps losing Wi-Fi during handover — any fixes?",
+   "snippet": "At Vectra Auto Components' Stuttgart plant we run 45 AGVs and every few hours one stops because it lost Wi-Fi while roaming between access points. Production loses minutes each time and the line supervisors are furious. We have tuned roaming thresholds twice; is private 5G the real answer for AGV and robot connectivity?",
+   "author": "u/stuttgart_intralogistics",
+   "published_days_ago": 14,
+   "company": "Vectra Auto Components",
+   "tags": [
+    "agv connectivity",
+    "agv",
+    "robots",
+    "wifi pain",
+    "shop floor wifi",
+    "unreliable wifi",
+    "roaming",
+    "automotive",
+    "manufacturing",
+    "private 5g",
+    "germany"
+   ]
+  },
+  {
+   "id": "nw-vect-3",
+   "source": "jobs",
+   "url": "https://jobs.example/vectra-auto/industry-4-0-network-architect",
+   "title": "Industry 4.0 Network Architect (m/f/d) at Vectra Auto Components",
+   "snippet": "Vectra Auto Components is hiring an Industry 4.0 Network Architect to design the OT network for our connected factories in Stuttgart and Győr. You will define the target architecture for private 5G, time-sensitive networking and edge computing, and run the vendor evaluation. Strong knowledge of industrial Ethernet and OT security required.",
+   "author": "Vectra Auto Components Careers",
+   "published_days_ago": 5,
+   "company": "Vectra Auto Components",
+   "tags": [
+    "hiring",
+    "industry 4.0",
+    "network architect",
+    "ot network engineer",
+    "private 5g",
+    "edge computing",
+    "automotive",
+    "manufacturing",
+    "germany",
+    "vendor evaluation"
+   ]
+  },
+  {
+   "id": "nw-kest-1",
+   "source": "news",
+   "url": "https://news.example/chemicals/kestrel-chemicals-new-production-unit-antwerp",
+   "title": "Kestrel Chemicals to build new digital production unit at Antwerp site",
+   "snippet": "Kestrel Chemicals will build a new specialty polymers unit at its Antwerp site, designed from the start as a 'digital plant'. The EUR 230m project includes thousands of wireless sensors in ATEX hazardous areas, mobile worker tablets and remote inspection drones. Kestrel Chemicals said the plant expansion will be operational in 2027.",
+   "author": "Chemical Week Europe",
+   "published_days_ago": 15,
+   "company": "Kestrel Chemicals",
+   "tags": [
+    "plant expansion",
+    "new plant",
+    "expansion",
+    "chemicals",
+    "digital plant",
+    "wireless sensors",
+    "hazardous area",
+    "atex",
+    "belgium",
+    "capex"
+   ]
+  },
+  {
+   "id": "nw-kest-2",
+   "source": "x",
+   "url": "https://x.com/fictional_kestrel_ot/status/1890000000000000002",
+   "title": "Kestrel Chemicals Head of OT on hazardous-area wireless",
+   "snippet": "Planning wireless for 5,000 sensors in ATEX zones at Kestrel Chemicals. Wi-Fi coverage in steel structures is patchy and every extra AP is a hot-work permit. Looking for peers who run private LTE/5G in chemical plants. #OT #IIoT #Industry40",
+   "author": "Ann Peeters (@fictional_kestrel_ot)",
+   "published_days_ago": 7,
+   "company": "Kestrel Chemicals",
+   "tags": [
+    "head of ot",
+    "wifi pain",
+    "unreliable wifi",
+    "wireless sensors",
+    "atex",
+    "chemicals",
+    "private lte",
+    "private 5g",
+    "iiot",
+    "industry 4.0"
+   ]
+  },
+  {
+   "id": "nw-kest-3",
+   "source": "web",
+   "url": "https://www.kestrel-chem.example/news/digital-plant-roadmap-2027",
+   "title": "Kestrel Chemicals Digital Plant Roadmap 2027",
+   "snippet": "Kestrel Chemicals published its Digital Plant Roadmap, setting targets for predictive maintenance, connected workers and real-time emissions monitoring by 2027. The roadmap names a private wireless network as a key enabler and says Kestrel Chemicals will run a pilot at its Antwerp site in the coming months.",
+   "author": "Kestrel Chemicals",
+   "published_days_ago": 22,
+   "company": "Kestrel Chemicals",
+   "tags": [
+    "digital transformation",
+    "roadmap",
+    "private wireless",
+    "private 5g",
+    "pilot",
+    "predictive maintenance",
+    "connected worker",
+    "chemicals",
+    "industry 4.0"
+   ]
+  },
+  {
+   "id": "nw-lake-1",
+   "source": "news",
+   "url": "https://news.example/forest-industry/lakeside-paper-mill-eur-45m-funding",
+   "title": "Lakeside Paper Mill receives EUR 45m green transition funding, including automation upgrade",
+   "snippet": "Lakeside Paper Mill in Kuopio, Finland, has secured EUR 45m in green transition loans and grants to modernise its board machine and automate warehouse logistics. Part of the funding covers autonomous forklifts, roll tracking and a new plant-wide industrial network. Lakeside Paper Mill employs about 1,300 people.",
+   "author": "Nordic Forest Industry News",
+   "published_days_ago": 11,
+   "company": "Lakeside Paper Mill",
+   "tags": [
+    "funding",
+    "automation capex",
+    "capex",
+    "investment",
+    "pulp and paper",
+    "autonomous forklifts",
+    "industrial network",
+    "finland",
+    "manufacturing"
+   ]
+  },
+  {
+   "id": "nw-lake-2",
+   "source": "jobs",
+   "url": "https://jobs.example/lakeside-paper-mill/automation-ot-network-specialist",
+   "title": "Automation & OT Network Specialist at Lakeside Paper Mill (Kuopio)",
+   "snippet": "Lakeside Paper Mill is hiring an Automation & OT Network Specialist to modernise mill networks and support the rollout of autonomous forklifts and wireless roll tracking. You will plan wireless coverage across the machine halls and warehouse and maintain OT security. Experience with industrial wireless and DCS systems is valued.",
+   "author": "Lakeside Paper Mill Careers",
+   "published_days_ago": 9,
+   "company": "Lakeside Paper Mill",
+   "tags": [
+    "hiring",
+    "ot network engineer",
+    "ot network specialist",
+    "automation",
+    "industrial wireless",
+    "pulp and paper",
+    "manufacturing",
+    "finland",
+    "industry 4.0"
+   ]
+  },
+  {
+   "id": "nw-lake-3",
+   "source": "facebook",
+   "url": "https://www.facebook.com/fictional.lakesidepapermill/posts/1001",
+   "title": "Lakeside Paper Mill is expanding: new finishing hall and automated warehouse",
+   "snippet": "Big news from Lakeside Paper Mill! Construction of our new finishing hall and automated high-bay warehouse starts this autumn, creating 60 new jobs in Kuopio. The new hall will use autonomous vehicles and connected machines to move rolls safely and efficiently.",
+   "author": "Lakeside Paper Mill",
+   "published_days_ago": 16,
+   "company": "Lakeside Paper Mill",
+   "tags": [
+    "plant expansion",
+    "expansion",
+    "new facility",
+    "automated warehouse",
+    "autonomous vehicles",
+    "pulp and paper",
+    "finland",
+    "manufacturing"
+   ]
+  },
+  {
+   "id": "nw-tric-1",
+   "source": "news",
+   "url": "https://news.example/utilities/tri-county-water-cbrs-private-lte",
+   "title": "Tri-County Water Utility wins CBRS licences to build private LTE for SCADA",
+   "snippet": "Tri-County Water Utility in Ohio acquired CBRS priority access licences covering its three-county service territory. The utility plans a private LTE network to connect 140 pump stations, smart meters and field crews, replacing leased lines and unreliable cellular modems. Tri-County Water Utility expects to issue an RFP for radio and core equipment this year.",
+   "author": "Utility Dive Daily",
+   "published_days_ago": 6,
+   "company": "Tri-County Water Utility",
+   "tags": [
+    "private spectrum",
+    "spectrum license",
+    "cbrs",
+    "private lte",
+    "private 5g",
+    "scada",
+    "utilities",
+    "water utility",
+    "rfp",
+    "united states"
+   ]
+  },
+  {
+   "id": "nw-tric-2",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-tricounty-water_new-cio-announcement",
+   "title": "Tri-County Water Utility appoints Marcus Hill as Chief Information Officer",
+   "snippet": "Tri-County Water Utility is pleased to announce Marcus Hill as our new CIO. Marcus brings 15 years of experience modernising utility OT and IT systems and will lead our grid-to-tap digital programme, including SCADA modernisation and private wireless connectivity.",
+   "author": "Tri-County Water Utility",
+   "published_days_ago": 19,
+   "company": "Tri-County Water Utility",
+   "tags": [
+    "new cio",
+    "chief information officer",
+    "appointment",
+    "leadership change",
+    "executive hire",
+    "utilities",
+    "scada",
+    "private wireless"
+   ]
+  },
+  {
+   "id": "nw-tric-3",
+   "source": "jobs",
+   "url": "https://jobs.example/tricounty-water/scada-ot-network-engineer",
+   "title": "SCADA / OT Network Engineer at Tri-County Water Utility (Columbus, OH)",
+   "snippet": "Tri-County Water Utility is hiring a SCADA / OT Network Engineer to support the migration of 140 pump stations to a private LTE network. Responsibilities include network design, cybersecurity hardening (NERC CIP / IEC 62443) and field-device integration.",
+   "author": "Tri-County Water Utility Careers",
+   "published_days_ago": 13,
+   "company": "Tri-County Water Utility",
+   "tags": [
+    "hiring",
+    "ot network engineer",
+    "scada",
+    "network engineer",
+    "private lte",
+    "utilities",
+    "water utility",
+    "operational technology",
+    "united states"
+   ]
+  },
+  {
+   "id": "nw-meri-1",
+   "source": "news",
+   "url": "https://news.example/logistics/meridian-logistics-hub-opens-automated-fulfilment-centre",
+   "title": "Meridian Logistics Hub opens 120,000 m² automated fulfilment centre near Poznań",
+   "snippet": "Meridian Logistics Hub has opened a 120,000 m² fulfilment centre near Poznań, Poland, operating 300 autonomous mobile robots and automated sorters. A second building is planned for 2027. Meridian Logistics Hub said robot connectivity and uptime are its top operational priorities.",
+   "author": "Logistics Europe News",
+   "published_days_ago": 8,
+   "company": "Meridian Logistics Hub",
+   "tags": [
+    "new facility",
+    "expansion",
+    "warehouse",
+    "logistics",
+    "autonomous mobile robots",
+    "amr",
+    "robots",
+    "automation",
+    "poland"
+   ]
+  },
+  {
+   "id": "nw-meri-2",
+   "source": "x",
+   "url": "https://x.com/fictional_meridian_ops/status/1890000000000000003",
+   "title": "Meridian Logistics Hub ops manager: 300 robots, one Wi-Fi network, many dead zones",
+   "snippet": "300 AMRs, one Wi-Fi network, and dead zones every time racking gets restocked. Night shift at Meridian Logistics Hub lost 40 minutes of throughput yesterday. Anyone running private 5G for warehouse robots? #logistics #AMR #wifi",
+   "author": "Piotr Nowak (@fictional_meridian_ops)",
+   "published_days_ago": 2,
+   "company": "Meridian Logistics Hub",
+   "tags": [
+    "wifi pain",
+    "unreliable wifi",
+    "dead zones",
+    "robots",
+    "amr",
+    "agv connectivity",
+    "warehouse",
+    "logistics",
+    "private 5g"
+   ]
+  },
+  {
+   "id": "nw-meri-3",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/sysadmin/comments/fictional03/warehouse_handheld_roaming",
+   "title": "Warehouse handheld scanners roaming issues — 2,000 devices",
+   "snippet": "I run IT for Meridian Logistics Hub in Poland. Our 2,000 handheld scanners and robots keep dropping when roaming between APs in the high-bay areas. We have tried vendor firmware updates and a new controller; the shop-floor Wi-Fi is still unreliable. Looking for experience with private LTE/5G in warehouses.",
+   "author": "u/meridian_it_pl",
+   "published_days_ago": 17,
+   "company": "Meridian Logistics Hub",
+   "tags": [
+    "wifi pain",
+    "shop floor wifi",
+    "unreliable wifi",
+    "roaming",
+    "handheld scanners",
+    "warehouse",
+    "logistics",
+    "private lte",
+    "private 5g",
+    "poland"
+   ]
+  },
+  {
+   "id": "nw-noise-1",
+   "source": "web",
+   "url": "https://reviews.example/phones/galaxy-nova-5g-review",
+   "title": "Galaxy Nova 5G review: blazing 5G speeds, average battery",
+   "snippet": "The Galaxy Nova 5G phone hits 1.2 Gbps on mmWave 5G in our downtown tests, but the battery barely lasts a day. Great camera, good screen, and Wi-Fi 7 support make it a solid consumer flagship for 2026.",
+   "author": "Consumer Tech Reviews",
+   "published_days_ago": 5,
+   "company": null,
+   "tags": [
+    "5g",
+    "phone review",
+    "consumer",
+    "smartphone",
+    "wifi 7",
+    "mobile"
+   ]
+  },
+  {
+   "id": "nw-noise-2",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/HomeNetworking/comments/fictional04/dorm_wifi_router",
+   "title": "Student here — which Wi-Fi router fixes dead zones in my dorm?",
+   "snippet": "My dorm room Wi-Fi drops constantly and I get dead zones near the kitchen. Should I buy a mesh router or a 5G home internet box? Budget is $100.",
+   "author": "u/sophomore_gamer",
+   "published_days_ago": 3,
+   "company": null,
+   "tags": [
+    "wifi",
+    "home wifi",
+    "router",
+    "dead zones",
+    "student",
+    "consumer",
+    "5g home internet",
+    "unreliable wifi"
+   ]
+  },
+  {
+   "id": "nw-noise-3",
+   "source": "news",
+   "url": "https://news.example/markets/telecom-stocks-5g-capex-analysis",
+   "title": "Telecom stocks: is 5G capex finally paying off for operators?",
+   "snippet": "Analysts debate whether mobile operators' 5G capex is translating into revenue growth. Shares of large telecom carriers have lagged the market as private 5G and enterprise revenue ramps slower than expected.",
+   "author": "Markets Daily",
+   "published_days_ago": 10,
+   "company": null,
+   "tags": [
+    "5g",
+    "capex",
+    "telecom stocks",
+    "investment",
+    "operators",
+    "private 5g",
+    "analysis",
+    "funding"
+   ]
+  },
+  {
+   "id": "nw-noise-4",
+   "source": "jobs",
+   "url": "https://jobs.example/5g-mobile-store/retail-cashier",
+   "title": "Retail Cashier – 5G Mobile Store (part-time)",
+   "snippet": "5G Mobile Store is hiring a part-time retail cashier to help customers choose phones, plans and accessories. No experience required; weekend shifts available.",
+   "author": "5G Mobile Store",
+   "published_days_ago": 4,
+   "company": "5G Mobile Store",
+   "tags": [
+    "hiring",
+    "5g",
+    "retail",
+    "cashier",
+    "mobile",
+    "job"
+   ]
+  },
+  {
+   "id": "nw-noise-5",
+   "source": "news",
+   "url": "https://news.example/press/arcwave-launches-private-5g-core",
+   "title": "Arcwave Systems launches new private 5G core for factories and ports",
+   "snippet": "Arcwave Systems today announced the launch of its new private 5G core, aimed at manufacturers, ports and mines. The company says the product simplifies deployment of private networks for Industry 4.0 and AGV connectivity.",
+   "author": "Arcwave Systems Press Office",
+   "published_days_ago": 7,
+   "company": "Arcwave Systems",
+   "tags": [
+    "private 5g",
+    "press release",
+    "product launch",
+    "industry 4.0",
+    "manufacturing",
+    "ports",
+    "mining",
+    "agv connectivity",
+    "vendor"
+   ]
+  },
+  {
+   "id": "nw-noise-6",
+   "source": "reddit",
+   "url": "https://www.reddit.com/r/CryptoMining/comments/fictional05/rig_wifi_drops",
+   "title": "Mining rig keeps dropping off Wi-Fi when GPUs overheat",
+   "snippet": "My crypto mining rig loses Wi-Fi every time the GPUs hit 85°C. Should I switch to ethernet or a 5G hotspot? Hash rate drops each time it reconnects.",
+   "author": "u/hashrate_hank",
+   "published_days_ago": 6,
+   "company": null,
+   "tags": [
+    "mining",
+    "crypto",
+    "wifi",
+    "unreliable wifi",
+    "5g",
+    "consumer"
+   ]
+  },
+  {
+   "id": "nw-noise-7",
+   "source": "x",
+   "url": "https://x.com/fictional_gadgetfan/status/1890000000000000004",
+   "title": "Fiber vs 5G home internet",
+   "snippet": "Switched from cable to 5G home internet and my Wi-Fi is finally stable for streaming. Industry analysts say 5G will replace fiber — I'm not so sure.",
+   "author": "Gadget Fan (@fictional_gadgetfan)",
+   "published_days_ago": 9,
+   "company": null,
+   "tags": [
+    "5g",
+    "home internet",
+    "wifi",
+    "consumer",
+    "fiber"
+   ]
+  },
+  {
+   "id": "nw-noise-8",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/posts/fictional-career-coach_cio-tips",
+   "title": "5 tips for every new CIO in their first 100 days",
+   "snippet": "Just been appointed CIO? Here are five lessons from coaching technology executives: listen first, map your stakeholders, and pick one quick win.",
+   "author": "Career Coach Network",
+   "published_days_ago": 12,
+   "company": null,
+   "tags": [
+    "new cio",
+    "leadership",
+    "career advice",
+    "appointment",
+    "chief information officer"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "name": "Harborline Ports",
+   "domain": "harborline-ports.example",
+   "industry": "Ports & Terminals",
+   "employees": 3400,
+   "hq": "Rotterdam, Netherlands",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-harborline-ports",
+   "description": "Container and bulk terminal operator in the Port of Rotterdam running three terminals, currently building the automated Maasvlakte East terminal.",
+   "contacts": [
+    {
+     "name": "Femke de Vries",
+     "title": "Chief Digital Officer",
+     "email": "femke.devries@harborline-ports.example",
+     "phone": "+31 10 555 0101",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-femke-de-vries"
+    },
+    {
+     "name": "Joost Bakker",
+     "title": "VP Operations",
+     "email": "joost.bakker@harborline-ports.example",
+     "phone": "+31 10 555 0102",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-joost-bakker"
+    },
+    {
+     "name": "Sanne Visser",
+     "title": "Head of OT",
+     "email": "sanne.visser@harborline-ports.example",
+     "phone": "+31 10 555 0103",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-sanne-visser"
+    }
+   ]
+  },
+  {
+   "name": "Ostrava Steelworks",
+   "domain": "ostrava-steelworks.example",
+   "industry": "Steel Manufacturing",
+   "employees": 6200,
+   "hq": "Ostrava, Czech Republic",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-ostrava-steelworks",
+   "description": "Integrated steel producer making flat and long products for automotive and construction customers across Central Europe.",
+   "contacts": [
+    {
+     "name": "Tomáš Novák",
+     "title": "Plant Director",
+     "email": "tomas.novak@ostrava-steelworks.example",
+     "phone": "+420 59 555 0111",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-tomas-novak"
+    },
+    {
+     "name": "Petra Dvořáková",
+     "title": "Chief Information Officer",
+     "email": "petra.dvorakova@ostrava-steelworks.example",
+     "phone": "+420 59 555 0112",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-petra-dvorakova"
+    },
+    {
+     "name": "Martin Svoboda",
+     "title": "Head of OT & Automation",
+     "email": "martin.svoboda@ostrava-steelworks.example",
+     "phone": "+420 59 555 0113",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-martin-svoboda"
+    }
+   ]
+  },
+  {
+   "name": "Northpeak Mining",
+   "domain": "northpeak-mining.example",
+   "industry": "Mining",
+   "employees": 2800,
+   "hq": "Sudbury, Ontario, Canada",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-northpeak-mining",
+   "description": "Canadian nickel and gold miner operating two underground mines in Ontario and expanding into autonomous haulage.",
+   "contacts": [
+    {
+     "name": "Rachel Thompson",
+     "title": "VP Operations",
+     "email": "rachel.thompson@northpeak-mining.example",
+     "phone": "+1 705 555 0121",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-rachel-thompson"
+    },
+    {
+     "name": "Dave Okafor",
+     "title": "Head of OT",
+     "email": "dave.okafor@northpeak-mining.example",
+     "phone": "+1 705 555 0122",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-dave-okafor"
+    }
+   ]
+  },
+  {
+   "name": "Vectra Auto Components",
+   "domain": "vectra-auto.example",
+   "industry": "Automotive Parts Manufacturing",
+   "employees": 4800,
+   "hq": "Stuttgart, Germany",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-vectra-auto-components",
+   "description": "Tier-1 supplier of drivetrain and e-mobility components with five plants in Germany and Hungary.",
+   "contacts": [
+    {
+     "name": "Jonas Brandt",
+     "title": "Chief Information Officer",
+     "email": "jonas.brandt@vectra-auto.example",
+     "phone": "+49 711 555 0131",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-jonas-brandt"
+    },
+    {
+     "name": "Katrin Weber",
+     "title": "Plant Director Stuttgart",
+     "email": "katrin.weber@vectra-auto.example",
+     "phone": "+49 711 555 0132",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-katrin-weber"
+    },
+    {
+     "name": "Lukas Hoffmann",
+     "title": "Head of OT Networks",
+     "email": "lukas.hoffmann@vectra-auto.example",
+     "phone": "+49 711 555 0133",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-lukas-hoffmann"
+    }
+   ]
+  },
+  {
+   "name": "Kestrel Chemicals",
+   "domain": "kestrel-chem.example",
+   "industry": "Chemicals",
+   "employees": 2100,
+   "hq": "Antwerp, Belgium",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-kestrel-chemicals",
+   "description": "Specialty chemicals and polymers producer with a large integrated site in the Port of Antwerp.",
+   "contacts": [
+    {
+     "name": "Ann Peeters",
+     "title": "Head of OT",
+     "email": "ann.peeters@kestrel-chem.example",
+     "phone": "+32 3 555 0141",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-ann-peeters"
+    },
+    {
+     "name": "Wim Janssens",
+     "title": "VP Operations",
+     "email": "wim.janssens@kestrel-chem.example",
+     "phone": "+32 3 555 0142",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-wim-janssens"
+    }
+   ]
+  },
+  {
+   "name": "Lakeside Paper Mill",
+   "domain": "lakeside-paper.example",
+   "industry": "Pulp & Paper",
+   "employees": 1300,
+   "hq": "Kuopio, Finland",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-lakeside-paper-mill",
+   "description": "Board and specialty paper mill in eastern Finland producing packaging board for European converters.",
+   "contacts": [
+    {
+     "name": "Mikko Laine",
+     "title": "Mill Director",
+     "email": "mikko.laine@lakeside-paper.example",
+     "phone": "+358 17 555 0151",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-mikko-laine"
+    },
+    {
+     "name": "Aino Virtanen",
+     "title": "Chief Digital Officer",
+     "email": "aino.virtanen@lakeside-paper.example",
+     "phone": "+358 17 555 0152",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-aino-virtanen"
+    }
+   ]
+  },
+  {
+   "name": "Tri-County Water Utility",
+   "domain": "tricounty-water.example",
+   "industry": "Utilities (Water)",
+   "employees": 1150,
+   "hq": "Columbus, Ohio, USA",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-tri-county-water-utility",
+   "description": "Public water and wastewater utility serving 600,000 residents across three Ohio counties with 140 pump stations.",
+   "contacts": [
+    {
+     "name": "Marcus Hill",
+     "title": "Chief Information Officer",
+     "email": "marcus.hill@tricounty-water.example",
+     "phone": "+1 614 555 0161",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-marcus-hill"
+    },
+    {
+     "name": "Linda Garcia",
+     "title": "VP Operations",
+     "email": "linda.garcia@tricounty-water.example",
+     "phone": "+1 614 555 0162",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-linda-garcia"
+    },
+    {
+     "name": "Kevin Brooks",
+     "title": "SCADA & OT Manager",
+     "email": "kevin.brooks@tricounty-water.example",
+     "phone": "+1 614 555 0163",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-kevin-brooks"
+    }
+   ]
+  },
+  {
+   "name": "Meridian Logistics Hub",
+   "domain": "meridian-hub.example",
+   "industry": "Logistics & Warehousing",
+   "employees": 1900,
+   "hq": "Poznań, Poland",
+   "linkedin_url": "https://www.linkedin.com/company/fictional-meridian-logistics-hub",
+   "description": "Contract logistics and e-commerce fulfilment provider operating automated warehouses in western Poland.",
+   "contacts": [
+    {
+     "name": "Agnieszka Kowalska",
+     "title": "VP Operations",
+     "email": "agnieszka.kowalska@meridian-hub.example",
+     "phone": "+48 61 555 0171",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-agnieszka-kowalska"
+    },
+    {
+     "name": "Piotr Nowak",
+     "title": "Site Operations Manager",
+     "email": "piotr.nowak@meridian-hub.example",
+     "phone": "+48 61 555 0172",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-piotr-nowak"
+    },
+    {
+     "name": "Tomasz Zielinski",
+     "title": "CIO",
+     "email": "tomasz.zielinski@meridian-hub.example",
+     "phone": "+48 61 555 0173",
+     "linkedin_url": "https://www.linkedin.com/in/fictional-tomasz-zielinski"
+    }
+   ]
+  }
+ ]
+}

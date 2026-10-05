@@ -1,0 +1,108 @@
+name: test-selloeasy
+
+x-mcp-env: &mcp-env
+  env_file: .env
+  restart: unless-stopped
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: test-selloeasy-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-selloeasy}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-selloeasy}
+      POSTGRES_DB: ${POSTGRES_DB:-selloeasy}
+    ports: ["${POSTGRES_HOST_PORT:-5433}:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-selloeasy} -d ${POSTGRES_DB:-selloeasy}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    container_name: test-selloeasy-redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  mcp-webscraper:
+    <<: *mcp-env
+    build: ./mcp/webscraper
+    container_name: test-selloeasy-mcp-webscraper
+    expose: ["9001"]
+
+  mcp-docparser:
+    <<: *mcp-env
+    build: ./mcp/docparser
+    container_name: test-selloeasy-mcp-docparser
+    expose: ["9002"]
+
+  mcp-signals:
+    <<: *mcp-env
+    build: ./mcp/signals
+    container_name: test-selloeasy-mcp-signals
+    expose: ["9003"]
+
+  demo-sites:
+    image: nginx:alpine
+    container_name: test-selloeasy-demo-sites
+    volumes: ["./demo/sites:/usr/share/nginx/html:ro"]
+    ports: ["8080:80"]
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: test-selloeasy-mailpit
+    ports: ["8025:8025"]
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: test-selloeasy-backend
+    container_name: test-selloeasy-backend
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes: [uploads:/data/uploads]
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+      mcp-webscraper: { condition: service_started }
+      mcp-docparser: { condition: service_started }
+      mcp-signals: { condition: service_started }
+      demo-sites: { condition: service_started }
+      mailpit: { condition: service_started }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: test-selloeasy-backend
+    container_name: test-selloeasy-worker
+    env_file: .env
+    command: arq app.worker.WorkerSettings
+    volumes: [uploads:/data/uploads]
+    depends_on:
+      backend: { condition: service_healthy }
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: test-selloeasy-frontend
+    ports: ["5173:80"]
+    depends_on:
+      backend: { condition: service_healthy }
+    restart: unless-stopped
+
+volumes:
+  pgdata: {}
+  uploads: {}

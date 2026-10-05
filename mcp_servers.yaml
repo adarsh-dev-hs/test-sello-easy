@@ -1,0 +1,21 @@
+# MCP registry: pipelines ask for a *capability*; the hub routes to the first enabled server providing it.
+# ${VARS} are expanded from the environment. Servers with `enabled_if_env` are skipped when that var is empty.
+servers:
+  webscraper:
+    url: ${MCP_WEBSCRAPER_URL}
+    auth_token_env: MCP_SHARED_TOKEN
+    capabilities: [scrape]
+  docparser:
+    url: ${MCP_DOCPARSER_URL}
+    auth_token_env: MCP_SHARED_TOKEN
+    capabilities: [doc_parse]
+  signals:
+    url: ${MCP_SIGNALS_URL}
+    auth_token_env: MCP_SHARED_TOKEN
+    capabilities: [web_search, news_search, social_search, job_search, enrich]
+  # Example: put a third-party remote MCP *before* `signals` to take over a capability.
+  # Its tools must follow the contracts in docs/CONTRACTS.md (or wrap it in a custom FastMCP server).
+  # tavily:
+  #   url: https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}
+  #   enabled_if_env: TAVILY_API_KEY
+  #   capabilities: [web_search]
